@@ -1,0 +1,2929 @@
+[
+  {
+    "id": "s0001",
+    "text": "The committee decided to abandon the project.",
+    "ja": "委員会はその計画を断念することに決めた。",
+    "target": {"wordId":"w0001","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"committee","pos":"n"},{"t":"decided","pos":"v","tense":"past"},{"t":"to","pos":"to"},{"t":"abandon","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"project","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":6,"type":"N","label":"to不定詞(名詞的用法)、decided の目的語"}]
+  },
+  {
+    "id": "s0002",
+    "noOrder": true,
+    "text": "She would never abandon her children even when life became difficult.",
+    "ja": "生活が苦しくなったときでさえ、彼女は決して子どもを見捨てなかっただろう。",
+    "target": {"wordId":"w0001","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"would","pos":"aux","tense":"past"},{"t":"never","pos":"adv"},{"t":"abandon","pos":"v","form":"base"},{"t":"her","pos":"pron","skip":true},{"t":"children","pos":"n"},{"t":"even","pos":"adv"},{"t":"when","pos":"conj"},{"t":"life","pos":"n"},{"t":"became","pos":"v","tense":"past"},{"t":"difficult","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":10,"type":"Madv","label":"副詞節(時)、abandon を修飾"}]
+  },
+  {
+    "id": "s0003",
+    "text": "The experience created a strong bond between the two families.",
+    "ja": "その経験は二つの家族の間に強い絆を生んだ。",
+    "target": {"wordId":"w0002","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"experience","pos":"n"},{"t":"created","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"strong","pos":"adj"},{"t":"bond","pos":"n"},{"t":"between","pos":"prep"},{"t":"the","pos":"art"},{"t":"two","pos":"adj","skip":true},{"t":"families","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":9,"type":"Madj","label":"前置詞句、bond を修飾"}]
+  },
+  {
+    "id": "s0004",
+    "text": "Many investors prefer to put their money into government bonds.",
+    "ja": "多くの投資家は、国債にお金を投じることを好む。",
+    "target": {"wordId":"w0002","senseIndex":1,"tokenIndex":9},
+    "tokens": [{"t":"Many","pos":"adj","skip":true},{"t":"investors","pos":"n"},{"t":"prefer","pos":"v","tense":"present"},{"t":"to","pos":"to"},{"t":"put","pos":"v","form":"base"},{"t":"their","pos":"pron","skip":true},{"t":"money","pos":"n"},{"t":"into","pos":"prep"},{"t":"government","pos":"n"},{"t":"bonds","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":9,"type":"N","label":"to不定詞(名詞的用法)、prefer の目的語"},{"from":7,"to":9,"type":"Madv","label":"前置詞句、put を修飾"}]
+  },
+  {
+    "id": "s0005",
+    "text": "The river forms the boundary between the two countries.",
+    "ja": "その川は二国間の境界を成している。",
+    "target": {"wordId":"w0003","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"river","pos":"n"},{"t":"forms","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"boundary","pos":"n"},{"t":"between","pos":"prep"},{"t":"the","pos":"art"},{"t":"two","pos":"adj","skip":true},{"t":"countries","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":8,"type":"Madj","label":"前置詞句、boundary を修飾"}]
+  },
+  {
+    "id": "s0006",
+    "text": "Scientists are always trying to push the boundaries of human knowledge.",
+    "ja": "科学者たちは常に人類の知識の限界を押し広げようとしている。",
+    "target": {"wordId":"w0003","senseIndex":0,"tokenIndex":7},
+    "tokens": [{"t":"Scientists","pos":"n"},{"t":"are","pos":"aux","tense":"present"},{"t":"always","pos":"adv"},{"t":"trying","pos":"v","form":"ing"},{"t":"to","pos":"to"},{"t":"push","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"boundaries","pos":"n"},{"t":"of","pos":"prep"},{"t":"human","pos":"adj"},{"t":"knowledge","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":10,"type":"N","label":"to不定詞(名詞的用法)、trying の目的語"},{"from":8,"to":10,"type":"Madj","label":"前置詞句、boundaries を修飾"}]
+  },
+  {
+    "id": "s0007",
+    "text": "She did not want to be a burden to her family.",
+    "ja": "彼女は家族の重荷になりたくなかった。",
+    "target": {"wordId":"w0004","senseIndex":0,"tokenIndex":7},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"did","pos":"aux","tense":"past"},{"t":"not","pos":"adv"},{"t":"want","pos":"v","form":"base"},{"t":"to","pos":"to"},{"t":"be","pos":"v","form":"base"},{"t":"a","pos":"art"},{"t":"burden","pos":"n"},{"t":"to","pos":"prep"},{"t":"her","pos":"pron","skip":true},{"t":"family","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":10,"type":"N","label":"to不定詞(名詞的用法)、want の目的語"},{"from":8,"to":10,"type":"Madj","label":"前置詞句、burden を修飾"}]
+  },
+  {
+    "id": "s0008",
+    "text": "I do not want to burden you with my problems.",
+    "ja": "私の問題であなたに負担をかけたくない。",
+    "target": {"wordId":"w0004","senseIndex":1,"tokenIndex":5},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"do","pos":"aux","tense":"present"},{"t":"not","pos":"adv"},{"t":"want","pos":"v","form":"base"},{"t":"to","pos":"to"},{"t":"burden","pos":"v","form":"base"},{"t":"you","pos":"pron"},{"t":"with","pos":"prep"},{"t":"my","pos":"pron","skip":true},{"t":"problems","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":9,"type":"N","label":"to不定詞(名詞的用法)、want の目的語"},{"from":7,"to":9,"type":"Madv","label":"前置詞句、burden を修飾"}]
+  },
+  {
+    "id": "s0009",
+    "noOrder": true,
+    "text": "The school is located in a district known for its historic temples.",
+    "ja": "その学校は歴史ある寺院で知られる地区にある。",
+    "target": {"wordId":"w0005","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"The","pos":"art"},{"t":"school","pos":"n"},{"t":"is","pos":"aux","tense":"present"},{"t":"located","pos":"v","form":"pp"},{"t":"in","pos":"prep"},{"t":"a","pos":"art"},{"t":"district","pos":"n"},{"t":"known","pos":"v","form":"pp"},{"t":"for","pos":"prep"},{"t":"its","pos":"pron","skip":true},{"t":"historic","pos":"adj"},{"t":"temples","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":11,"type":"Madv","label":"前置詞句、located を修飾"},{"from":7,"to":11,"type":"Madj","label":"過去分詞句(後置修飾)、district を修飾"}]
+  },
+  {
+    "id": "s0010",
+    "noOrder": true,
+    "text": "Several districts in the city were flooded after the heavy rain.",
+    "ja": "豪雨の後、市内のいくつかの地区が浸水した。",
+    "target": {"wordId":"w0005","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"Several","pos":"adj","skip":true},{"t":"districts","pos":"n"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"city","pos":"n"},{"t":"were","pos":"aux","tense":"past"},{"t":"flooded","pos":"v","form":"pp"},{"t":"after","pos":"prep"},{"t":"the","pos":"art"},{"t":"heavy","pos":"adj"},{"t":"rain","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":4,"type":"Madj","label":"前置詞句、districts を修飾","skip":true},{"from":7,"to":10,"type":"Madv","label":"前置詞句(時)、flooded を修飾"}]
+  },
+  {
+    "id": "s0011",
+    "text": "He admitted that the mistake was his own fault.",
+    "ja": "彼はそのミスは自分自身の責任だと認めた。",
+    "target": {"wordId":"w0006","senseIndex":0,"tokenIndex":8},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"admitted","pos":"v","tense":"past"},{"t":"that","pos":"conj"},{"t":"the","pos":"art"},{"t":"mistake","pos":"n"},{"t":"was","pos":"v","tense":"past"},{"t":"his","pos":"pron","skip":true},{"t":"own","pos":"adj","skip":true},{"t":"fault","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":8,"type":"N","label":"名詞節(that節)、admitted の目的語"}]
+  },
+  {
+    "id": "s0012",
+    "text": "Her only fault is that she is too honest.",
+    "ja": "彼女の唯一の欠点は正直すぎることだ。",
+    "target": {"wordId":"w0006","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"Her","pos":"pron","skip":true},{"t":"only","pos":"adj","skip":true},{"t":"fault","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"that","pos":"conj"},{"t":"she","pos":"pron"},{"t":"is","pos":"v","tense":"present"},{"t":"too","pos":"adv"},{"t":"honest","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":8,"type":"N","label":"名詞節(that節)、補語"}]
+  },
+  {
+    "id": "s0013",
+    "text": "Winning the prize was a great honor.",
+    "ja": "その賞を獲得したことは大きな名誉だった。",
+    "target": {"wordId":"w0007","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"Winning","pos":"v","form":"ing"},{"t":"the","pos":"art"},{"t":"prize","pos":"n"},{"t":"was","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"great","pos":"adj"},{"t":"honor","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":0,"to":2,"type":"N","label":"動名詞句、主語"}]
+  },
+  {
+    "id": "s0014",
+    "text": "The company refused to honor the contract.",
+    "ja": "その会社は契約を守ることを拒んだ。",
+    "target": {"wordId":"w0007","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"company","pos":"n"},{"t":"refused","pos":"v","tense":"past"},{"t":"to","pos":"to"},{"t":"honor","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"contract","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":6,"type":"N","label":"to不定詞(名詞的用法)、refused の目的語"}]
+  },
+  {
+    "id": "s0015",
+    "text": "Our priority is to ensure that every student can take part.",
+    "ja": "私たちの最優先事項は、すべての生徒が参加できるようにすることだ。",
+    "target": {"wordId":"w0008","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"Our","pos":"pron","skip":true},{"t":"priority","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"to","pos":"to"},{"t":"ensure","pos":"v","form":"base"},{"t":"that","pos":"conj"},{"t":"every","pos":"adj","skip":true},{"t":"student","pos":"n"},{"t":"can","pos":"aux","tense":"present"},{"t":"take","pos":"v","form":"base"},{"t":"part","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":10,"type":"N","label":"to不定詞(名詞的用法)、補語"},{"from":5,"to":10,"type":"N","label":"名詞節(that節)、ensure の目的語"}]
+  },
+  {
+    "id": "s0016",
+    "noOrder": true,
+    "text": "Patients in serious condition are given priority in the emergency room.",
+    "ja": "重症の患者は救急外来で優先される。",
+    "target": {"wordId":"w0008","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"Patients","pos":"n"},{"t":"in","pos":"prep"},{"t":"serious","pos":"adj"},{"t":"condition","pos":"n"},{"t":"are","pos":"aux","tense":"present"},{"t":"given","pos":"v","form":"pp"},{"t":"priority","pos":"n"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"emergency","pos":"n"},{"t":"room","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":1,"to":3,"type":"Madj","label":"前置詞句、Patients を修飾"},{"from":7,"to":10,"type":"Madv","label":"前置詞句(場所)、given を修飾","skip":true}]
+  },
+  {
+    "id": "s0017",
+    "text": "The doctor decided that the patient needed surgery.",
+    "ja": "医師は、その患者には手術が必要だと判断した。",
+    "target": {"wordId":"w0009","senseIndex":0,"tokenIndex":7},
+    "tokens": [{"t":"The","pos":"art"},{"t":"doctor","pos":"n"},{"t":"decided","pos":"v","tense":"past"},{"t":"that","pos":"conj"},{"t":"the","pos":"art"},{"t":"patient","pos":"n"},{"t":"needed","pos":"v","tense":"past"},{"t":"surgery","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":7,"type":"N","label":"名詞節(that節)、decided の目的語"}]
+  },
+  {
+    "id": "s0018",
+    "text": "Recovery from surgery takes several weeks.",
+    "ja": "手術からの回復には数週間かかる。",
+    "target": {"wordId":"w0009","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Recovery","pos":"n"},{"t":"from","pos":"prep"},{"t":"surgery","pos":"n"},{"t":"takes","pos":"v","tense":"present"},{"t":"several","pos":"adj","skip":true},{"t":"weeks","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":1,"to":2,"type":"Madj","label":"前置詞句、Recovery を修飾"}]
+  },
+  {
+    "id": "s0019",
+    "text": "I did not like the tone of his voice.",
+    "ja": "私は彼の声の調子が気に入らなかった。",
+    "target": {"wordId":"w0010","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"did","pos":"aux","tense":"past"},{"t":"not","pos":"adv"},{"t":"like","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"tone","pos":"n"},{"t":"of","pos":"prep"},{"t":"his","pos":"pron","skip":true},{"t":"voice","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":8,"type":"Madj","label":"前置詞句、tone を修飾"}]
+  },
+  {
+    "id": "s0020",
+    "noOrder": true,
+    "text": "The tone of the discussion became more hostile as it went on.",
+    "ja": "議論が進むにつれて、その雰囲気はより敵対的になった。",
+    "target": {"wordId":"w0010","senseIndex":1,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"tone","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"discussion","pos":"n"},{"t":"became","pos":"v","tense":"past"},{"t":"more","pos":"adv"},{"t":"hostile","pos":"adj"},{"t":"as","pos":"conj"},{"t":"it","pos":"pron"},{"t":"went","pos":"v","tense":"past"},{"t":"on","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":4,"type":"Madj","label":"前置詞句、tone を修飾"},{"from":8,"to":11,"type":"Madv","label":"副詞節(as節)、became を修飾"}]
+  },
+  {
+    "id": "s0021",
+    "text": "The new law will affect many small businesses.",
+    "ja": "その新しい法律は多くの中小企業に影響を及ぼすだろう。",
+    "target": {"wordId":"w0011","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"new","pos":"adj"},{"t":"law","pos":"n"},{"t":"will","pos":"aux","tense":"present"},{"t":"affect","pos":"v","form":"base"},{"t":"many","pos":"adj","skip":true},{"t":"small","pos":"adj"},{"t":"businesses","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0022",
+    "text": "Heavy rain affected the result of the game.",
+    "ja": "大雨が試合の結果に影響を与えた。",
+    "target": {"wordId":"w0011","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Heavy","pos":"adj"},{"t":"rain","pos":"n"},{"t":"affected","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"result","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"game","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madj","label":"前置詞句、resultを修飾"}]
+  },
+  {
+    "id": "s0023",
+    "noOrder": true,
+    "text": "The school does not allow students to use phones in class.",
+    "ja": "その学校は、生徒が授業中に携帯電話を使うことを認めていない。",
+    "target": {"wordId":"w0012","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"school","pos":"n"},{"t":"does","pos":"aux","tense":"present"},{"t":"not","pos":"adv"},{"t":"allow","pos":"v","form":"base"},{"t":"students","pos":"n"},{"t":"to","pos":"to"},{"t":"use","pos":"v","form":"base"},{"t":"phones","pos":"n"},{"t":"in","pos":"prep"},{"t":"class","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0024",
+    "text": "My parents allowed me to stay out late.",
+    "ja": "両親は私が遅くまで外にいることを許してくれた。",
+    "target": {"wordId":"w0012","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"My","pos":"pron","skip":true},{"t":"parents","pos":"n"},{"t":"allowed","pos":"v","tense":"past"},{"t":"me","pos":"pron"},{"t":"to","pos":"to"},{"t":"stay","pos":"v","form":"base"},{"t":"out","pos":"adv"},{"t":"late","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0025",
+    "noOrder": true,
+    "text": "You should avoid eating late at night.",
+    "ja": "夜遅くに食べるのは避けたほうがよい。",
+    "target": {"wordId":"w0013","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"You","pos":"pron"},{"t":"should","pos":"aux","tense":"present"},{"t":"avoid","pos":"v","form":"base"},{"t":"eating","pos":"v","form":"ing"},{"t":"late","pos":"adv"},{"t":"at","pos":"prep"},{"t":"night","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":6,"type":"N","label":"動名詞句、avoidの目的語"}]
+  },
+  {
+    "id": "s0026",
+    "noOrder": true,
+    "text": "She tried to avoid the traffic by leaving early.",
+    "ja": "彼女は早く出発して渋滞を避けようとした。",
+    "target": {"wordId":"w0013","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"tried","pos":"v","tense":"past"},{"t":"to","pos":"to"},{"t":"avoid","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"traffic","pos":"n"},{"t":"by","pos":"prep"},{"t":"leaving","pos":"v","form":"ing"},{"t":"early","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":8,"type":"N","label":"to不定詞(名詞的用法)、triedの目的語"},{"from":6,"to":8,"type":"Madv","label":"前置詞句(手段)、avoidを修飾"}]
+  },
+  {
+    "id": "s0027",
+    "text": "I cannot bear the noise any longer.",
+    "ja": "これ以上その騒音には耐えられない。",
+    "target": {"wordId":"w0014","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"cannot","pos":"aux","tense":"present"},{"t":"bear","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"noise","pos":"n"},{"t":"any","pos":"adv","skip":true},{"t":"longer","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0028",
+    "text": "The company must bear the cost of the repairs.",
+    "ja": "会社は修理の費用を負担しなければならない。",
+    "target": {"wordId":"w0014","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"company","pos":"n"},{"t":"must","pos":"aux","tense":"present"},{"t":"bear","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"cost","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"repairs","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":8,"type":"Madj","label":"前置詞句、costを修飾"}]
+  },
+  {
+    "id": "s0029",
+    "text": "Many parents are concerned about the safety of the school.",
+    "ja": "多くの親が学校の安全を心配している。",
+    "target": {"wordId":"w0015","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Many","pos":"adj","skip":true},{"t":"parents","pos":"n"},{"t":"are","pos":"aux","tense":"present"},{"t":"concerned","pos":"adj","skip":true},{"t":"about","pos":"prep"},{"t":"the","pos":"art"},{"t":"safety","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"school","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":9,"type":"Madv","label":"前置詞句、concernedを修飾"},{"from":7,"to":9,"type":"Madj","label":"前置詞句、safetyを修飾"}]
+  },
+  {
+    "id": "s0030",
+    "noOrder": true,
+    "text": "High prices are a major concern for many families.",
+    "ja": "物価の高さは多くの家庭にとって大きな心配事だ。",
+    "target": {"wordId":"w0015","senseIndex":1,"tokenIndex":5},
+    "tokens": [{"t":"High","pos":"adj"},{"t":"prices","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"major","pos":"adj"},{"t":"concern","pos":"n"},{"t":"for","pos":"prep"},{"t":"many","pos":"adj","skip":true},{"t":"families","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0031",
+    "noOrder": true,
+    "text": "We should consider the risks before we decide.",
+    "ja": "決める前に危険性を考慮すべきだ。",
+    "target": {"wordId":"w0016","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"We","pos":"pron"},{"t":"should","pos":"aux","tense":"present"},{"t":"consider","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"risks","pos":"n"},{"t":"before","pos":"conj"},{"t":"we","pos":"pron"},{"t":"decide","pos":"v","tense":"present"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madv","label":"副詞節(時)、considerを修飾"}]
+  },
+  {
+    "id": "s0032",
+    "text": "Many people consider him a great leader.",
+    "ja": "多くの人が彼を偉大な指導者とみなしている。",
+    "target": {"wordId":"w0016","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"Many","pos":"adj","skip":true},{"t":"people","pos":"n"},{"t":"consider","pos":"v","tense":"present"},{"t":"him","pos":"pron"},{"t":"a","pos":"art"},{"t":"great","pos":"adj"},{"t":"leader","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0033",
+    "noOrder": true,
+    "text": "The artist created a beautiful painting in only three days.",
+    "ja": "その画家はわずか3日で美しい絵を描き上げた。",
+    "target": {"wordId":"w0017","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"artist","pos":"n"},{"t":"created","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"beautiful","pos":"adj"},{"t":"painting","pos":"n"},{"t":"in","pos":"prep"},{"t":"only","pos":"adv","skip":true},{"t":"three","pos":"adj","skip":true},{"t":"days","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":9,"type":"Madv","label":"前置詞句(期間)、createdを修飾"}]
+  },
+  {
+    "id": "s0034",
+    "text": "New technology can create many new jobs.",
+    "ja": "新しい技術は多くの新しい仕事を生み出しうる。",
+    "target": {"wordId":"w0017","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"New","pos":"adj"},{"t":"technology","pos":"n"},{"t":"can","pos":"aux","tense":"present"},{"t":"create","pos":"v","form":"base"},{"t":"many","pos":"adj","skip":true},{"t":"new","pos":"adj"},{"t":"jobs","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0035",
+    "noOrder": true,
+    "text": "Teachers must deal with many different problems every day.",
+    "ja": "教師は毎日さまざまな問題に対処しなければならない。",
+    "target": {"wordId":"w0018","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Teachers","pos":"n"},{"t":"must","pos":"aux","tense":"present"},{"t":"deal","pos":"v","form":"base"},{"t":"with","pos":"prep"},{"t":"many","pos":"adj","skip":true},{"t":"different","pos":"adj"},{"t":"problems","pos":"n"},{"t":"every","pos":"adj","skip":true},{"t":"day","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0036",
+    "noOrder": true,
+    "text": "The two companies finally made a deal after months of talks.",
+    "ja": "二つの会社は数か月の交渉の末、ついに契約を結んだ。",
+    "target": {"wordId":"w0018","senseIndex":1,"tokenIndex":6},
+    "tokens": [{"t":"The","pos":"art"},{"t":"two","pos":"adj","skip":true},{"t":"companies","pos":"n"},{"t":"finally","pos":"adv"},{"t":"made","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"deal","pos":"n"},{"t":"after","pos":"prep"},{"t":"months","pos":"n"},{"t":"of","pos":"prep"},{"t":"talks","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":7,"to":10,"type":"Madv","label":"前置詞句、madeを修飾"},{"from":9,"to":10,"type":"Madj","label":"前置詞句、monthsを修飾"}]
+  },
+  {
+    "id": "s0037",
+    "noOrder": true,
+    "text": "She decided to study abroad next year.",
+    "ja": "彼女は来年留学することに決めた。",
+    "target": {"wordId":"w0019","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"decided","pos":"v","tense":"past"},{"t":"to","pos":"to"},{"t":"study","pos":"v","form":"base"},{"t":"abroad","pos":"adv"},{"t":"next","pos":"adj"},{"t":"year","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":6,"type":"N","label":"to不定詞(名詞的用法)、decidedの目的語"}]
+  },
+  {
+    "id": "s0038",
+    "noOrder": true,
+    "text": "We have not decided where we will go yet.",
+    "ja": "私たちはまだ、どこへ行くかを決めていない。",
+    "target": {"wordId":"w0019","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"We","pos":"pron"},{"t":"have","pos":"aux","tense":"present"},{"t":"not","pos":"adv"},{"t":"decided","pos":"v","form":"pp"},{"t":"where","pos":"adv"},{"t":"we","pos":"pron"},{"t":"will","pos":"aux","tense":"present"},{"t":"go","pos":"v","form":"base"},{"t":"yet","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":7,"type":"N","label":"名詞節(疑問詞節)、decidedの目的語"}]
+  },
+  {
+    "id": "s0039",
+    "text": "Can you describe the man you saw?",
+    "ja": "あなたが見た男性の特徴を話してもらえますか。",
+    "target": {"wordId":"w0020","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Can","pos":"aux","tense":"present"},{"t":"you","pos":"pron"},{"t":"describe","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"man","pos":"n"},{"t":"you","pos":"pron"},{"t":"saw","pos":"v","tense":"past"},{"t":"?","pos":"punct"}],
+    "chunks": [{"from":5,"to":6,"type":"Madj","label":"関係詞節(目的格の省略)、manを修飾"}]
+  },
+  {
+    "id": "s0040",
+    "text": "The author describes the city as a living museum.",
+    "ja": "その作家は、その都市を生きた博物館と表現している。",
+    "target": {"wordId":"w0020","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"author","pos":"n"},{"t":"describes","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"city","pos":"n"},{"t":"as","pos":"prep"},{"t":"a","pos":"art"},{"t":"living","pos":"adj"},{"t":"museum","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0041",
+    "noOrder": true,
+    "text": "The new building was designed by a famous architect.",
+    "ja": "その新しいビルは有名な建築家によって設計された。",
+    "target": {"wordId":"w0021","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"new","pos":"adj"},{"t":"building","pos":"n"},{"t":"was","pos":"aux","tense":"past"},{"t":"designed","pos":"v","form":"pp"},{"t":"by","pos":"prep"},{"t":"a","pos":"art"},{"t":"famous","pos":"adj"},{"t":"architect","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":8,"type":"Madv","label":"前置詞句(動作主)、designedを修飾"}]
+  },
+  {
+    "id": "s0042",
+    "text": "I really like the design of your new bag.",
+    "ja": "あなたの新しいバッグのデザインがとても気に入っている。",
+    "target": {"wordId":"w0021","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"really","pos":"adv"},{"t":"like","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"design","pos":"n"},{"t":"of","pos":"prep"},{"t":"your","pos":"pron","skip":true},{"t":"new","pos":"adj"},{"t":"bag","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":8,"type":"Madj","label":"前置詞句、designを修飾"}]
+  },
+  {
+    "id": "s0043",
+    "text": "The heavy snow forced us to cancel the trip.",
+    "ja": "大雪のため、私たちは旅行を中止せざるをえなかった。",
+    "target": {"wordId":"w0022","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"heavy","pos":"adj"},{"t":"snow","pos":"n"},{"t":"forced","pos":"v","tense":"past"},{"t":"us","pos":"pron"},{"t":"to","pos":"to"},{"t":"cancel","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"trip","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0044",
+    "text": "The force of the wind broke the old fence.",
+    "ja": "風の力で古いフェンスが壊れた。",
+    "target": {"wordId":"w0022","senseIndex":1,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"force","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"wind","pos":"n"},{"t":"broke","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"old","pos":"adj"},{"t":"fence","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":4,"type":"Madj","label":"前置詞句、forceを修飾"}]
+  },
+  {
+    "id": "s0045",
+    "text": "Regular exercise can improve your memory.",
+    "ja": "定期的な運動は記憶力を高めることがある。",
+    "target": {"wordId":"w0023","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Regular","pos":"adj"},{"t":"exercise","pos":"n"},{"t":"can","pos":"aux","tense":"present"},{"t":"improve","pos":"v","form":"base"},{"t":"your","pos":"pron","skip":true},{"t":"memory","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0046",
+    "noOrder": true,
+    "text": "Her English has improved a lot since last year.",
+    "ja": "彼女の英語は昨年からずいぶん上達した。",
+    "target": {"wordId":"w0023","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"Her","pos":"pron","skip":true},{"t":"English","pos":"n"},{"t":"has","pos":"aux","tense":"present"},{"t":"improved","pos":"v","form":"pp"},{"t":"a","pos":"art"},{"t":"lot","pos":"n","skip":true},{"t":"since","pos":"prep"},{"t":"last","pos":"adj"},{"t":"year","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":8,"type":"Madv","label":"前置詞句(起点)、improvedを修飾"}]
+  },
+  {
+    "id": "s0047",
+    "text": "The price does not include the tax.",
+    "ja": "その価格には税金が含まれていない。",
+    "target": {"wordId":"w0024","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"price","pos":"n"},{"t":"does","pos":"aux","tense":"present"},{"t":"not","pos":"adv"},{"t":"include","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"tax","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0048",
+    "text": "The tour includes a visit to the old castle.",
+    "ja": "そのツアーには古い城の見学が含まれている。",
+    "target": {"wordId":"w0024","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"tour","pos":"n"},{"t":"includes","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"visit","pos":"n"},{"t":"to","pos":"prep"},{"t":"the","pos":"art"},{"t":"old","pos":"adj"},{"t":"castle","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":8,"type":"Madj","label":"前置詞句、visitを修飾"}]
+  },
+  {
+    "id": "s0049",
+    "noOrder": true,
+    "text": "The number of tourists has increased rapidly.",
+    "ja": "観光客の数が急速に増えた。",
+    "target": {"wordId":"w0025","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"number","pos":"n"},{"t":"of","pos":"prep"},{"t":"tourists","pos":"n"},{"t":"has","pos":"aux","tense":"present"},{"t":"increased","pos":"v","form":"pp"},{"t":"rapidly","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":3,"type":"Madj","label":"前置詞句、numberを修飾"}]
+  },
+  {
+    "id": "s0050",
+    "text": "There was a sharp increase in the price of oil.",
+    "ja": "石油の価格が急激に上昇した。",
+    "target": {"wordId":"w0025","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"There","pos":"adv","skip":true},{"t":"was","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"sharp","pos":"adj"},{"t":"increase","pos":"n"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"price","pos":"n"},{"t":"of","pos":"prep"},{"t":"oil","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":9,"type":"Madj","label":"前置詞句、increaseを修飾"},{"from":8,"to":9,"type":"Madj","label":"前置詞句、priceを修飾"}]
+  },
+  {
+    "id": "s0051",
+    "text": "The job involves working with children.",
+    "ja": "その仕事には、子どもたちと関わることが含まれる。",
+    "target": {"wordId":"w0026","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"job","pos":"n"},{"t":"involves","pos":"v","tense":"present"},{"t":"working","pos":"v","form":"ing"},{"t":"with","pos":"prep"},{"t":"children","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":5,"type":"N","label":"動名詞句、involvesの目的語"}]
+  },
+  {
+    "id": "s0052",
+    "noOrder": true,
+    "text": "He did not want to be involved in the argument.",
+    "ja": "彼はその口論に巻き込まれたくなかった。",
+    "target": {"wordId":"w0026","senseIndex":1,"tokenIndex":6},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"did","pos":"aux","tense":"past"},{"t":"not","pos":"adv"},{"t":"want","pos":"v","form":"base"},{"t":"to","pos":"to"},{"t":"be","pos":"v","form":"base"},{"t":"involved","pos":"v","form":"pp","skip":true},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"argument","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":9,"type":"N","label":"to不定詞(名詞的用法)、wantの目的語"},{"from":7,"to":9,"type":"Madv","label":"前置詞句、involvedを修飾"}]
+  },
+  {
+    "id": "s0053",
+    "noOrder": true,
+    "text": "The city plans to limit the number of cars downtown.",
+    "ja": "市は中心街の車の数を制限する計画だ。",
+    "target": {"wordId":"w0027","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"city","pos":"n"},{"t":"plans","pos":"v","tense":"present"},{"t":"to","pos":"to"},{"t":"limit","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"number","pos":"n"},{"t":"of","pos":"prep"},{"t":"cars","pos":"n"},{"t":"downtown","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":9,"type":"N","label":"to不定詞(名詞的用法)、plansの目的語"},{"from":7,"to":8,"type":"Madj","label":"前置詞句、numberを修飾"}]
+  },
+  {
+    "id": "s0054",
+    "noOrder": true,
+    "text": "We must not exceed the speed limit on the highway.",
+    "ja": "高速道路では制限速度を超えてはならない。",
+    "target": {"wordId":"w0027","senseIndex":1,"tokenIndex":6},
+    "tokens": [{"t":"We","pos":"pron"},{"t":"must","pos":"aux","tense":"present"},{"t":"not","pos":"adv"},{"t":"exceed","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"speed","pos":"n"},{"t":"limit","pos":"n"},{"t":"on","pos":"prep"},{"t":"the","pos":"art"},{"t":"highway","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0055",
+    "text": "What does this word mean?",
+    "ja": "この単語はどういう意味ですか。",
+    "target": {"wordId":"w0028","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"What","pos":"pron"},{"t":"does","pos":"aux","tense":"present"},{"t":"this","pos":"adj","skip":true},{"t":"word","pos":"n"},{"t":"mean","pos":"v","form":"base"},{"t":"?","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0056",
+    "text": "I did not mean to hurt your feelings.",
+    "ja": "あなたの気持ちを傷つけるつもりはなかった。",
+    "target": {"wordId":"w0028","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"did","pos":"aux","tense":"past"},{"t":"not","pos":"adv"},{"t":"mean","pos":"v","form":"base"},{"t":"to","pos":"to"},{"t":"hurt","pos":"v","form":"base"},{"t":"your","pos":"pron","skip":true},{"t":"feelings","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":7,"type":"N","label":"to不定詞(名詞的用法)、meanの目的語"}]
+  },
+  {
+    "id": "s0057",
+    "noOrder": true,
+    "text": "The hotel offers free breakfast to all guests.",
+    "ja": "そのホテルは全宿泊客に無料の朝食を提供している。",
+    "target": {"wordId":"w0029","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"hotel","pos":"n"},{"t":"offers","pos":"v","tense":"present"},{"t":"free","pos":"adj"},{"t":"breakfast","pos":"n"},{"t":"to","pos":"prep"},{"t":"all","pos":"adj","skip":true},{"t":"guests","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0058",
+    "text": "She accepted his offer of help.",
+    "ja": "彼女は彼の助けの申し出を受け入れた。",
+    "target": {"wordId":"w0029","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"accepted","pos":"v","tense":"past"},{"t":"his","pos":"pron","skip":true},{"t":"offer","pos":"n"},{"t":"of","pos":"prep"},{"t":"help","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":5,"type":"Madj","label":"前置詞句、offerを修飾"}]
+  },
+  {
+    "id": "s0059",
+    "noOrder": true,
+    "text": "My uncle owns a small restaurant near the station.",
+    "ja": "私のおじは駅の近くに小さなレストランを持っている。",
+    "target": {"wordId":"w0030","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"My","pos":"pron","skip":true},{"t":"uncle","pos":"n"},{"t":"owns","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"small","pos":"adj"},{"t":"restaurant","pos":"n"},{"t":"near","pos":"prep"},{"t":"the","pos":"art"},{"t":"station","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0060",
+    "text": "She wanted to start her own business.",
+    "ja": "彼女は自分自身の事業を始めたかった。",
+    "target": {"wordId":"w0030","senseIndex":1,"tokenIndex":5},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"wanted","pos":"v","tense":"past"},{"t":"to","pos":"to"},{"t":"start","pos":"v","form":"base"},{"t":"her","pos":"pron","skip":true},{"t":"own","pos":"adj","skip":true},{"t":"business","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":6,"type":"N","label":"to不定詞(名詞的用法)、wantedの目的語"}]
+  },
+  {
+    "id": "s0061",
+    "text": "The factory produces parts for electric cars.",
+    "ja": "その工場は電気自動車の部品を生産している。",
+    "target": {"wordId":"w0031","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"factory","pos":"n"},{"t":"produces","pos":"v","tense":"present"},{"t":"parts","pos":"n"},{"t":"for","pos":"prep"},{"t":"electric","pos":"adj"},{"t":"cars","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":6,"type":"Madj","label":"前置詞句、partsを修飾"}]
+  },
+  {
+    "id": "s0062",
+    "noOrder": true,
+    "text": "Local produce is sold at the market.",
+    "ja": "地元の農産物がその市場で売られている。",
+    "target": {"wordId":"w0031","senseIndex":1,"tokenIndex":1},
+    "tokens": [{"t":"Local","pos":"adj"},{"t":"produce","pos":"n"},{"t":"is","pos":"aux","tense":"present"},{"t":"sold","pos":"v","form":"pp"},{"t":"at","pos":"prep"},{"t":"the","pos":"art"},{"t":"market","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":6,"type":"Madv","label":"前置詞句、soldを修飾"}]
+  },
+  {
+    "id": "s0063",
+    "noOrder": true,
+    "text": "I suddenly realized that I had left my wallet at home.",
+    "ja": "財布を家に置き忘れたことに、突然気づいた。",
+    "target": {"wordId":"w0032","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"suddenly","pos":"adv"},{"t":"realized","pos":"v","tense":"past"},{"t":"that","pos":"conj"},{"t":"I","pos":"pron"},{"t":"had","pos":"aux","tense":"past"},{"t":"left","pos":"v","form":"pp"},{"t":"my","pos":"pron","skip":true},{"t":"wallet","pos":"n"},{"t":"at","pos":"prep"},{"t":"home","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":10,"type":"N","label":"名詞節(that節)、realizedの目的語"}]
+  },
+  {
+    "id": "s0064",
+    "noOrder": true,
+    "text": "She worked hard to realize her dream of becoming a doctor.",
+    "ja": "彼女は医者になるという夢を実現するために、懸命に働いた。",
+    "target": {"wordId":"w0032","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"worked","pos":"v","tense":"past"},{"t":"hard","pos":"adv"},{"t":"to","pos":"to"},{"t":"realize","pos":"v","form":"base"},{"t":"her","pos":"pron","skip":true},{"t":"dream","pos":"n"},{"t":"of","pos":"prep"},{"t":"becoming","pos":"v","form":"ing"},{"t":"a","pos":"art"},{"t":"doctor","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":10,"type":"Madv","label":"to不定詞(副詞的用法・目的)、workedを修飾"},{"from":7,"to":10,"type":"Madj","label":"前置詞句、dreamを修飾"}]
+  },
+  {
+    "id": "s0065",
+    "text": "We need to reduce the amount of waste.",
+    "ja": "私たちはごみの量を減らす必要がある。",
+    "target": {"wordId":"w0033","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"We","pos":"pron"},{"t":"need","pos":"v","tense":"present"},{"t":"to","pos":"to"},{"t":"reduce","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"amount","pos":"n"},{"t":"of","pos":"prep"},{"t":"waste","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":7,"type":"N","label":"to不定詞(名詞的用法)、needの目的語"},{"from":6,"to":7,"type":"Madj","label":"前置詞句、amountを修飾"}]
+  },
+  {
+    "id": "s0066",
+    "text": "Regular checks can reduce the risk of accidents.",
+    "ja": "定期的な点検は事故の危険を減らすことができる。",
+    "target": {"wordId":"w0033","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Regular","pos":"adj"},{"t":"checks","pos":"n"},{"t":"can","pos":"aux","tense":"present"},{"t":"reduce","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"risk","pos":"n"},{"t":"of","pos":"prep"},{"t":"accidents","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":7,"type":"Madj","label":"前置詞句、riskを修飾"}]
+  },
+  {
+    "id": "s0067",
+    "text": "The two events are not related to each other.",
+    "ja": "その二つの出来事は互いに関連していない。",
+    "target": {"wordId":"w0034","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"two","pos":"adj","skip":true},{"t":"events","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"not","pos":"adv"},{"t":"related","pos":"adj","skip":true},{"t":"to","pos":"prep"},{"t":"each","pos":"pron","skip":true},{"t":"other","pos":"pron","skip":true},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0068",
+    "text": "Many people relate success to money.",
+    "ja": "多くの人は、成功をお金と結びつけて考える。",
+    "target": {"wordId":"w0034","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Many","pos":"adj","skip":true},{"t":"people","pos":"n"},{"t":"relate","pos":"v","tense":"present"},{"t":"success","pos":"n"},{"t":"to","pos":"prep"},{"t":"money","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0069",
+    "text": "The law requires drivers to wear seat belts.",
+    "ja": "その法律は、運転手にシートベルトの着用を義務づけている。",
+    "target": {"wordId":"w0035","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"law","pos":"n"},{"t":"requires","pos":"v","tense":"present"},{"t":"drivers","pos":"n"},{"t":"to","pos":"to"},{"t":"wear","pos":"v","form":"base"},{"t":"seat","pos":"n"},{"t":"belts","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0070",
+    "noOrder": true,
+    "text": "Most countries require a passport for entry.",
+    "ja": "ほとんどの国は、入国にパスポートを必要とする。",
+    "target": {"wordId":"w0035","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"Most","pos":"adj","skip":true},{"t":"countries","pos":"n"},{"t":"require","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"passport","pos":"n"},{"t":"for","pos":"prep"},{"t":"entry","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0071",
+    "noOrder": true,
+    "text": "I share a room with my brother.",
+    "ja": "私は弟と部屋を共有している。",
+    "target": {"wordId":"w0036","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"share","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"room","pos":"n"},{"t":"with","pos":"prep"},{"t":"my","pos":"pron","skip":true},{"t":"brother","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0072",
+    "text": "Each member will receive an equal share of the profits.",
+    "ja": "各メンバーは利益の等しい分け前を受け取る。",
+    "target": {"wordId":"w0036","senseIndex":1,"tokenIndex":6},
+    "tokens": [{"t":"Each","pos":"adj","skip":true},{"t":"member","pos":"n"},{"t":"will","pos":"aux","tense":"present"},{"t":"receive","pos":"v","form":"base"},{"t":"an","pos":"art"},{"t":"equal","pos":"adj"},{"t":"share","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"profits","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":7,"to":9,"type":"Madj","label":"前置詞句、shareを修飾"}]
+  },
+  {
+    "id": "s0073",
+    "noOrder": true,
+    "text": "You can store your files in the cloud.",
+    "ja": "ファイルはクラウドに保存できる。",
+    "target": {"wordId":"w0037","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"You","pos":"pron"},{"t":"can","pos":"aux","tense":"present"},{"t":"store","pos":"v","form":"base"},{"t":"your","pos":"pron","skip":true},{"t":"files","pos":"n"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"cloud","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0074",
+    "noOrder": true,
+    "text": "There is a small store near my house.",
+    "ja": "私の家の近くに小さな店がある。",
+    "target": {"wordId":"w0037","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"There","pos":"adv","skip":true},{"t":"is","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"small","pos":"adj"},{"t":"store","pos":"n"},{"t":"near","pos":"prep"},{"t":"my","pos":"pron","skip":true},{"t":"house","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0075",
+    "text": "She suggested that we take a short break.",
+    "ja": "彼女は、少し休憩を取ることを提案した。",
+    "target": {"wordId":"w0038","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"suggested","pos":"v","tense":"past"},{"t":"that","pos":"conj"},{"t":"we","pos":"pron"},{"t":"take","pos":"v","form":"base"},{"t":"a","pos":"art"},{"t":"short","pos":"adj"},{"t":"break","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":7,"type":"N","label":"名詞節(that節)、suggestedの目的語"}]
+  },
+  {
+    "id": "s0076",
+    "text": "The results suggest that the medicine works well.",
+    "ja": "結果は、その薬がよく効くことを示している。",
+    "target": {"wordId":"w0038","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"results","pos":"n"},{"t":"suggest","pos":"v","tense":"present"},{"t":"that","pos":"conj"},{"t":"the","pos":"art"},{"t":"medicine","pos":"n"},{"t":"works","pos":"v","tense":"present"},{"t":"well","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":7,"type":"N","label":"名詞節(that節)、suggestの目的語"}]
+  },
+  {
+    "id": "s0077",
+    "text": "Young people tend to spend more time online.",
+    "ja": "若者はオンラインで過ごす時間が長い傾向がある。",
+    "target": {"wordId":"w0039","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Young","pos":"adj"},{"t":"people","pos":"n"},{"t":"tend","pos":"v","tense":"present"},{"t":"to","pos":"to"},{"t":"spend","pos":"v","form":"base"},{"t":"more","pos":"adj","skip":true},{"t":"time","pos":"n"},{"t":"online","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0078",
+    "noOrder": true,
+    "text": "Prices tend to rise in the summer.",
+    "ja": "夏は物価が上がる傾向がある。",
+    "target": {"wordId":"w0039","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"Prices","pos":"n"},{"t":"tend","pos":"v","tense":"present"},{"t":"to","pos":"to"},{"t":"rise","pos":"v","form":"base"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"summer","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0079",
+    "noOrder": true,
+    "text": "His actions are in accord with his words.",
+    "ja": "彼の行動は言葉と一致している。",
+    "target": {"wordId":"w0040","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"His","pos":"pron","skip":true},{"t":"actions","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"in","pos":"prep"},{"t":"accord","pos":"n"},{"t":"with","pos":"prep"},{"t":"his","pos":"pron","skip":true},{"t":"words","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0080",
+    "text": "The mayor accorded the visitors great respect.",
+    "ja": "市長は訪問者たちに深い敬意を示した。",
+    "target": {"wordId":"w0040","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"mayor","pos":"n"},{"t":"accorded","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"visitors","pos":"n"},{"t":"great","pos":"adj"},{"t":"respect","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0081",
+    "text": "The police are looking for the cause of the fire.",
+    "ja": "警察は火事の原因を調べている。",
+    "target": {"wordId":"w0041","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"The","pos":"art"},{"t":"police","pos":"n"},{"t":"are","pos":"aux","tense":"present"},{"t":"looking","pos":"v","form":"ing"},{"t":"for","pos":"prep"},{"t":"the","pos":"art"},{"t":"cause","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"fire","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":7,"to":9,"type":"Madj","label":"前置詞句、causeを修飾"}]
+  },
+  {
+    "id": "s0082",
+    "text": "Heavy rain can cause serious floods.",
+    "ja": "大雨は深刻な洪水を引き起こすことがある。",
+    "target": {"wordId":"w0041","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"Heavy","pos":"adj"},{"t":"rain","pos":"n"},{"t":"can","pos":"aux","tense":"present"},{"t":"cause","pos":"v","form":"base"},{"t":"serious","pos":"adj"},{"t":"floods","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0083",
+    "text": "My sister works for a large company that makes cars.",
+    "ja": "姉は自動車をつくる大企業で働いている。",
+    "target": {"wordId":"w0042","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"My","pos":"pron","skip":true},{"t":"sister","pos":"n"},{"t":"works","pos":"v","tense":"present"},{"t":"for","pos":"prep"},{"t":"a","pos":"art"},{"t":"large","pos":"adj"},{"t":"company","pos":"n"},{"t":"that","pos":"rel"},{"t":"makes","pos":"v","tense":"present"},{"t":"cars","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":7,"to":9,"type":"Madj","label":"関係詞節、companyを修飾"}]
+  },
+  {
+    "id": "s0084",
+    "noOrder": true,
+    "text": "I enjoy your company very much.",
+    "ja": "あなたと一緒にいるのはとても楽しい。",
+    "target": {"wordId":"w0042","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"enjoy","pos":"v","tense":"present"},{"t":"your","pos":"pron","skip":true},{"t":"company","pos":"n"},{"t":"very","pos":"adv"},{"t":"much","pos":"adv","skip":true},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0085",
+    "noOrder": true,
+    "text": "The team completed the project ahead of schedule.",
+    "ja": "チームは予定より早くプロジェクトを完成させた。",
+    "target": {"wordId":"w0043","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"team","pos":"n"},{"t":"completed","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"project","pos":"n"},{"t":"ahead","pos":"adv"},{"t":"of","pos":"prep"},{"t":"schedule","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madv","label":"副詞句、completedを修飾"}]
+  },
+  {
+    "id": "s0086",
+    "text": "The story was a complete surprise to everyone.",
+    "ja": "その話は誰にとっても完全な驚きだった。",
+    "target": {"wordId":"w0043","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"story","pos":"n"},{"t":"was","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"complete","pos":"adj"},{"t":"surprise","pos":"n"},{"t":"to","pos":"prep"},{"t":"everyone","pos":"pron"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0087",
+    "text": "The customers demanded that the shop refund their money.",
+    "ja": "客たちは、店が代金を返金するよう要求した。",
+    "target": {"wordId":"w0044","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"customers","pos":"n"},{"t":"demanded","pos":"v","tense":"past"},{"t":"that","pos":"conj"},{"t":"the","pos":"art"},{"t":"shop","pos":"n"},{"t":"refund","pos":"v","form":"base"},{"t":"their","pos":"pron","skip":true},{"t":"money","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":8,"type":"N","label":"名詞節(that節)、demandedの目的語"}]
+  },
+  {
+    "id": "s0088",
+    "noOrder": true,
+    "text": "There is a growing demand for electric cars.",
+    "ja": "電気自動車への需要が高まっている。",
+    "target": {"wordId":"w0044","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"There","pos":"adv","skip":true},{"t":"is","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"growing","pos":"adj","skip":true},{"t":"demand","pos":"n"},{"t":"for","pos":"prep"},{"t":"electric","pos":"adj"},{"t":"cars","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madj","label":"前置詞句、demandを修飾"}]
+  },
+  {
+    "id": "s0089",
+    "text": "The new medicine had a good effect on the patients.",
+    "ja": "その新しい薬は患者によい効果をもたらした。",
+    "target": {"wordId":"w0045","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"The","pos":"art"},{"t":"new","pos":"adj"},{"t":"medicine","pos":"n"},{"t":"had","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"good","pos":"adj"},{"t":"effect","pos":"n"},{"t":"on","pos":"prep"},{"t":"the","pos":"art"},{"t":"patients","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":7,"to":9,"type":"Madj","label":"前置詞句、effectを修飾"}]
+  },
+  {
+    "id": "s0090",
+    "text": "Too much sugar has a bad effect on your health.",
+    "ja": "砂糖のとりすぎは健康に悪い影響を与える。",
+    "target": {"wordId":"w0045","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"Too","pos":"adv"},{"t":"much","pos":"adj","skip":true},{"t":"sugar","pos":"n"},{"t":"has","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"bad","pos":"adj"},{"t":"effect","pos":"n"},{"t":"on","pos":"prep"},{"t":"your","pos":"pron","skip":true},{"t":"health","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":7,"to":9,"type":"Madj","label":"前置詞句、effectを修飾"}]
+  },
+  {
+    "id": "s0091",
+    "noOrder": true,
+    "text": "We must protect the environment for future generations.",
+    "ja": "私たちは未来の世代のために環境を守らなければならない。",
+    "target": {"wordId":"w0046","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"We","pos":"pron"},{"t":"must","pos":"aux","tense":"present"},{"t":"protect","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"environment","pos":"n"},{"t":"for","pos":"prep"},{"t":"future","pos":"adj"},{"t":"generations","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madv","label":"前置詞句(目的)、protectを修飾"}]
+  },
+  {
+    "id": "s0092",
+    "noOrder": true,
+    "text": "Children learn best in a friendly environment.",
+    "ja": "子どもは親しみやすい環境で最もよく学ぶ。",
+    "target": {"wordId":"w0046","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"Children","pos":"n"},{"t":"learn","pos":"v","tense":"present"},{"t":"best","pos":"adv"},{"t":"in","pos":"prep"},{"t":"a","pos":"art"},{"t":"friendly","pos":"adj"},{"t":"environment","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0093",
+    "text": "A famous writer founded the school.",
+    "ja": "ある有名な作家がその学校を創設した。",
+    "target": {"wordId":"w0047","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"A","pos":"art"},{"t":"famous","pos":"adj"},{"t":"writer","pos":"n"},{"t":"founded","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"school","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0094",
+    "noOrder": true,
+    "text": "The company was founded by two brothers.",
+    "ja": "その会社は二人の兄弟によって設立された。",
+    "target": {"wordId":"w0047","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"company","pos":"n"},{"t":"was","pos":"aux","tense":"past"},{"t":"founded","pos":"v","form":"pp"},{"t":"by","pos":"prep"},{"t":"two","pos":"adj","skip":true},{"t":"brothers","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":6,"type":"Madv","label":"前置詞句(動作主)、foundedを修飾"}]
+  },
+  {
+    "id": "s0095",
+    "text": "The idea of working from home is becoming popular.",
+    "ja": "在宅勤務という考えが広まりつつある。",
+    "target": {"wordId":"w0048","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"idea","pos":"n"},{"t":"of","pos":"prep"},{"t":"working","pos":"v","form":"ing"},{"t":"from","pos":"prep"},{"t":"home","pos":"n"},{"t":"is","pos":"aux","tense":"present"},{"t":"becoming","pos":"v","form":"ing"},{"t":"popular","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":5,"type":"Madj","label":"前置詞句、ideaを修飾"}]
+  },
+  {
+    "id": "s0096",
+    "text": "Her idea was to start a small cafe.",
+    "ja": "彼女の考えは、小さなカフェを始めることだった。",
+    "target": {"wordId":"w0048","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"Her","pos":"pron","skip":true},{"t":"idea","pos":"n"},{"t":"was","pos":"v","tense":"past"},{"t":"to","pos":"to"},{"t":"start","pos":"v","form":"base"},{"t":"a","pos":"art"},{"t":"small","pos":"adj"},{"t":"cafe","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":7,"type":"N","label":"to不定詞(名詞的用法)、補語"}]
+  },
+  {
+    "id": "s0097",
+    "text": "Parents have a strong influence on their children.",
+    "ja": "親は子どもに強い影響力をもつ。",
+    "target": {"wordId":"w0049","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"Parents","pos":"n"},{"t":"have","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"strong","pos":"adj"},{"t":"influence","pos":"n"},{"t":"on","pos":"prep"},{"t":"their","pos":"pron","skip":true},{"t":"children","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madj","label":"前置詞句、influenceを修飾"}]
+  },
+  {
+    "id": "s0098",
+    "text": "Advertising can influence the way we shop.",
+    "ja": "広告は私たちの買い物の仕方に影響を与えることがある。",
+    "target": {"wordId":"w0049","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"Advertising","pos":"n","skip":true},{"t":"can","pos":"aux","tense":"present"},{"t":"influence","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"way","pos":"n"},{"t":"we","pos":"pron"},{"t":"shop","pos":"v","tense":"present"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":6,"type":"Madj","label":"関係詞節(関係副詞の省略)、wayを修飾"}]
+  },
+  {
+    "id": "s0099",
+    "noOrder": true,
+    "text": "He has a strong interest in Japanese history.",
+    "ja": "彼は日本史に強い関心がある。",
+    "target": {"wordId":"w0050","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"has","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"strong","pos":"adj"},{"t":"interest","pos":"n"},{"t":"in","pos":"prep"},{"t":"Japanese","pos":"adj"},{"t":"history","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madj","label":"前置詞句、interestを修飾"}]
+  },
+  {
+    "id": "s0100",
+    "text": "Science fiction does not interest me.",
+    "ja": "SFには興味がわかない。",
+    "target": {"wordId":"w0050","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"Science","pos":"n"},{"t":"fiction","pos":"n"},{"t":"does","pos":"aux","tense":"present"},{"t":"not","pos":"adv"},{"t":"interest","pos":"v","form":"base"},{"t":"me","pos":"pron"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0101",
+    "noOrder": true,
+    "text": "Many residents objected to the new road.",
+    "ja": "多くの住民が新しい道路に反対した。",
+    "target": {"wordId":"w0051","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Many","pos":"adj","skip":true},{"t":"residents","pos":"n"},{"t":"objected","pos":"v","tense":"past"},{"t":"to","pos":"prep"},{"t":"the","pos":"art"},{"t":"new","pos":"adj"},{"t":"road","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0102",
+    "noOrder": true,
+    "text": "There was a strange object on the table.",
+    "ja": "テーブルの上に奇妙な物があった。",
+    "target": {"wordId":"w0051","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"There","pos":"adv","skip":true},{"t":"was","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"strange","pos":"adj"},{"t":"object","pos":"n"},{"t":"on","pos":"prep"},{"t":"the","pos":"art"},{"t":"table","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0103",
+    "text": "He did not give a reason for his decision.",
+    "ja": "彼は自分の決定の理由を述べなかった。",
+    "target": {"wordId":"w0052","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"did","pos":"aux","tense":"past"},{"t":"not","pos":"adv"},{"t":"give","pos":"v","form":"base"},{"t":"a","pos":"art"},{"t":"reason","pos":"n"},{"t":"for","pos":"prep"},{"t":"his","pos":"pron","skip":true},{"t":"decision","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":8,"type":"Madj","label":"前置詞句、reasonを修飾"}]
+  },
+  {
+    "id": "s0104",
+    "text": "The detective reasoned that the thief knew the house.",
+    "ja": "探偵は、犯人はその家を知っていたと推論した。",
+    "target": {"wordId":"w0052","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"detective","pos":"n"},{"t":"reasoned","pos":"v","tense":"past"},{"t":"that","pos":"conj"},{"t":"the","pos":"art"},{"t":"thief","pos":"n"},{"t":"knew","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"house","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":8,"type":"N","label":"名詞節(that節)、reasonedの目的語"}]
+  },
+  {
+    "id": "s0105",
+    "text": "Recent research shows that sleep affects memory.",
+    "ja": "最近の研究は、睡眠が記憶に影響することを示している。",
+    "target": {"wordId":"w0053","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"Recent","pos":"adj"},{"t":"research","pos":"n"},{"t":"shows","pos":"v","tense":"present"},{"t":"that","pos":"conj"},{"t":"sleep","pos":"n"},{"t":"affects","pos":"v","tense":"present"},{"t":"memory","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":6,"type":"N","label":"名詞節(that節)、showsの目的語"}]
+  },
+  {
+    "id": "s0106",
+    "text": "Scientists are researching the causes of the disease.",
+    "ja": "科学者たちはその病気の原因を研究している。",
+    "target": {"wordId":"w0053","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"Scientists","pos":"n"},{"t":"are","pos":"aux","tense":"present"},{"t":"researching","pos":"v","form":"ing"},{"t":"the","pos":"art"},{"t":"causes","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"disease","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madj","label":"前置詞句、causesを修飾"}]
+  },
+  {
+    "id": "s0107",
+    "noOrder": true,
+    "text": "The situation became worse after the storm.",
+    "ja": "嵐のあと、状況は悪化した。",
+    "target": {"wordId":"w0054","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"situation","pos":"n"},{"t":"became","pos":"v","tense":"past"},{"t":"worse","pos":"adj"},{"t":"after","pos":"prep"},{"t":"the","pos":"art"},{"t":"storm","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":6,"type":"Madv","label":"前置詞句(時)、becameを修飾"}]
+  },
+  {
+    "id": "s0108",
+    "noOrder": true,
+    "text": "I understand your situation very well.",
+    "ja": "あなたの立場はよくわかります。",
+    "target": {"wordId":"w0054","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"understand","pos":"v","tense":"present"},{"t":"your","pos":"pron","skip":true},{"t":"situation","pos":"n"},{"t":"very","pos":"adv"},{"t":"well","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0109",
+    "noOrder": true,
+    "text": "Good communication skills are important for this job.",
+    "ja": "この仕事にはよいコミュニケーション能力が重要だ。",
+    "target": {"wordId":"w0055","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Good","pos":"adj"},{"t":"communication","pos":"n"},{"t":"skills","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"important","pos":"adj"},{"t":"for","pos":"prep"},{"t":"this","pos":"adj","skip":true},{"t":"job","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0110",
+    "noOrder": true,
+    "text": "She plays the piano with great skill.",
+    "ja": "彼女はとても上手にピアノを弾く。",
+    "target": {"wordId":"w0055","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"plays","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"piano","pos":"n"},{"t":"with","pos":"prep"},{"t":"great","pos":"adj"},{"t":"skill","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0111",
+    "text": "Learning a new language is a big challenge.",
+    "ja": "新しい言語を学ぶことは大きな挑戦だ。",
+    "target": {"wordId":"w0056","senseIndex":0,"tokenIndex":7},
+    "tokens": [{"t":"Learning","pos":"v","form":"ing"},{"t":"a","pos":"art"},{"t":"new","pos":"adj"},{"t":"language","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"big","pos":"adj"},{"t":"challenge","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":0,"to":3,"type":"N","label":"動名詞句、主語"}]
+  },
+  {
+    "id": "s0112",
+    "text": "The lawyer challenged the decision of the judge.",
+    "ja": "弁護士は裁判官の決定に異議を唱えた。",
+    "target": {"wordId":"w0056","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"lawyer","pos":"n"},{"t":"challenged","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"decision","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"judge","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madj","label":"前置詞句、decisionを修飾"}]
+  },
+  {
+    "id": "s0113",
+    "noOrder": true,
+    "text": "Do not compare yourself with other people.",
+    "ja": "自分をほかの人と比べてはいけない。",
+    "target": {"wordId":"w0057","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Do","pos":"aux","tense":"present"},{"t":"not","pos":"adv"},{"t":"compare","pos":"v","form":"base"},{"t":"yourself","pos":"pron"},{"t":"with","pos":"prep"},{"t":"other","pos":"adj","skip":true},{"t":"people","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0114",
+    "text": "The writer compares life to a long journey.",
+    "ja": "その作家は人生を長い旅にたとえている。",
+    "target": {"wordId":"w0057","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"writer","pos":"n"},{"t":"compares","pos":"v","tense":"present"},{"t":"life","pos":"n"},{"t":"to","pos":"prep"},{"t":"a","pos":"art"},{"t":"long","pos":"adj"},{"t":"journey","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0115",
+    "noOrder": true,
+    "text": "Young birds depend on their parents.",
+    "ja": "ひな鳥は親に頼っている。",
+    "target": {"wordId":"w0058","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Young","pos":"adj"},{"t":"birds","pos":"n"},{"t":"depend","pos":"v","tense":"present"},{"t":"on","pos":"prep"},{"t":"their","pos":"pron","skip":true},{"t":"parents","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0116",
+    "noOrder": true,
+    "text": "Your success depends on your effort.",
+    "ja": "成功はあなたの努力しだいだ。",
+    "target": {"wordId":"w0058","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"Your","pos":"pron","skip":true},{"t":"success","pos":"n"},{"t":"depends","pos":"v","tense":"present"},{"t":"on","pos":"prep"},{"t":"your","pos":"pron","skip":true},{"t":"effort","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0117",
+    "text": "Her teacher encouraged her to apply for the scholarship.",
+    "ja": "先生は彼女に奨学金に応募するよう勧めた。",
+    "target": {"wordId":"w0059","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Her","pos":"pron","skip":true},{"t":"teacher","pos":"n"},{"t":"encouraged","pos":"v","tense":"past"},{"t":"her","pos":"pron","skip":true},{"t":"to","pos":"to"},{"t":"apply","pos":"v","form":"base"},{"t":"for","pos":"prep"},{"t":"the","pos":"art"},{"t":"scholarship","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0118",
+    "text": "Praise can encourage children to try new things.",
+    "ja": "ほめることは、子どもが新しいことに挑戦する後押しになりうる。",
+    "target": {"wordId":"w0059","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Praise","pos":"n"},{"t":"can","pos":"aux","tense":"present"},{"t":"encourage","pos":"v","form":"base"},{"t":"children","pos":"n"},{"t":"to","pos":"to"},{"t":"try","pos":"v","form":"base"},{"t":"new","pos":"adj"},{"t":"things","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0119",
+    "noOrder": true,
+    "text": "Life may not exist on other planets.",
+    "ja": "ほかの惑星には生命は存在しないかもしれない。",
+    "target": {"wordId":"w0060","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Life","pos":"n"},{"t":"may","pos":"aux","tense":"present"},{"t":"not","pos":"adv"},{"t":"exist","pos":"v","form":"base"},{"t":"on","pos":"prep"},{"t":"other","pos":"adj","skip":true},{"t":"planets","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0120",
+    "noOrder": true,
+    "text": "Fish cannot exist without water.",
+    "ja": "魚は水なしでは生きられない。",
+    "target": {"wordId":"w0060","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Fish","pos":"n"},{"t":"cannot","pos":"aux","tense":"present"},{"t":"exist","pos":"v","form":"base"},{"t":"without","pos":"prep"},{"t":"water","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0121",
+    "noOrder": true,
+    "text": "She marked the date on the calendar.",
+    "ja": "彼女はカレンダーにその日付の印をつけた。",
+    "target": {"wordId":"w0061","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"marked","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"date","pos":"n"},{"t":"on","pos":"prep"},{"t":"the","pos":"art"},{"t":"calendar","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0122",
+    "noOrder": true,
+    "text": "She got good marks in every subject.",
+    "ja": "彼女はどの科目でも良い成績を取った。",
+    "target": {"wordId":"w0061","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"got","pos":"v","tense":"past"},{"t":"good","pos":"adj"},{"t":"marks","pos":"n"},{"t":"in","pos":"prep"},{"t":"every","pos":"adj","skip":true},{"t":"subject","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0123",
+    "noOrder": true,
+    "text": "We used a ruler to measure the length of the desk.",
+    "ja": "私たちは定規を使って机の長さを測った。",
+    "target": {"wordId":"w0062","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"We","pos":"pron"},{"t":"used","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"ruler","pos":"n"},{"t":"to","pos":"to"},{"t":"measure","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"length","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"desk","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":10,"type":"Madv","label":"to不定詞(副詞的用法・目的)、usedを修飾"},{"from":8,"to":10,"type":"Madj","label":"前置詞句、lengthを修飾"}]
+  },
+  {
+    "id": "s0124",
+    "text": "The city has taken new measures to reduce traffic.",
+    "ja": "市は交通量を減らす新しい対策を講じた。",
+    "target": {"wordId":"w0062","senseIndex":1,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"city","pos":"n"},{"t":"has","pos":"aux","tense":"present"},{"t":"taken","pos":"v","form":"pp"},{"t":"new","pos":"adj"},{"t":"measures","pos":"n"},{"t":"to","pos":"to"},{"t":"reduce","pos":"v","form":"base"},{"t":"traffic","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":8,"type":"Madj","label":"to不定詞(形容詞的用法)、measuresを修飾"}]
+  },
+  {
+    "id": "s0125",
+    "noOrder": true,
+    "text": "I read an interesting article about space travel.",
+    "ja": "宇宙旅行についてのおもしろい記事を読んだ。",
+    "target": {"wordId":"w0063","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"read","pos":"v","tense":"past"},{"t":"an","pos":"art"},{"t":"interesting","pos":"adj"},{"t":"article","pos":"n"},{"t":"about","pos":"prep"},{"t":"space","pos":"n"},{"t":"travel","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0126",
+    "text": "The store sells many articles of clothing.",
+    "ja": "その店は多くの衣料品を売っている。",
+    "target": {"wordId":"w0063","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"store","pos":"n"},{"t":"sells","pos":"v","tense":"present"},{"t":"many","pos":"adj","skip":true},{"t":"articles","pos":"n"},{"t":"of","pos":"prep"},{"t":"clothing","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":6,"type":"Madj","label":"前置詞句、articlesを修飾"}]
+  },
+  {
+    "id": "s0127",
+    "text": "Exercise has many health benefits.",
+    "ja": "運動には健康上の利点がたくさんある。",
+    "target": {"wordId":"w0064","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"Exercise","pos":"n"},{"t":"has","pos":"v","tense":"present"},{"t":"many","pos":"adj","skip":true},{"t":"health","pos":"n"},{"t":"benefits","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0128",
+    "text": "The new park will benefit local families.",
+    "ja": "その新しい公園は地元の家族に利益をもたらすだろう。",
+    "target": {"wordId":"w0064","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"new","pos":"adj"},{"t":"park","pos":"n"},{"t":"will","pos":"aux","tense":"present"},{"t":"benefit","pos":"v","form":"base"},{"t":"local","pos":"adj"},{"t":"families","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0129",
+    "text": "The police found no evidence of a crime.",
+    "ja": "警察は犯罪の証拠を見つけられなかった。",
+    "target": {"wordId":"w0065","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"police","pos":"n"},{"t":"found","pos":"v","tense":"past"},{"t":"no","pos":"adj","skip":true},{"t":"evidence","pos":"n"},{"t":"of","pos":"prep"},{"t":"a","pos":"art"},{"t":"crime","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madj","label":"前置詞句、evidenceを修飾"}]
+  },
+  {
+    "id": "s0130",
+    "text": "There is strong evidence that smoking causes cancer.",
+    "ja": "喫煙ががんを引き起こすという有力な証拠がある。",
+    "target": {"wordId":"w0065","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"There","pos":"adv","skip":true},{"t":"is","pos":"v","tense":"present"},{"t":"strong","pos":"adj"},{"t":"evidence","pos":"n"},{"t":"that","pos":"conj"},{"t":"smoking","pos":"n","skip":true},{"t":"causes","pos":"v","tense":"present"},{"t":"cancer","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":7,"type":"Madj","label":"同格のthat節、evidenceを修飾"}]
+  },
+  {
+    "id": "s0131",
+    "noOrder": true,
+    "text": "The students did an experiment in the science room.",
+    "ja": "生徒たちは理科室で実験を行った。",
+    "target": {"wordId":"w0066","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"students","pos":"n"},{"t":"did","pos":"v","tense":"past"},{"t":"an","pos":"art"},{"t":"experiment","pos":"n"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"science","pos":"n"},{"t":"room","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0132",
+    "noOrder": true,
+    "text": "Chefs often experiment with new flavors.",
+    "ja": "料理人はよく新しい味で試行錯誤する。",
+    "target": {"wordId":"w0066","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"Chefs","pos":"n"},{"t":"often","pos":"adv"},{"t":"experiment","pos":"v","tense":"present"},{"t":"with","pos":"prep"},{"t":"new","pos":"adj"},{"t":"flavors","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0133",
+    "text": "The focus of the meeting was the budget.",
+    "ja": "会議の焦点は予算だった。",
+    "target": {"wordId":"w0067","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"focus","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"meeting","pos":"n"},{"t":"was","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"budget","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":4,"type":"Madj","label":"前置詞句、focusを修飾"}]
+  },
+  {
+    "id": "s0134",
+    "noOrder": true,
+    "text": "You should focus on one thing at a time.",
+    "ja": "一度に一つのことに集中すべきだ。",
+    "target": {"wordId":"w0067","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"You","pos":"pron"},{"t":"should","pos":"aux","tense":"present"},{"t":"focus","pos":"v","form":"base"},{"t":"on","pos":"prep"},{"t":"one","pos":"adj","skip":true},{"t":"thing","pos":"n"},{"t":"at","pos":"prep"},{"t":"a","pos":"art"},{"t":"time","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0135",
+    "noOrder": true,
+    "text": "Climate change is an important issue for the world.",
+    "ja": "気候変動は世界にとって重要な問題だ。",
+    "target": {"wordId":"w0068","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"Climate","pos":"n"},{"t":"change","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"an","pos":"art"},{"t":"important","pos":"adj"},{"t":"issue","pos":"n"},{"t":"for","pos":"prep"},{"t":"the","pos":"art"},{"t":"world","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0136",
+    "noOrder": true,
+    "text": "The company will issue a new statement tomorrow.",
+    "ja": "その会社は明日、新しい声明を出す。",
+    "target": {"wordId":"w0068","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"company","pos":"n"},{"t":"will","pos":"aux","tense":"present"},{"t":"issue","pos":"v","form":"base"},{"t":"a","pos":"art"},{"t":"new","pos":"adj"},{"t":"statement","pos":"n"},{"t":"tomorrow","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0137",
+    "text": "Reading is a good way to gain knowledge.",
+    "ja": "読書は知識を得るよい方法だ。",
+    "target": {"wordId":"w0069","senseIndex":0,"tokenIndex":7},
+    "tokens": [{"t":"Reading","pos":"v","form":"ing"},{"t":"is","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"good","pos":"adj"},{"t":"way","pos":"n"},{"t":"to","pos":"to"},{"t":"gain","pos":"v","form":"base"},{"t":"knowledge","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":0,"to":0,"type":"N","label":"動名詞、主語"},{"from":5,"to":7,"type":"Madj","label":"to不定詞(形容詞的用法)、wayを修飾"}]
+  },
+  {
+    "id": "s0138",
+    "noOrder": true,
+    "text": "He has a wide knowledge of history.",
+    "ja": "彼は歴史について幅広い知識をもっている。",
+    "target": {"wordId":"w0069","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"has","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"wide","pos":"adj"},{"t":"knowledge","pos":"n"},{"t":"of","pos":"prep"},{"t":"history","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":6,"type":"Madj","label":"前置詞句、knowledgeを修飾"}]
+  },
+  {
+    "id": "s0139",
+    "noOrder": true,
+    "text": "This bag is made of a soft material.",
+    "ja": "このかばんはやわらかい素材でできている。",
+    "target": {"wordId":"w0070","senseIndex":0,"tokenIndex":7},
+    "tokens": [{"t":"This","pos":"adj","skip":true},{"t":"bag","pos":"n"},{"t":"is","pos":"aux","tense":"present"},{"t":"made","pos":"v","form":"pp"},{"t":"of","pos":"prep"},{"t":"a","pos":"art"},{"t":"soft","pos":"adj"},{"t":"material","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0140",
+    "noOrder": true,
+    "text": "Some people care more about material wealth than about love.",
+    "ja": "愛情よりも物質的な豊かさを気にかける人もいる。",
+    "target": {"wordId":"w0070","senseIndex":1,"tokenIndex":5},
+    "tokens": [{"t":"Some","pos":"adj"},{"t":"people","pos":"n"},{"t":"care","pos":"v","tense":"present"},{"t":"more","pos":"adv","skip":true},{"t":"about","pos":"prep"},{"t":"material","pos":"adj"},{"t":"wealth","pos":"n"},{"t":"than","pos":"conj"},{"t":"about","pos":"prep"},{"t":"love","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0141",
+    "noOrder": true,
+    "text": "This is a serious matter for the whole school.",
+    "ja": "これは学校全体にとって重大な問題だ。",
+    "target": {"wordId":"w0071","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"This","pos":"pron","skip":true},{"t":"is","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"serious","pos":"adj"},{"t":"matter","pos":"n"},{"t":"for","pos":"prep"},{"t":"the","pos":"art"},{"t":"whole","pos":"adj"},{"t":"school","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0142",
+    "text": "It does not matter who wins the game.",
+    "ja": "だれが試合に勝つかは重要ではない。",
+    "target": {"wordId":"w0071","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"It","pos":"pron"},{"t":"does","pos":"aux","tense":"present"},{"t":"not","pos":"adv"},{"t":"matter","pos":"v","form":"base"},{"t":"who","pos":"pron"},{"t":"wins","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"game","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":7,"type":"N","label":"名詞節(疑問詞節)、真主語"}]
+  },
+  {
+    "id": "s0143",
+    "text": "My grandfather has a very good memory.",
+    "ja": "祖父はとても記憶力がよい。",
+    "target": {"wordId":"w0072","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"My","pos":"pron","skip":true},{"t":"grandfather","pos":"n"},{"t":"has","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"very","pos":"adv"},{"t":"good","pos":"adj"},{"t":"memory","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0144",
+    "noOrder": true,
+    "text": "I have happy memories of that summer.",
+    "ja": "あの夏の楽しい思い出がある。",
+    "target": {"wordId":"w0072","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"have","pos":"v","tense":"present"},{"t":"happy","pos":"adj"},{"t":"memories","pos":"n"},{"t":"of","pos":"prep"},{"t":"that","pos":"adj","skip":true},{"t":"summer","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":6,"type":"Madj","label":"前置詞句、memoriesを修飾"}]
+  },
+  {
+    "id": "s0145",
+    "text": "Regular practice is the key to success.",
+    "ja": "定期的な練習は成功のかぎだ。",
+    "target": {"wordId":"w0073","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"Regular","pos":"adj"},{"t":"practice","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"key","pos":"n"},{"t":"to","pos":"prep"},{"t":"success","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":6,"type":"Madj","label":"前置詞句、keyを修飾"}]
+  },
+  {
+    "id": "s0146",
+    "noOrder": true,
+    "text": "She practices the piano every morning.",
+    "ja": "彼女は毎朝ピアノを練習している。",
+    "target": {"wordId":"w0073","senseIndex":1,"tokenIndex":1},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"practices","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"piano","pos":"n"},{"t":"every","pos":"adj","skip":true},{"t":"morning","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0147",
+    "text": "The project will be completed next year.",
+    "ja": "その計画は来年完成する予定だ。",
+    "target": {"wordId":"w0074","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"project","pos":"n"},{"t":"will","pos":"aux","tense":"present"},{"t":"be","pos":"aux","form":"base"},{"t":"completed","pos":"v","form":"pp"},{"t":"next","pos":"adj"},{"t":"year","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0148",
+    "noOrder": true,
+    "text": "Our class started a project about local history.",
+    "ja": "私たちのクラスは地元の歴史についてのプロジェクトを始めた。",
+    "target": {"wordId":"w0074","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"Our","pos":"pron","skip":true},{"t":"class","pos":"n"},{"t":"started","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"project","pos":"n"},{"t":"about","pos":"prep"},{"t":"local","pos":"adj"},{"t":"history","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0149",
+    "text": "We care about the quality of our products.",
+    "ja": "私たちは製品の品質を大切にしている。",
+    "target": {"wordId":"w0075","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"We","pos":"pron"},{"t":"care","pos":"v","tense":"present"},{"t":"about","pos":"prep"},{"t":"the","pos":"art"},{"t":"quality","pos":"n"},{"t":"of","pos":"prep"},{"t":"our","pos":"pron","skip":true},{"t":"products","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madj","label":"前置詞句、qualityを修飾"}]
+  },
+  {
+    "id": "s0150",
+    "text": "Honesty is a quality that people respect.",
+    "ja": "誠実さは人々が尊重する特質だ。",
+    "target": {"wordId":"w0075","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"Honesty","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"quality","pos":"n"},{"t":"that","pos":"rel"},{"t":"people","pos":"n"},{"t":"respect","pos":"v","tense":"present"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":6,"type":"Madj","label":"関係詞節(目的格)、qualityを修飾"}]
+  },
+  {
+    "id": "s0151",
+    "noOrder": true,
+    "text": "Teachers play an important role in education.",
+    "ja": "教師は教育において重要な役割を果たす。",
+    "target": {"wordId":"w0076","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"Teachers","pos":"n"},{"t":"play","pos":"v","tense":"present"},{"t":"an","pos":"art"},{"t":"important","pos":"adj"},{"t":"role","pos":"n"},{"t":"in","pos":"prep"},{"t":"education","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0152",
+    "noOrder": true,
+    "text": "She got the leading role in the school play.",
+    "ja": "彼女は学校の劇で主役を得た。",
+    "target": {"wordId":"w0076","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"got","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"leading","pos":"adj","skip":true},{"t":"role","pos":"n"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"school","pos":"n"},{"t":"play","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0153",
+    "text": "The internet is a good source of information.",
+    "ja": "インターネットは情報のよい入手元だ。",
+    "target": {"wordId":"w0077","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"internet","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"good","pos":"adj"},{"t":"source","pos":"n"},{"t":"of","pos":"prep"},{"t":"information","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":7,"type":"Madj","label":"前置詞句、sourceを修飾"}]
+  },
+  {
+    "id": "s0154",
+    "text": "Scientists are trying to find the source of the noise.",
+    "ja": "科学者たちは、その音の発生源を突き止めようとしている。",
+    "target": {"wordId":"w0077","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"Scientists","pos":"n"},{"t":"are","pos":"aux","tense":"present"},{"t":"trying","pos":"v","form":"ing"},{"t":"to","pos":"to"},{"t":"find","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"source","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"noise","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":9,"type":"N","label":"to不定詞(名詞的用法)、tryingの目的語"},{"from":7,"to":9,"type":"Madj","label":"前置詞句、sourceを修飾"}]
+  },
+  {
+    "id": "s0155",
+    "noOrder": true,
+    "text": "This species of bird lives only in Japan.",
+    "ja": "この種類の鳥は日本にだけすんでいる。",
+    "target": {"wordId":"w0078","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"This","pos":"adj","skip":true},{"t":"species","pos":"n"},{"t":"of","pos":"prep"},{"t":"bird","pos":"n"},{"t":"lives","pos":"v","tense":"present"},{"t":"only","pos":"adv","skip":true},{"t":"in","pos":"prep"},{"t":"Japan","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":3,"type":"Madj","label":"前置詞句、speciesを修飾"}]
+  },
+  {
+    "id": "s0156",
+    "noOrder": true,
+    "text": "Many species of animals are in danger.",
+    "ja": "多くの動物の種が危機にある。",
+    "target": {"wordId":"w0078","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"Many","pos":"adj","skip":true},{"t":"species","pos":"n"},{"t":"of","pos":"prep"},{"t":"animals","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"in","pos":"prep"},{"t":"danger","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":3,"type":"Madj","label":"前置詞句、speciesを修飾"}]
+  },
+  {
+    "id": "s0157",
+    "noOrder": true,
+    "text": "The mayor made an official statement about the accident.",
+    "ja": "市長はその事故について公式声明を出した。",
+    "target": {"wordId":"w0079","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"mayor","pos":"n"},{"t":"made","pos":"v","tense":"past"},{"t":"an","pos":"art"},{"t":"official","pos":"adj"},{"t":"statement","pos":"n"},{"t":"about","pos":"prep"},{"t":"the","pos":"art"},{"t":"accident","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0158",
+    "text": "His statement was not true.",
+    "ja": "彼の発言は事実ではなかった。",
+    "target": {"wordId":"w0079","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"His","pos":"pron","skip":true},{"t":"statement","pos":"n"},{"t":"was","pos":"v","tense":"past"},{"t":"not","pos":"adv"},{"t":"true","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0159",
+    "text": "My favorite subject at school is history.",
+    "ja": "学校での私の好きな科目は歴史だ。",
+    "target": {"wordId":"w0080","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"My","pos":"pron","skip":true},{"t":"favorite","pos":"adj"},{"t":"subject","pos":"n"},{"t":"at","pos":"prep"},{"t":"school","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"history","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":4,"type":"Madj","label":"前置詞句、subjectを修飾"}]
+  },
+  {
+    "id": "s0160",
+    "noOrder": true,
+    "text": "Prices are subject to change without notice.",
+    "ja": "価格は予告なく変更されることがある。",
+    "target": {"wordId":"w0080","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"Prices","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"subject","pos":"adj"},{"t":"to","pos":"prep"},{"t":"change","pos":"n"},{"t":"without","pos":"prep"},{"t":"notice","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0161",
+    "noOrder": true,
+    "text": "This word is a technical term in law.",
+    "ja": "この語は法律の専門用語だ。",
+    "target": {"wordId":"w0081","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"This","pos":"adj","skip":true},{"t":"word","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"technical","pos":"adj"},{"t":"term","pos":"n"},{"t":"in","pos":"prep"},{"t":"law","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0162",
+    "text": "The terms of the contract are very clear.",
+    "ja": "契約の条件はとても明確だ。",
+    "target": {"wordId":"w0081","senseIndex":1,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"terms","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"contract","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"very","pos":"adv"},{"t":"clear","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":4,"type":"Madj","label":"前置詞句、termsを修飾"}]
+  },
+  {
+    "id": "s0163",
+    "text": "The scientist developed a new theory of the universe.",
+    "ja": "その科学者は宇宙についての新しい理論を打ち立てた。",
+    "target": {"wordId":"w0082","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"scientist","pos":"n"},{"t":"developed","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"new","pos":"adj"},{"t":"theory","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"universe","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":8,"type":"Madj","label":"前置詞句、theoryを修飾"}]
+  },
+  {
+    "id": "s0164",
+    "noOrder": true,
+    "text": "In theory, the plan sounds perfect.",
+    "ja": "理論上は、その計画は完璧に思える。",
+    "target": {"wordId":"w0082","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"In","pos":"prep"},{"t":"theory","pos":"n"},{"t":",","pos":"punct"},{"t":"the","pos":"art"},{"t":"plan","pos":"n"},{"t":"sounds","pos":"v","tense":"present"},{"t":"perfect","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0165",
+    "text": "The thought of failing made him nervous.",
+    "ja": "失敗するという考えが彼を不安にさせた。",
+    "target": {"wordId":"w0083","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"thought","pos":"n"},{"t":"of","pos":"prep"},{"t":"failing","pos":"v","form":"ing"},{"t":"made","pos":"v","tense":"past"},{"t":"him","pos":"pron"},{"t":"nervous","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":3,"type":"Madj","label":"前置詞句、thoughtを修飾"}]
+  },
+  {
+    "id": "s0166",
+    "text": "She gave the question a lot of thought.",
+    "ja": "彼女はその問題をよく考えた。",
+    "target": {"wordId":"w0083","senseIndex":0,"tokenIndex":7},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"gave","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"question","pos":"n"},{"t":"a","pos":"art"},{"t":"lot","pos":"n","skip":true},{"t":"of","pos":"prep"},{"t":"thought","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0167",
+    "text": "The value of this old painting is very high.",
+    "ja": "この古い絵画の価値はとても高い。",
+    "target": {"wordId":"w0084","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"value","pos":"n"},{"t":"of","pos":"prep"},{"t":"this","pos":"adj","skip":true},{"t":"old","pos":"adj"},{"t":"painting","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"very","pos":"adv"},{"t":"high","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":5,"type":"Madj","label":"前置詞句、valueを修飾"}]
+  },
+  {
+    "id": "s0168",
+    "noOrder": true,
+    "text": "We value honesty more than anything else.",
+    "ja": "私たちは何よりも誠実さを大切にしている。",
+    "target": {"wordId":"w0084","senseIndex":1,"tokenIndex":1},
+    "tokens": [{"t":"We","pos":"pron"},{"t":"value","pos":"v","tense":"present"},{"t":"honesty","pos":"n"},{"t":"more","pos":"adv","skip":true},{"t":"than","pos":"conj"},{"t":"anything","pos":"pron"},{"t":"else","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0169",
+    "noOrder": true,
+    "text": "I have a different view on this issue.",
+    "ja": "この問題について、私は違う見解をもっている。",
+    "target": {"wordId":"w0085","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"have","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"different","pos":"adj"},{"t":"view","pos":"n"},{"t":"on","pos":"prep"},{"t":"this","pos":"adj","skip":true},{"t":"issue","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0170",
+    "text": "Many people view the internet as a necessary tool.",
+    "ja": "多くの人は、インターネットを必要な道具とみなしている。",
+    "target": {"wordId":"w0085","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"Many","pos":"adj","skip":true},{"t":"people","pos":"n"},{"t":"view","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"internet","pos":"n"},{"t":"as","pos":"prep"},{"t":"a","pos":"art"},{"t":"necessary","pos":"adj"},{"t":"tool","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0171",
+    "noOrder": true,
+    "text": "Volunteers help the local community in many ways.",
+    "ja": "ボランティアは多くの面で地域社会を助けている。",
+    "target": {"wordId":"w0086","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"Volunteers","pos":"n"},{"t":"help","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"local","pos":"adj"},{"t":"community","pos":"n"},{"t":"in","pos":"prep"},{"t":"many","pos":"adj","skip":true},{"t":"ways","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0172",
+    "text": "The community voted to build a new library.",
+    "ja": "地域の人々は新しい図書館を建てることに投票した。",
+    "target": {"wordId":"w0086","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"community","pos":"n"},{"t":"voted","pos":"v","tense":"past"},{"t":"to","pos":"to"},{"t":"build","pos":"v","form":"base"},{"t":"a","pos":"art"},{"t":"new","pos":"adj"},{"t":"library","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0173",
+    "text": "Modern technology has changed the way we live.",
+    "ja": "現代の科学技術は私たちの生き方を変えた。",
+    "target": {"wordId":"w0109","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"Modern","pos":"adj"},{"t":"technology","pos":"n"},{"t":"has","pos":"aux","tense":"present"},{"t":"changed","pos":"v","form":"pp"},{"t":"the","pos":"art"},{"t":"way","pos":"n"},{"t":"we","pos":"pron"},{"t":"live","pos":"v","tense":"present"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":7,"type":"Madj","label":"関係詞節(関係副詞の省略)、wayを修飾"}]
+  },
+  {
+    "id": "s0174",
+    "noOrder": true,
+    "text": "The company invests in new technology every year.",
+    "ja": "その会社は毎年、新しい技術に投資している。",
+    "target": {"wordId":"w0109","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"company","pos":"n"},{"t":"invests","pos":"v","tense":"present"},{"t":"in","pos":"prep"},{"t":"new","pos":"adj"},{"t":"technology","pos":"n"},{"t":"every","pos":"adj","skip":true},{"t":"year","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0175",
+    "text": "Every country has its own culture.",
+    "ja": "どの国にも独自の文化がある。",
+    "target": {"wordId":"w0094","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"Every","pos":"adj","skip":true},{"t":"country","pos":"n"},{"t":"has","pos":"v","tense":"present"},{"t":"its","pos":"pron","skip":true},{"t":"own","pos":"adj","skip":true},{"t":"culture","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0176",
+    "noOrder": true,
+    "text": "The researchers cultured the bacteria in a laboratory.",
+    "ja": "研究者たちは実験室でその細菌を培養した。",
+    "target": {"wordId":"w0094","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"researchers","pos":"n"},{"t":"cultured","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"bacteria","pos":"n"},{"t":"in","pos":"prep"},{"t":"a","pos":"art"},{"t":"laboratory","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0177",
+    "noOrder": true,
+    "text": "Casual clothes are not appropriate for a job interview.",
+    "ja": "就職面接にカジュアルな服装は適切ではない。",
+    "target": {"wordId":"w0088","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"Casual","pos":"adj"},{"t":"clothes","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"not","pos":"adv"},{"t":"appropriate","pos":"adj"},{"t":"for","pos":"prep"},{"t":"a","pos":"art"},{"t":"job","pos":"n"},{"t":"interview","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0178",
+    "noOrder": true,
+    "text": "The government will appropriate money for the new school.",
+    "ja": "政府は新しい学校のために資金を充てる。",
+    "target": {"wordId":"w0088","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"government","pos":"n"},{"t":"will","pos":"aux","tense":"present"},{"t":"appropriate","pos":"v","form":"base"},{"t":"money","pos":"n"},{"t":"for","pos":"prep"},{"t":"the","pos":"art"},{"t":"new","pos":"adj"},{"t":"school","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0179",
+    "noOrder": true,
+    "text": "It is likely to rain this afternoon.",
+    "ja": "今日の午後は雨が降りそうだ。",
+    "target": {"wordId":"w0098","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"It","pos":"pron"},{"t":"is","pos":"v","tense":"present"},{"t":"likely","pos":"adj"},{"t":"to","pos":"to"},{"t":"rain","pos":"v","form":"base"},{"t":"this","pos":"adj","skip":true},{"t":"afternoon","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0180",
+    "text": "The team is likely to win the game.",
+    "ja": "そのチームは試合に勝ちそうだ。",
+    "target": {"wordId":"w0098","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"team","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"likely","pos":"adj"},{"t":"to","pos":"to"},{"t":"win","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"game","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0181",
+    "text": "It is possible that the train will be late.",
+    "ja": "電車が遅れる可能性がある。",
+    "target": {"wordId":"w0105","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"It","pos":"pron"},{"t":"is","pos":"v","tense":"present"},{"t":"possible","pos":"adj"},{"t":"that","pos":"conj"},{"t":"the","pos":"art"},{"t":"train","pos":"n"},{"t":"will","pos":"aux","tense":"present"},{"t":"be","pos":"v","form":"base"},{"t":"late","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":8,"type":"N","label":"名詞節(that節)、真主語"}]
+  },
+  {
+    "id": "s0182",
+    "noOrder": true,
+    "text": "She did everything possible to help him.",
+    "ja": "彼女は彼を助けるためにできることはすべてやった。",
+    "target": {"wordId":"w0105","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"did","pos":"v","tense":"past"},{"t":"everything","pos":"pron"},{"t":"possible","pos":"adj"},{"t":"to","pos":"to"},{"t":"help","pos":"v","form":"base"},{"t":"him","pos":"pron"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0183",
+    "text": "Each student needs individual attention.",
+    "ja": "生徒一人ひとりに個別の配慮が必要だ。",
+    "target": {"wordId":"w0097","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Each","pos":"adj","skip":true},{"t":"student","pos":"n"},{"t":"needs","pos":"v","tense":"present"},{"t":"individual","pos":"adj"},{"t":"attention","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0184",
+    "text": "The rights of the individual must be protected.",
+    "ja": "個人の権利は守られなければならない。",
+    "target": {"wordId":"w0097","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"rights","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"individual","pos":"n"},{"t":"must","pos":"aux","tense":"present"},{"t":"be","pos":"aux","form":"base"},{"t":"protected","pos":"v","form":"pp"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":4,"type":"Madj","label":"前置詞句、rightsを修飾"}]
+  },
+  {
+    "id": "s0185",
+    "noOrder": true,
+    "text": "The public library is closed on Sundays.",
+    "ja": "その公立図書館は日曜日は閉まっている。",
+    "target": {"wordId":"w0106","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"public","pos":"adj"},{"t":"library","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"closed","pos":"adj"},{"t":"on","pos":"prep"},{"t":"Sundays","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0186",
+    "noOrder": true,
+    "text": "The public was surprised by the news.",
+    "ja": "一般の人々はそのニュースに驚いた。",
+    "target": {"wordId":"w0106","senseIndex":1,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"public","pos":"n"},{"t":"was","pos":"v","tense":"past"},{"t":"surprised","pos":"adj","skip":true},{"t":"by","pos":"prep"},{"t":"the","pos":"art"},{"t":"news","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0187",
+    "noOrder": true,
+    "text": "Honesty is a common value in many cultures.",
+    "ja": "誠実さは多くの文化に共通する価値だ。",
+    "target": {"wordId":"w0092","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Honesty","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"common","pos":"adj"},{"t":"value","pos":"n"},{"t":"in","pos":"prep"},{"t":"many","pos":"adj","skip":true},{"t":"cultures","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0188",
+    "noOrder": true,
+    "text": "Colds are very common in winter.",
+    "ja": "風邪は冬にはとてもよくある。",
+    "target": {"wordId":"w0092","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Colds","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"very","pos":"adv"},{"t":"common","pos":"adj"},{"t":"in","pos":"prep"},{"t":"winter","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0189",
+    "text": "I am certain that he will come.",
+    "ja": "彼はきっと来ると私は確信している。",
+    "target": {"wordId":"w0091","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"am","pos":"v","tense":"present"},{"t":"certain","pos":"adj"},{"t":"that","pos":"conj"},{"t":"he","pos":"pron"},{"t":"will","pos":"aux","tense":"present"},{"t":"come","pos":"v","form":"base"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0190",
+    "noOrder": true,
+    "text": "A certain person called you this morning.",
+    "ja": "ある人が今朝あなたに電話してきた。",
+    "target": {"wordId":"w0091","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"A","pos":"art"},{"t":"certain","pos":"adj"},{"t":"person","pos":"n"},{"t":"called","pos":"v","tense":"past"},{"t":"you","pos":"pron"},{"t":"this","pos":"adj","skip":true},{"t":"morning","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0191",
+    "noOrder": true,
+    "text": "My opinion is similar to yours.",
+    "ja": "私の意見はあなたの意見と似ている。",
+    "target": {"wordId":"w0108","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"My","pos":"pron","skip":true},{"t":"opinion","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"similar","pos":"adj"},{"t":"to","pos":"prep"},{"t":"yours","pos":"pron"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0192",
+    "text": "The two cities have similar problems.",
+    "ja": "その二つの都市は似た問題を抱えている。",
+    "target": {"wordId":"w0108","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"two","pos":"adj","skip":true},{"t":"cities","pos":"n"},{"t":"have","pos":"v","tense":"present"},{"t":"similar","pos":"adj"},{"t":"problems","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0193",
+    "text": "The recent news made everyone happy.",
+    "ja": "最近のニュースはみんなを喜ばせた。",
+    "target": {"wordId":"w0107","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"recent","pos":"adj"},{"t":"news","pos":"n"},{"t":"made","pos":"v","tense":"past"},{"t":"everyone","pos":"pron"},{"t":"happy","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0194",
+    "noOrder": true,
+    "text": "She has changed a lot in recent years.",
+    "ja": "彼女はここ数年で大きく変わった。",
+    "target": {"wordId":"w0107","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"has","pos":"aux","tense":"present"},{"t":"changed","pos":"v","form":"pp"},{"t":"a","pos":"art"},{"t":"lot","pos":"n","skip":true},{"t":"in","pos":"prep"},{"t":"recent","pos":"adj"},{"t":"years","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0195",
+    "text": "The major cause of the fire was an old heater.",
+    "ja": "火事の主な原因は古いヒーターだった。",
+    "target": {"wordId":"w0099","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"major","pos":"adj"},{"t":"cause","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"fire","pos":"n"},{"t":"was","pos":"v","tense":"past"},{"t":"an","pos":"art"},{"t":"old","pos":"adj"},{"t":"heater","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":5,"type":"Madj","label":"前置詞句、causeを修飾"}]
+  },
+  {
+    "id": "s0196",
+    "noOrder": true,
+    "text": "My sister majored in economics at university.",
+    "ja": "姉は大学で経済学を専攻した。",
+    "target": {"wordId":"w0099","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"My","pos":"pron","skip":true},{"t":"sister","pos":"n"},{"t":"majored","pos":"v","tense":"past"},{"t":"in","pos":"prep"},{"t":"economics","pos":"n"},{"t":"at","pos":"prep"},{"t":"university","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0197",
+    "noOrder": true,
+    "text": "A good teacher is always patient with children.",
+    "ja": "よい教師は子どもに対しいつも辛抱強い。",
+    "target": {"wordId":"w0102","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"A","pos":"art"},{"t":"good","pos":"adj"},{"t":"teacher","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"always","pos":"adv"},{"t":"patient","pos":"adj"},{"t":"with","pos":"prep"},{"t":"children","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0198",
+    "noOrder": true,
+    "text": "The doctor examined the patient carefully.",
+    "ja": "医師はその患者を丁寧に診察した。",
+    "target": {"wordId":"w0102","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"doctor","pos":"n"},{"t":"examined","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"patient","pos":"n"},{"t":"carefully","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0199",
+    "text": "Is there a particular reason for your decision?",
+    "ja": "あなたの決定に特別な理由はありますか。",
+    "target": {"wordId":"w0101","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Is","pos":"v","tense":"present"},{"t":"there","pos":"adv","skip":true},{"t":"a","pos":"art"},{"t":"particular","pos":"adj"},{"t":"reason","pos":"n"},{"t":"for","pos":"prep"},{"t":"your","pos":"pron","skip":true},{"t":"decision","pos":"n"},{"t":"?","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madj","label":"前置詞句、reasonを修飾"}]
+  },
+  {
+    "id": "s0200",
+    "text": "The police asked for all the particulars of the case.",
+    "ja": "警察はその事件の詳細をすべて求めた。",
+    "target": {"wordId":"w0101","senseIndex":1,"tokenIndex":6},
+    "tokens": [{"t":"The","pos":"art"},{"t":"police","pos":"n"},{"t":"asked","pos":"v","tense":"past"},{"t":"for","pos":"prep"},{"t":"all","pos":"adj","skip":true},{"t":"the","pos":"art"},{"t":"particulars","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"case","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":7,"to":9,"type":"Madj","label":"前置詞句、particularsを修飾"}]
+  },
+  {
+    "id": "s0201",
+    "noOrder": true,
+    "text": "Regular exercise is good for your physical health.",
+    "ja": "定期的な運動は体の健康によい。",
+    "target": {"wordId":"w0103","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"Regular","pos":"adj"},{"t":"exercise","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"good","pos":"adj"},{"t":"for","pos":"prep"},{"t":"your","pos":"pron","skip":true},{"t":"physical","pos":"adj"},{"t":"health","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0202",
+    "noOrder": true,
+    "text": "There was no physical evidence at the scene.",
+    "ja": "現場には物的証拠がなかった。",
+    "target": {"wordId":"w0103","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"There","pos":"adv","skip":true},{"t":"was","pos":"v","tense":"past"},{"t":"no","pos":"adj","skip":true},{"t":"physical","pos":"adj"},{"t":"evidence","pos":"n"},{"t":"at","pos":"prep"},{"t":"the","pos":"art"},{"t":"scene","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0203",
+    "text": "The shop sells various kinds of tea.",
+    "ja": "その店はさまざまな種類のお茶を売っている。",
+    "target": {"wordId":"w0110","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"shop","pos":"n"},{"t":"sells","pos":"v","tense":"present"},{"t":"various","pos":"adj"},{"t":"kinds","pos":"n"},{"t":"of","pos":"prep"},{"t":"tea","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":6,"type":"Madj","label":"前置詞句、kindsを修飾"}]
+  },
+  {
+    "id": "s0204",
+    "noOrder": true,
+    "text": "He has lived in various countries.",
+    "ja": "彼はさまざまな国に住んだことがある。",
+    "target": {"wordId":"w0110","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"has","pos":"aux","tense":"present"},{"t":"lived","pos":"v","form":"pp"},{"t":"in","pos":"prep"},{"t":"various","pos":"adj"},{"t":"countries","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0205",
+    "text": "Is this seat available?",
+    "ja": "この席は空いていますか。",
+    "target": {"wordId":"w0089","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Is","pos":"v","tense":"present"},{"t":"this","pos":"adj","skip":true},{"t":"seat","pos":"n"},{"t":"available","pos":"adj"},{"t":"?","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0206",
+    "noOrder": true,
+    "text": "The tickets are available online.",
+    "ja": "チケットはオンラインで入手できる。",
+    "target": {"wordId":"w0089","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"tickets","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"available","pos":"adj"},{"t":"online","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0207",
+    "text": "English is not her native language.",
+    "ja": "英語は彼女の母語ではない。",
+    "target": {"wordId":"w0100","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"English","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"not","pos":"adv"},{"t":"her","pos":"pron","skip":true},{"t":"native","pos":"adj"},{"t":"language","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0208",
+    "noOrder": true,
+    "text": "He speaks Spanish like a native.",
+    "ja": "彼はネイティブのようにスペイン語を話す。",
+    "target": {"wordId":"w0100","senseIndex":1,"tokenIndex":5},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"speaks","pos":"v","tense":"present"},{"t":"Spanish","pos":"n"},{"t":"like","pos":"prep"},{"t":"a","pos":"art"},{"t":"native","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0209",
+    "text": "The political situation in the country is unstable.",
+    "ja": "その国の政治情勢は不安定だ。",
+    "target": {"wordId":"w0104","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"political","pos":"adj"},{"t":"situation","pos":"n"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"country","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"unstable","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":5,"type":"Madj","label":"前置詞句、situationを修飾"}]
+  },
+  {
+    "id": "s0210",
+    "noOrder": true,
+    "text": "Many young people are interested in political issues.",
+    "ja": "多くの若者が政治問題に関心をもっている。",
+    "target": {"wordId":"w0104","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"Many","pos":"adj","skip":true},{"t":"young","pos":"adj"},{"t":"people","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"interested","pos":"adj","skip":true},{"t":"in","pos":"prep"},{"t":"political","pos":"adj"},{"t":"issues","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0211",
+    "noOrder": true,
+    "text": "The report is due on Friday.",
+    "ja": "そのレポートの期限は金曜日だ。",
+    "target": {"wordId":"w0096","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"report","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"due","pos":"adj"},{"t":"on","pos":"prep"},{"t":"Friday","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0212",
+    "noOrder": true,
+    "text": "The train is due to arrive at noon.",
+    "ja": "列車は正午に到着する予定だ。",
+    "target": {"wordId":"w0096","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"train","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"due","pos":"adj"},{"t":"to","pos":"to"},{"t":"arrive","pos":"v","form":"base"},{"t":"at","pos":"prep"},{"t":"noon","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0213",
+    "text": "He gave me a blank look.",
+    "ja": "彼はうつろな表情で私を見た。",
+    "target": {"wordId":"w0090","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"gave","pos":"v","tense":"past"},{"t":"me","pos":"pron"},{"t":"a","pos":"art"},{"t":"blank","pos":"adj"},{"t":"look","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0214",
+    "noOrder": true,
+    "text": "Please fill in the blank with a suitable word.",
+    "ja": "空欄に適切な語を入れなさい。",
+    "target": {"wordId":"w0090","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"Please","pos":"adv","skip":true},{"t":"fill","pos":"v","form":"base"},{"t":"in","pos":"adv"},{"t":"the","pos":"art"},{"t":"blank","pos":"n"},{"t":"with","pos":"prep"},{"t":"a","pos":"art"},{"t":"suitable","pos":"adj"},{"t":"word","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0215",
+    "text": "Ancient Egypt built huge pyramids.",
+    "ja": "古代エジプトは巨大なピラミッドを建てた。",
+    "target": {"wordId":"w0087","senseIndex":0,"tokenIndex":0},
+    "tokens": [{"t":"Ancient","pos":"adj"},{"t":"Egypt","pos":"n"},{"t":"built","pos":"v","tense":"past"},{"t":"huge","pos":"adj"},{"t":"pyramids","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0216",
+    "noOrder": true,
+    "text": "This is an ancient custom in our village.",
+    "ja": "これはわが村に昔から伝わる習慣だ。",
+    "target": {"wordId":"w0087","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"This","pos":"pron","skip":true},{"t":"is","pos":"v","tense":"present"},{"t":"an","pos":"art"},{"t":"ancient","pos":"adj"},{"t":"custom","pos":"n"},{"t":"in","pos":"prep"},{"t":"our","pos":"pron","skip":true},{"t":"village","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0217",
+    "text": "Only one of these answers is correct.",
+    "ja": "これらの答えのうち正しいのは一つだけだ。",
+    "target": {"wordId":"w0093","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"Only","pos":"adj","skip":true},{"t":"one","pos":"adj","skip":true},{"t":"of","pos":"prep"},{"t":"these","pos":"adj"},{"t":"answers","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"correct","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0218",
+    "text": "The teacher corrected the mistakes in my essay.",
+    "ja": "先生は私の作文の間違いを直した。",
+    "target": {"wordId":"w0093","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"teacher","pos":"n"},{"t":"corrected","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"mistakes","pos":"n"},{"t":"in","pos":"prep"},{"t":"my","pos":"pron","skip":true},{"t":"essay","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madj","label":"前置詞句、mistakesを修飾"}]
+  },
+  {
+    "id": "s0219",
+    "noOrder": true,
+    "text": "Despite the heavy rain, the game continued.",
+    "ja": "大雨にもかかわらず、試合は続けられた。",
+    "target": {"wordId":"w0095","senseIndex":0,"tokenIndex":0},
+    "tokens": [{"t":"Despite","pos":"prep"},{"t":"the","pos":"art"},{"t":"heavy","pos":"adj"},{"t":"rain","pos":"n"},{"t":",","pos":"punct"},{"t":"the","pos":"art"},{"t":"game","pos":"n"},{"t":"continued","pos":"v","tense":"past"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":0,"to":3,"type":"Madv","label":"前置詞句(譲歩)、continuedを修飾"}]
+  },
+  {
+    "id": "s0220",
+    "noOrder": true,
+    "text": "He kept smiling despite his pain.",
+    "ja": "彼は痛みにもかかわらず笑顔を絶やさなかった。",
+    "target": {"wordId":"w0095","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"kept","pos":"v","tense":"past"},{"t":"smiling","pos":"v","form":"ing"},{"t":"despite","pos":"prep"},{"t":"his","pos":"pron","skip":true},{"t":"pain","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":5,"type":"Madv","label":"前置詞句(譲歩)、keptを修飾"}]
+  },
+  {
+    "id": "s0221",
+    "noOrder": true,
+    "text": "The police are looking for a witness to the accident.",
+    "ja": "警察はその事故の目撃者を探している。",
+    "target": {"wordId":"w0157","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"The","pos":"art"},{"t":"police","pos":"n"},{"t":"are","pos":"aux","tense":"present"},{"t":"looking","pos":"v","form":"ing"},{"t":"for","pos":"prep"},{"t":"a","pos":"art"},{"t":"witness","pos":"n"},{"t":"to","pos":"prep"},{"t":"the","pos":"art"},{"t":"accident","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":7,"to":9,"type":"Madj","label":"前置詞句、witnessを修飾"}]
+  },
+  {
+    "id": "s0222",
+    "noOrder": true,
+    "text": "Many people witnessed the accident from the bridge.",
+    "ja": "多くの人が橋からその事故を目撃した。",
+    "target": {"wordId":"w0157","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"Many","pos":"adj","skip":true},{"t":"people","pos":"n"},{"t":"witnessed","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"accident","pos":"n"},{"t":"from","pos":"prep"},{"t":"the","pos":"art"},{"t":"bridge","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0223",
+    "noOrder": true,
+    "text": "He paid a large sum of money for the old car.",
+    "ja": "彼はその古い車に多額のお金を払った。",
+    "target": {"wordId":"w0150","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"paid","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"large","pos":"adj"},{"t":"sum","pos":"n"},{"t":"of","pos":"prep"},{"t":"money","pos":"n"},{"t":"for","pos":"prep"},{"t":"the","pos":"art"},{"t":"old","pos":"adj"},{"t":"car","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":6,"type":"Madj","label":"前置詞句、sumを修飾"}]
+  },
+  {
+    "id": "s0224",
+    "text": "Let me sum up the main points.",
+    "ja": "要点をまとめさせてください。",
+    "target": {"wordId":"w0150","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"Let","pos":"v","form":"base"},{"t":"me","pos":"pron"},{"t":"sum","pos":"v","form":"base"},{"t":"up","pos":"adv"},{"t":"the","pos":"art"},{"t":"main","pos":"adj"},{"t":"points","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0225",
+    "noOrder": true,
+    "text": "She won an award for her research.",
+    "ja": "彼女は研究で賞を受賞した。",
+    "target": {"wordId":"w0112","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"won","pos":"v","tense":"past"},{"t":"an","pos":"art"},{"t":"award","pos":"n"},{"t":"for","pos":"prep"},{"t":"her","pos":"pron","skip":true},{"t":"research","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0226",
+    "noOrder": true,
+    "text": "The school will award a prize to the best student.",
+    "ja": "学校は最優秀の生徒に賞を授与する。",
+    "target": {"wordId":"w0112","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"school","pos":"n"},{"t":"will","pos":"aux","tense":"present"},{"t":"award","pos":"v","form":"base"},{"t":"a","pos":"art"},{"t":"prize","pos":"n"},{"t":"to","pos":"prep"},{"t":"the","pos":"art"},{"t":"best","pos":"adj"},{"t":"student","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0227",
+    "noOrder": true,
+    "text": "There is no logic in his argument.",
+    "ja": "彼の議論には論理がない。",
+    "target": {"wordId":"w0132","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"There","pos":"adv","skip":true},{"t":"is","pos":"v","tense":"present"},{"t":"no","pos":"adj","skip":true},{"t":"logic","pos":"n"},{"t":"in","pos":"prep"},{"t":"his","pos":"pron","skip":true},{"t":"argument","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0228",
+    "text": "Mathematics teaches students to use logic.",
+    "ja": "数学は生徒に論理を使うことを教える。",
+    "target": {"wordId":"w0132","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"Mathematics","pos":"n"},{"t":"teaches","pos":"v","tense":"present"},{"t":"students","pos":"n"},{"t":"to","pos":"to"},{"t":"use","pos":"v","form":"base"},{"t":"logic","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0229",
+    "text": "The company kept costs to a minimum.",
+    "ja": "会社は費用を最小限に抑えた。",
+    "target": {"wordId":"w0135","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"The","pos":"art"},{"t":"company","pos":"n"},{"t":"kept","pos":"v","tense":"past"},{"t":"costs","pos":"n"},{"t":"to","pos":"prep"},{"t":"a","pos":"art"},{"t":"minimum","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0230",
+    "text": "The minimum age for this job is eighteen.",
+    "ja": "この仕事の最低年齢は18歳だ。",
+    "target": {"wordId":"w0135","senseIndex":1,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"minimum","pos":"adj"},{"t":"age","pos":"n"},{"t":"for","pos":"prep"},{"t":"this","pos":"adj","skip":true},{"t":"job","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"eighteen","pos":"n","skip":true},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0231",
+    "text": "Every rule has an exception.",
+    "ja": "どんな規則にも例外がある。",
+    "target": {"wordId":"w0122","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"Every","pos":"adj","skip":true},{"t":"rule","pos":"n"},{"t":"has","pos":"v","tense":"present"},{"t":"an","pos":"art"},{"t":"exception","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0232",
+    "noOrder": true,
+    "text": "All students, without exception, must wear uniforms.",
+    "ja": "例外なく、すべての生徒が制服を着なければならない。",
+    "target": {"wordId":"w0122","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"All","pos":"adj","skip":true},{"t":"students","pos":"n"},{"t":",","pos":"punct"},{"t":"without","pos":"prep"},{"t":"exception","pos":"n"},{"t":",","pos":"punct"},{"t":"must","pos":"aux","tense":"present"},{"t":"wear","pos":"v","form":"base"},{"t":"uniforms","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0233",
+    "noOrder": true,
+    "text": "The police found an important clue at the scene.",
+    "ja": "警察は現場で重要な手がかりを見つけた。",
+    "target": {"wordId":"w0114","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"police","pos":"n"},{"t":"found","pos":"v","tense":"past"},{"t":"an","pos":"art"},{"t":"important","pos":"adj"},{"t":"clue","pos":"n"},{"t":"at","pos":"prep"},{"t":"the","pos":"art"},{"t":"scene","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0234",
+    "noOrder": true,
+    "text": "I do not have a clue about the answer.",
+    "ja": "その答えについて、私はまったく見当がつかない。",
+    "target": {"wordId":"w0114","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"do","pos":"aux","tense":"present"},{"t":"not","pos":"adv"},{"t":"have","pos":"v","form":"base"},{"t":"a","pos":"art"},{"t":"clue","pos":"n"},{"t":"about","pos":"prep"},{"t":"the","pos":"art"},{"t":"answer","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0235",
+    "noOrder": true,
+    "text": "A new virus spread quickly around the world.",
+    "ja": "新しいウイルスが世界中に急速に広がった。",
+    "target": {"wordId":"w0156","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"A","pos":"art"},{"t":"new","pos":"adj"},{"t":"virus","pos":"n"},{"t":"spread","pos":"v","tense":"past"},{"t":"quickly","pos":"adv"},{"t":"around","pos":"prep"},{"t":"the","pos":"art"},{"t":"world","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0236",
+    "text": "Computer viruses can damage important files.",
+    "ja": "コンピューターウイルスは重要なファイルを壊すことがある。",
+    "target": {"wordId":"w0156","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"Computer","pos":"n"},{"t":"viruses","pos":"n"},{"t":"can","pos":"aux","tense":"present"},{"t":"damage","pos":"v","form":"base"},{"t":"important","pos":"adj"},{"t":"files","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0237",
+    "text": "Do you have health insurance?",
+    "ja": "あなたは健康保険に入っていますか。",
+    "target": {"wordId":"w0129","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"Do","pos":"aux","tense":"present"},{"t":"you","pos":"pron"},{"t":"have","pos":"v","form":"base"},{"t":"health","pos":"n"},{"t":"insurance","pos":"n"},{"t":"?","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0238",
+    "noOrder": true,
+    "text": "The insurance company paid for the repairs.",
+    "ja": "保険会社が修理費を支払った。",
+    "target": {"wordId":"w0129","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"insurance","pos":"n"},{"t":"company","pos":"n"},{"t":"paid","pos":"v","tense":"past"},{"t":"for","pos":"prep"},{"t":"the","pos":"art"},{"t":"repairs","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0239",
+    "noOrder": true,
+    "text": "She bought a wooden frame for the photo.",
+    "ja": "彼女は写真用の木の額縁を買った。",
+    "target": {"wordId":"w0125","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"bought","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"wooden","pos":"adj"},{"t":"frame","pos":"n"},{"t":"for","pos":"prep"},{"t":"the","pos":"art"},{"t":"photo","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0240",
+    "noOrder": true,
+    "text": "The artist framed the picture and hung it on the wall.",
+    "ja": "画家はその絵を額に入れて壁にかけた。",
+    "target": {"wordId":"w0125","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"artist","pos":"n"},{"t":"framed","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"picture","pos":"n"},{"t":"and","pos":"conj"},{"t":"hung","pos":"v","tense":"past"},{"t":"it","pos":"pron"},{"t":"on","pos":"prep"},{"t":"the","pos":"art"},{"t":"wall","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0241",
+    "noOrder": true,
+    "text": "The villagers found shelter from the storm in a cave.",
+    "ja": "村人たちは洞くつの中で嵐から避難した。",
+    "target": {"wordId":"w0147","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"villagers","pos":"n"},{"t":"found","pos":"v","tense":"past"},{"t":"shelter","pos":"n"},{"t":"from","pos":"prep"},{"t":"the","pos":"art"},{"t":"storm","pos":"n"},{"t":"in","pos":"prep"},{"t":"a","pos":"art"},{"t":"cave","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0242",
+    "noOrder": true,
+    "text": "The old tree sheltered us from the rain.",
+    "ja": "古い木が雨から私たちを守ってくれた。",
+    "target": {"wordId":"w0147","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"old","pos":"adj"},{"t":"tree","pos":"n"},{"t":"sheltered","pos":"v","tense":"past"},{"t":"us","pos":"pron"},{"t":"from","pos":"prep"},{"t":"the","pos":"art"},{"t":"rain","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0243",
+    "noOrder": true,
+    "text": "The two countries fought over the territory.",
+    "ja": "二つの国はその領土をめぐって争った。",
+    "target": {"wordId":"w0151","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"The","pos":"art"},{"t":"two","pos":"adj","skip":true},{"t":"countries","pos":"n"},{"t":"fought","pos":"v","tense":"past"},{"t":"over","pos":"prep"},{"t":"the","pos":"art"},{"t":"territory","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0244",
+    "text": "Each animal protects its own territory.",
+    "ja": "どの動物も自分の縄張りを守る。",
+    "target": {"wordId":"w0151","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"Each","pos":"adj","skip":true},{"t":"animal","pos":"n"},{"t":"protects","pos":"v","tense":"present"},{"t":"its","pos":"pron","skip":true},{"t":"own","pos":"adj","skip":true},{"t":"territory","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0245",
+    "text": "Many animals are losing their natural habitat.",
+    "ja": "多くの動物が自然の生息地を失いつつある。",
+    "target": {"wordId":"w0127","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"Many","pos":"adj","skip":true},{"t":"animals","pos":"n"},{"t":"are","pos":"aux","tense":"present"},{"t":"losing","pos":"v","form":"ing"},{"t":"their","pos":"pron","skip":true},{"t":"natural","pos":"adj"},{"t":"habitat","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0246",
+    "text": "Forests are the habitat of many species.",
+    "ja": "森林は多くの種の生息地だ。",
+    "target": {"wordId":"w0127","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Forests","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"habitat","pos":"n"},{"t":"of","pos":"prep"},{"t":"many","pos":"adj","skip":true},{"t":"species","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":6,"type":"Madj","label":"前置詞句、habitatを修飾"}]
+  },
+  {
+    "id": "s0247",
+    "noOrder": true,
+    "text": "The conservation of nature is important for everyone.",
+    "ja": "自然の保護はすべての人にとって大切だ。",
+    "target": {"wordId":"w0116","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"conservation","pos":"n"},{"t":"of","pos":"prep"},{"t":"nature","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"important","pos":"adj"},{"t":"for","pos":"prep"},{"t":"everyone","pos":"pron"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":3,"type":"Madj","label":"前置詞句、conservationを修飾"}]
+  },
+  {
+    "id": "s0248",
+    "noOrder": true,
+    "text": "She works for a conservation group in Africa.",
+    "ja": "彼女はアフリカの自然保護団体で働いている。",
+    "target": {"wordId":"w0116","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"works","pos":"v","tense":"present"},{"t":"for","pos":"prep"},{"t":"a","pos":"art"},{"t":"conservation","pos":"n"},{"t":"group","pos":"n"},{"t":"in","pos":"prep"},{"t":"Africa","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0249",
+    "noOrder": true,
+    "text": "The farmers had a good harvest this year.",
+    "ja": "農家は今年よい収穫があった。",
+    "target": {"wordId":"w0128","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"farmers","pos":"n"},{"t":"had","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"good","pos":"adj"},{"t":"harvest","pos":"n"},{"t":"this","pos":"adj","skip":true},{"t":"year","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0250",
+    "noOrder": true,
+    "text": "They harvest the rice in autumn.",
+    "ja": "彼らは秋に米を収穫する。",
+    "target": {"wordId":"w0128","senseIndex":1,"tokenIndex":1},
+    "tokens": [{"t":"They","pos":"pron"},{"t":"harvest","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"rice","pos":"n"},{"t":"in","pos":"prep"},{"t":"autumn","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0251",
+    "text": "The lion is a powerful predator.",
+    "ja": "ライオンは強力な捕食動物だ。",
+    "target": {"wordId":"w0138","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"lion","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"powerful","pos":"adj"},{"t":"predator","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0252",
+    "noOrder": true,
+    "text": "Small birds must always watch for predators.",
+    "ja": "小鳥は常に捕食者に注意しなければならない。",
+    "target": {"wordId":"w0138","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"Small","pos":"adj"},{"t":"birds","pos":"n"},{"t":"must","pos":"aux","tense":"present"},{"t":"always","pos":"adv"},{"t":"watch","pos":"v","form":"base"},{"t":"for","pos":"prep"},{"t":"predators","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0253",
+    "noOrder": true,
+    "text": "The mouse fell into a trap in the kitchen.",
+    "ja": "ネズミは台所のわなにかかった。",
+    "target": {"wordId":"w0152","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"mouse","pos":"n"},{"t":"fell","pos":"v","tense":"past"},{"t":"into","pos":"prep"},{"t":"a","pos":"art"},{"t":"trap","pos":"n"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"kitchen","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0254",
+    "noOrder": true,
+    "text": "Heavy snow trapped the hikers on the mountain.",
+    "ja": "大雪で登山者たちは山に閉じ込められた。",
+    "target": {"wordId":"w0152","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"Heavy","pos":"adj"},{"t":"snow","pos":"n"},{"t":"trapped","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"hikers","pos":"n"},{"t":"on","pos":"prep"},{"t":"the","pos":"art"},{"t":"mountain","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0255",
+    "text": "The magician showed us a clever trick.",
+    "ja": "手品師は私たちに巧みな手品を見せた。",
+    "target": {"wordId":"w0153","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"The","pos":"art"},{"t":"magician","pos":"n"},{"t":"showed","pos":"v","tense":"past"},{"t":"us","pos":"pron"},{"t":"a","pos":"art"},{"t":"clever","pos":"adj"},{"t":"trick","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0256",
+    "text": "The thief tricked the old woman out of her money.",
+    "ja": "泥棒はその老女をだまして金を巻き上げた。",
+    "target": {"wordId":"w0153","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"thief","pos":"n"},{"t":"tricked","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"old","pos":"adj"},{"t":"woman","pos":"n"},{"t":"out","pos":"adv"},{"t":"of","pos":"prep"},{"t":"her","pos":"pron","skip":true},{"t":"money","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0257",
+    "noOrder": true,
+    "text": "The store gave us a big discount on the furniture.",
+    "ja": "その店は家具をかなり割り引いてくれた。",
+    "target": {"wordId":"w0119","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"The","pos":"art"},{"t":"store","pos":"n"},{"t":"gave","pos":"v","tense":"past"},{"t":"us","pos":"pron"},{"t":"a","pos":"art"},{"t":"big","pos":"adj"},{"t":"discount","pos":"n"},{"t":"on","pos":"prep"},{"t":"the","pos":"art"},{"t":"furniture","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0258",
+    "noOrder": true,
+    "text": "We should not discount his advice so easily.",
+    "ja": "彼の助言をそんなに簡単に軽視すべきではない。",
+    "target": {"wordId":"w0119","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"We","pos":"pron"},{"t":"should","pos":"aux","tense":"present"},{"t":"not","pos":"adv"},{"t":"discount","pos":"v","form":"base"},{"t":"his","pos":"pron","skip":true},{"t":"advice","pos":"n"},{"t":"so","pos":"adv"},{"t":"easily","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0259",
+    "noOrder": true,
+    "text": "The report shows a strong bias against women.",
+    "ja": "その報告書は女性に対する強い偏見を示している。",
+    "target": {"wordId":"w0113","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"report","pos":"n"},{"t":"shows","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"strong","pos":"adj"},{"t":"bias","pos":"n"},{"t":"against","pos":"prep"},{"t":"women","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":7,"type":"Madj","label":"前置詞句、biasを修飾"}]
+  },
+  {
+    "id": "s0260",
+    "text": "Personal feelings can bias your judgment.",
+    "ja": "個人的な感情は判断を偏らせることがある。",
+    "target": {"wordId":"w0113","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"Personal","pos":"adj"},{"t":"feelings","pos":"n"},{"t":"can","pos":"aux","tense":"present"},{"t":"bias","pos":"v","form":"base"},{"t":"your","pos":"pron","skip":true},{"t":"judgment","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0261",
+    "text": "The project needs close cooperation between the two groups.",
+    "ja": "その計画には二つのグループの緊密な協力が必要だ。",
+    "target": {"wordId":"w0117","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"project","pos":"n"},{"t":"needs","pos":"v","tense":"present"},{"t":"close","pos":"adj"},{"t":"cooperation","pos":"n"},{"t":"between","pos":"prep"},{"t":"the","pos":"art"},{"t":"two","pos":"adj","skip":true},{"t":"groups","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":8,"type":"Madj","label":"前置詞句、cooperationを修飾"}]
+  },
+  {
+    "id": "s0262",
+    "text": "Thank you for your cooperation.",
+    "ja": "ご協力ありがとうございます。",
+    "target": {"wordId":"w0117","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"Thank","pos":"v","form":"base"},{"t":"you","pos":"pron"},{"t":"for","pos":"prep"},{"t":"your","pos":"pron","skip":true},{"t":"cooperation","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0263",
+    "noOrder": true,
+    "text": "The inventor applied for a patent last month.",
+    "ja": "発明者は先月、特許を申請した。",
+    "target": {"wordId":"w0136","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"inventor","pos":"n"},{"t":"applied","pos":"v","tense":"past"},{"t":"for","pos":"prep"},{"t":"a","pos":"art"},{"t":"patent","pos":"n"},{"t":"last","pos":"adj"},{"t":"month","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0264",
+    "noOrder": true,
+    "text": "The company holds a patent for the new battery.",
+    "ja": "その会社は新しい電池の特許を持っている。",
+    "target": {"wordId":"w0136","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"company","pos":"n"},{"t":"holds","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"patent","pos":"n"},{"t":"for","pos":"prep"},{"t":"the","pos":"art"},{"t":"new","pos":"adj"},{"t":"battery","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0265",
+    "text": "The dialogue in the film was very natural.",
+    "ja": "その映画の会話はとても自然だった。",
+    "target": {"wordId":"w0118","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"dialogue","pos":"n"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"film","pos":"n"},{"t":"was","pos":"v","tense":"past"},{"t":"very","pos":"adv"},{"t":"natural","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":4,"type":"Madj","label":"前置詞句、dialogueを修飾"}]
+  },
+  {
+    "id": "s0266",
+    "text": "Open dialogue between nations can prevent wars.",
+    "ja": "国家間の開かれた対話は戦争を防ぎうる。",
+    "target": {"wordId":"w0118","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"Open","pos":"adj"},{"t":"dialogue","pos":"n"},{"t":"between","pos":"prep"},{"t":"nations","pos":"n"},{"t":"can","pos":"aux","tense":"present"},{"t":"prevent","pos":"v","form":"base"},{"t":"wars","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":3,"type":"Madj","label":"前置詞句、dialogueを修飾"}]
+  },
+  {
+    "id": "s0267",
+    "noOrder": true,
+    "text": "Each component of the machine was tested carefully.",
+    "ja": "その機械の各部品は慎重に検査された。",
+    "target": {"wordId":"w0115","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"Each","pos":"adj","skip":true},{"t":"component","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"machine","pos":"n"},{"t":"was","pos":"aux","tense":"past"},{"t":"tested","pos":"v","form":"pp"},{"t":"carefully","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":4,"type":"Madj","label":"前置詞句、componentを修飾"}]
+  },
+  {
+    "id": "s0268",
+    "text": "Trust is an important component of a good relationship.",
+    "ja": "信頼はよい関係の重要な要素だ。",
+    "target": {"wordId":"w0115","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"Trust","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"an","pos":"art"},{"t":"important","pos":"adj"},{"t":"component","pos":"n"},{"t":"of","pos":"prep"},{"t":"a","pos":"art"},{"t":"good","pos":"adj"},{"t":"relationship","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":8,"type":"Madj","label":"前置詞句、componentを修飾"}]
+  },
+  {
+    "id": "s0269",
+    "noOrder": true,
+    "text": "The restaurant has a good reputation for fresh fish.",
+    "ja": "そのレストランは新鮮な魚で評判がよい。",
+    "target": {"wordId":"w0145","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"restaurant","pos":"n"},{"t":"has","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"good","pos":"adj"},{"t":"reputation","pos":"n"},{"t":"for","pos":"prep"},{"t":"fresh","pos":"adj"},{"t":"fish","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0270",
+    "noOrder": true,
+    "text": "He worked hard to protect his reputation.",
+    "ja": "彼は評判を守るために懸命に働いた。",
+    "target": {"wordId":"w0145","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"worked","pos":"v","tense":"past"},{"t":"hard","pos":"adv"},{"t":"to","pos":"to"},{"t":"protect","pos":"v","form":"base"},{"t":"his","pos":"pron","skip":true},{"t":"reputation","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":6,"type":"Madv","label":"to不定詞(副詞的用法・目的)、workedを修飾"}]
+  },
+  {
+    "id": "s0271",
+    "noOrder": true,
+    "text": "Verbal communication is important in every job.",
+    "ja": "どんな仕事でも言葉による意思疎通は重要だ。",
+    "target": {"wordId":"w0155","senseIndex":0,"tokenIndex":0},
+    "tokens": [{"t":"Verbal","pos":"adj"},{"t":"communication","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"important","pos":"adj"},{"t":"in","pos":"prep"},{"t":"every","pos":"adj","skip":true},{"t":"job","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0272",
+    "text": "He gave me a verbal promise.",
+    "ja": "彼は口頭で私に約束してくれた。",
+    "target": {"wordId":"w0155","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"gave","pos":"v","tense":"past"},{"t":"me","pos":"pron"},{"t":"a","pos":"art"},{"t":"verbal","pos":"adj"},{"t":"promise","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0273",
+    "noOrder": true,
+    "text": "We must solve the internal problems of the company first.",
+    "ja": "まず会社の内部の問題を解決しなければならない。",
+    "target": {"wordId":"w0131","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"We","pos":"pron"},{"t":"must","pos":"aux","tense":"present"},{"t":"solve","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"internal","pos":"adj"},{"t":"problems","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"company","pos":"n"},{"t":"first","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":8,"type":"Madj","label":"前置詞句、problemsを修飾"}]
+  },
+  {
+    "id": "s0274",
+    "text": "The doctor found internal bleeding.",
+    "ja": "医師は体内出血を見つけた。",
+    "target": {"wordId":"w0131","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"doctor","pos":"n"},{"t":"found","pos":"v","tense":"past"},{"t":"internal","pos":"adj"},{"t":"bleeding","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0275",
+    "text": "The house has a solid foundation.",
+    "ja": "その家はしっかりした土台をもっている。",
+    "target": {"wordId":"w0148","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"house","pos":"n"},{"t":"has","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"solid","pos":"adj"},{"t":"foundation","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0276",
+    "noOrder": true,
+    "text": "Water becomes a solid when it freezes.",
+    "ja": "水は凍ると固体になる。",
+    "target": {"wordId":"w0148","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"Water","pos":"n"},{"t":"becomes","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"solid","pos":"n"},{"t":"when","pos":"conj"},{"t":"it","pos":"pron"},{"t":"freezes","pos":"v","tense":"present"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":6,"type":"Madv","label":"副詞節(時)、becomesを修飾"}]
+  },
+  {
+    "id": "s0277",
+    "noOrder": true,
+    "text": "They live in a remote village in the mountains.",
+    "ja": "彼らは山奥の人里離れた村に住んでいる。",
+    "target": {"wordId":"w0144","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"They","pos":"pron"},{"t":"live","pos":"v","tense":"present"},{"t":"in","pos":"prep"},{"t":"a","pos":"art"},{"t":"remote","pos":"adj"},{"t":"village","pos":"n"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"mountains","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0278",
+    "noOrder": true,
+    "text": "The island is remote from the mainland.",
+    "ja": "その島は本土から遠く離れている。",
+    "target": {"wordId":"w0144","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"island","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"remote","pos":"adj"},{"t":"from","pos":"prep"},{"t":"the","pos":"art"},{"t":"mainland","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0279",
+    "text": "Tourism is the principal industry of this island.",
+    "ja": "観光はこの島の主要な産業だ。",
+    "target": {"wordId":"w0139","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Tourism","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"principal","pos":"adj"},{"t":"industry","pos":"n"},{"t":"of","pos":"prep"},{"t":"this","pos":"adj","skip":true},{"t":"island","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madj","label":"前置詞句、industryを修飾"}]
+  },
+  {
+    "id": "s0280",
+    "noOrder": true,
+    "text": "The principal gave a speech at the ceremony.",
+    "ja": "校長は式典でスピーチをした。",
+    "target": {"wordId":"w0139","senseIndex":1,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"principal","pos":"n"},{"t":"gave","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"speech","pos":"n"},{"t":"at","pos":"prep"},{"t":"the","pos":"art"},{"t":"ceremony","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0281",
+    "text": "The airport uses a sophisticated security system.",
+    "ja": "その空港は高度な警備システムを使っている。",
+    "target": {"wordId":"w0149","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"airport","pos":"n"},{"t":"uses","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"sophisticated","pos":"adj"},{"t":"security","pos":"n"},{"t":"system","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0282",
+    "noOrder": true,
+    "text": "She is a smart and sophisticated woman.",
+    "ja": "彼女は賢く洗練された女性だ。",
+    "target": {"wordId":"w0149","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"is","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"smart","pos":"adj"},{"t":"and","pos":"conj"},{"t":"sophisticated","pos":"adj"},{"t":"woman","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0283",
+    "noOrder": true,
+    "text": "Silence is often equivalent to agreement.",
+    "ja": "沈黙はしばしば同意に等しい。",
+    "target": {"wordId":"w0120","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Silence","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"often","pos":"adv"},{"t":"equivalent","pos":"adj"},{"t":"to","pos":"prep"},{"t":"agreement","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0284",
+    "noOrder": true,
+    "text": "Is there an equivalent of this word in Japanese?",
+    "ja": "この単語に相当する日本語はありますか。",
+    "target": {"wordId":"w0120","senseIndex":1,"tokenIndex":3},
+    "tokens": [{"t":"Is","pos":"v","tense":"present"},{"t":"there","pos":"adv","skip":true},{"t":"an","pos":"art"},{"t":"equivalent","pos":"n"},{"t":"of","pos":"prep"},{"t":"this","pos":"adj","skip":true},{"t":"word","pos":"n"},{"t":"in","pos":"prep"},{"t":"Japanese","pos":"n"},{"t":"?","pos":"punct"}],
+    "chunks": [{"from":4,"to":6,"type":"Madj","label":"前置詞句、equivalentを修飾"}]
+  },
+  {
+    "id": "s0285",
+    "text": "A rational person would not make such a decision.",
+    "ja": "理性的な人ならそんな決定はしないだろう。",
+    "target": {"wordId":"w0141","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"A","pos":"art"},{"t":"rational","pos":"adj"},{"t":"person","pos":"n"},{"t":"would","pos":"aux","tense":"past"},{"t":"not","pos":"adv"},{"t":"make","pos":"v","form":"base"},{"t":"such","pos":"adj","skip":true},{"t":"a","pos":"art"},{"t":"decision","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0286",
+    "noOrder": true,
+    "text": "We need a rational explanation for this problem.",
+    "ja": "私たちにはこの問題の合理的な説明が必要だ。",
+    "target": {"wordId":"w0141","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"We","pos":"pron"},{"t":"need","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"rational","pos":"adj"},{"t":"explanation","pos":"n"},{"t":"for","pos":"prep"},{"t":"this","pos":"adj","skip":true},{"t":"problem","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0287",
+    "text": "Only relevant information should be included.",
+    "ja": "関連する情報だけを含めるべきだ。",
+    "target": {"wordId":"w0143","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"Only","pos":"adj","skip":true},{"t":"relevant","pos":"adj"},{"t":"information","pos":"n"},{"t":"should","pos":"aux","tense":"present"},{"t":"be","pos":"aux","form":"base"},{"t":"included","pos":"v","form":"pp"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0288",
+    "noOrder": true,
+    "text": "His comment was not relevant to the topic.",
+    "ja": "彼の発言はその話題に関係がなかった。",
+    "target": {"wordId":"w0143","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"His","pos":"pron","skip":true},{"t":"comment","pos":"n"},{"t":"was","pos":"v","tense":"past"},{"t":"not","pos":"adv"},{"t":"relevant","pos":"adj"},{"t":"to","pos":"prep"},{"t":"the","pos":"art"},{"t":"topic","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0289",
+    "noOrder": true,
+    "text": "She has absolute trust in her team.",
+    "ja": "彼女はチームを絶対的に信頼している。",
+    "target": {"wordId":"w0111","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"has","pos":"v","tense":"present"},{"t":"absolute","pos":"adj"},{"t":"trust","pos":"n"},{"t":"in","pos":"prep"},{"t":"her","pos":"pron","skip":true},{"t":"team","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0290",
+    "noOrder": true,
+    "text": "There is no absolute answer to this question.",
+    "ja": "この問いに絶対的な答えはない。",
+    "target": {"wordId":"w0111","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"There","pos":"adv","skip":true},{"t":"is","pos":"v","tense":"present"},{"t":"no","pos":"adj","skip":true},{"t":"absolute","pos":"adj"},{"t":"answer","pos":"n"},{"t":"to","pos":"prep"},{"t":"this","pos":"adj","skip":true},{"t":"question","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0291",
+    "noOrder": true,
+    "text": "She makes frequent trips to Tokyo.",
+    "ja": "彼女はよく東京へ出かける。",
+    "target": {"wordId":"w0126","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"makes","pos":"v","tense":"present"},{"t":"frequent","pos":"adj"},{"t":"trips","pos":"n"},{"t":"to","pos":"prep"},{"t":"Tokyo","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0292",
+    "text": "Many tourists frequent this cafe.",
+    "ja": "多くの観光客がこのカフェをよく訪れる。",
+    "target": {"wordId":"w0126","senseIndex":1,"tokenIndex":2},
+    "tokens": [{"t":"Many","pos":"adj","skip":true},{"t":"tourists","pos":"n"},{"t":"frequent","pos":"v","tense":"present"},{"t":"this","pos":"adj","skip":true},{"t":"cafe","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0293",
+    "noOrder": true,
+    "text": "He found a permanent job at a bank.",
+    "ja": "彼は銀行で正社員の職を見つけた。",
+    "target": {"wordId":"w0137","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"found","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"permanent","pos":"adj"},{"t":"job","pos":"n"},{"t":"at","pos":"prep"},{"t":"a","pos":"art"},{"t":"bank","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0294",
+    "text": "The accident caused permanent damage to his eyes.",
+    "ja": "その事故で彼の目に回復しない損傷が残った。",
+    "target": {"wordId":"w0137","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"accident","pos":"n"},{"t":"caused","pos":"v","tense":"past"},{"t":"permanent","pos":"adj"},{"t":"damage","pos":"n"},{"t":"to","pos":"prep"},{"t":"his","pos":"pron","skip":true},{"t":"eyes","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"Madj","label":"前置詞句、damageを修飾"}]
+  },
+  {
+    "id": "s0295",
+    "text": "The intense heat made everyone tired.",
+    "ja": "強烈な暑さでみんなが疲れた。",
+    "target": {"wordId":"w0130","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"intense","pos":"adj"},{"t":"heat","pos":"n"},{"t":"made","pos":"v","tense":"past"},{"t":"everyone","pos":"pron"},{"t":"tired","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0296",
+    "noOrder": true,
+    "text": "They had an intense debate about the budget.",
+    "ja": "彼らは予算について激しい議論をした。",
+    "target": {"wordId":"w0130","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"They","pos":"pron"},{"t":"had","pos":"v","tense":"past"},{"t":"an","pos":"art"},{"t":"intense","pos":"adj"},{"t":"debate","pos":"n"},{"t":"about","pos":"prep"},{"t":"the","pos":"art"},{"t":"budget","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0297",
+    "text": "She gave me a meaningful smile.",
+    "ja": "彼女は意味ありげな笑顔を向けた。",
+    "target": {"wordId":"w0133","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"gave","pos":"v","tense":"past"},{"t":"me","pos":"pron"},{"t":"a","pos":"art"},{"t":"meaningful","pos":"adj"},{"t":"smile","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0298",
+    "noOrder": true,
+    "text": "I want to do meaningful work in my life.",
+    "ja": "私は人生で意味のある仕事がしたい。",
+    "target": {"wordId":"w0133","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"want","pos":"v","tense":"present"},{"t":"to","pos":"to"},{"t":"do","pos":"v","form":"base"},{"t":"meaningful","pos":"adj"},{"t":"work","pos":"n"},{"t":"in","pos":"prep"},{"t":"my","pos":"pron","skip":true},{"t":"life","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0299",
+    "text": "The story is about an evil king.",
+    "ja": "その物語は邪悪な王についてのものだ。",
+    "target": {"wordId":"w0121","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"story","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"about","pos":"prep"},{"t":"an","pos":"art"},{"t":"evil","pos":"adj"},{"t":"king","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0300",
+    "noOrder": true,
+    "text": "War is often called a great evil.",
+    "ja": "戦争はしばしば大きな悪と呼ばれる。",
+    "target": {"wordId":"w0121","senseIndex":1,"tokenIndex":6},
+    "tokens": [{"t":"War","pos":"n"},{"t":"is","pos":"aux","tense":"present"},{"t":"often","pos":"adv"},{"t":"called","pos":"v","form":"pp"},{"t":"a","pos":"art"},{"t":"great","pos":"adj"},{"t":"evil","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0301",
+    "noOrder": true,
+    "text": "Dinosaurs became extinct millions of years ago.",
+    "ja": "恐竜は何百万年も前に絶滅した。",
+    "target": {"wordId":"w0123","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Dinosaurs","pos":"n"},{"t":"became","pos":"v","tense":"past"},{"t":"extinct","pos":"adj"},{"t":"millions","pos":"n"},{"t":"of","pos":"prep"},{"t":"years","pos":"n"},{"t":"ago","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0302",
+    "noOrder": true,
+    "text": "Many species are in danger of becoming extinct.",
+    "ja": "多くの種が絶滅の危機にある。",
+    "target": {"wordId":"w0123","senseIndex":0,"tokenIndex":7},
+    "tokens": [{"t":"Many","pos":"adj","skip":true},{"t":"species","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"in","pos":"prep"},{"t":"danger","pos":"n"},{"t":"of","pos":"prep"},{"t":"becoming","pos":"v","form":"ing"},{"t":"extinct","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0303",
+    "noOrder": true,
+    "text": "The teacher chose a random student to answer.",
+    "ja": "先生は無作為に一人の生徒を選んで答えさせた。",
+    "target": {"wordId":"w0140","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"teacher","pos":"n"},{"t":"chose","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"random","pos":"adj"},{"t":"student","pos":"n"},{"t":"to","pos":"to"},{"t":"answer","pos":"v","form":"base"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0304",
+    "text": "The survey used a random sample of voters.",
+    "ja": "その調査は無作為に選んだ有権者を対象とした。",
+    "target": {"wordId":"w0140","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"survey","pos":"n"},{"t":"used","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"random","pos":"adj"},{"t":"sample","pos":"n"},{"t":"of","pos":"prep"},{"t":"voters","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":7,"type":"Madj","label":"前置詞句、sampleを修飾"}]
+  },
+  {
+    "id": "s0305",
+    "noOrder": true,
+    "text": "Some people eat raw fish every day.",
+    "ja": "毎日生の魚を食べる人もいる。",
+    "target": {"wordId":"w0142","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Some","pos":"adj","skip":true},{"t":"people","pos":"n"},{"t":"eat","pos":"v","tense":"present"},{"t":"raw","pos":"adj"},{"t":"fish","pos":"n"},{"t":"every","pos":"adj","skip":true},{"t":"day","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0306",
+    "noOrder": true,
+    "text": "The factory imports raw materials from abroad.",
+    "ja": "その工場は原材料を海外から輸入している。",
+    "target": {"wordId":"w0142","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"factory","pos":"n"},{"t":"imports","pos":"v","tense":"present"},{"t":"raw","pos":"adj"},{"t":"materials","pos":"n"},{"t":"from","pos":"prep"},{"t":"abroad","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0307",
+    "text": "It was rude of him to leave early.",
+    "ja": "早く帰るとは彼は失礼だった。",
+    "target": {"wordId":"w0146","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"It","pos":"pron"},{"t":"was","pos":"v","tense":"past"},{"t":"rude","pos":"adj"},{"t":"of","pos":"prep"},{"t":"him","pos":"pron"},{"t":"to","pos":"to"},{"t":"leave","pos":"v","form":"base"},{"t":"early","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":7,"type":"N","label":"to不定詞(名詞的用法)、真主語"}]
+  },
+  {
+    "id": "s0308",
+    "text": "Talking loudly in the library is rude.",
+    "ja": "図書館で大声で話すのは失礼だ。",
+    "target": {"wordId":"w0146","senseIndex":0,"tokenIndex":6},
+    "tokens": [{"t":"Talking","pos":"v","form":"ing"},{"t":"loudly","pos":"adv"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"library","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"rude","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":0,"to":4,"type":"N","label":"動名詞句、主語"}]
+  },
+  {
+    "id": "s0309",
+    "text": "It was a mere accident, not a plan.",
+    "ja": "それは計画ではなく、単なる事故だった。",
+    "target": {"wordId":"w0134","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"It","pos":"pron"},{"t":"was","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"mere","pos":"adj"},{"t":"accident","pos":"n"},{"t":",","pos":"punct"},{"t":"not","pos":"adv"},{"t":"a","pos":"art"},{"t":"plan","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0310",
+    "text": "The mere sight of blood makes him faint.",
+    "ja": "血を見ただけで彼は気を失いそうになる。",
+    "target": {"wordId":"w0134","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"mere","pos":"adj"},{"t":"sight","pos":"n"},{"t":"of","pos":"prep"},{"t":"blood","pos":"n"},{"t":"makes","pos":"v","tense":"present"},{"t":"him","pos":"pron"},{"t":"faint","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":4,"type":"Madj","label":"前置詞句、sightを修飾"}]
+  },
+  {
+    "id": "s0311",
+    "noOrder": true,
+    "text": "Many tropical fish live in warm water.",
+    "ja": "多くの熱帯魚は暖かい水にすむ。",
+    "target": {"wordId":"w0154","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"Many","pos":"adj","skip":true},{"t":"tropical","pos":"adj"},{"t":"fish","pos":"n"},{"t":"live","pos":"v","tense":"present"},{"t":"in","pos":"prep"},{"t":"warm","pos":"adj"},{"t":"water","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0312",
+    "noOrder": true,
+    "text": "The tropical forest is home to many animals.",
+    "ja": "熱帯林は多くの動物のすみかだ。",
+    "target": {"wordId":"w0154","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"The","pos":"art"},{"t":"tropical","pos":"adj"},{"t":"forest","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"home","pos":"n"},{"t":"to","pos":"prep"},{"t":"many","pos":"adj","skip":true},{"t":"animals","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0313",
+    "text": "The pendulum swung back and forth.",
+    "ja": "振り子は前後に揺れた。",
+    "target": {"wordId":"w0124","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"pendulum","pos":"n"},{"t":"swung","pos":"v","tense":"past"},{"t":"back","pos":"adv"},{"t":"and","pos":"conj"},{"t":"forth","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0314",
+    "noOrder": true,
+    "text": "He set forth on a long journey.",
+    "ja": "彼は長い旅に出発した。",
+    "target": {"wordId":"w0124","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"set","pos":"v","tense":"past"},{"t":"forth","pos":"adv"},{"t":"on","pos":"prep"},{"t":"a","pos":"art"},{"t":"long","pos":"adj"},{"t":"journey","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0315",
+    "text": "My uncle possesses several rare books.",
+    "ja": "おじは珍しい本を何冊か所有している。",
+    "target": {"wordId":"w0170","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"My","pos":"pron","skip":true},{"t":"uncle","pos":"n"},{"t":"possesses","pos":"v","tense":"present"},{"t":"several","pos":"adj","skip":true},{"t":"rare","pos":"adj"},{"t":"books","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0316",
+    "noOrder": true,
+    "text": "She possesses great talent for music.",
+    "ja": "彼女は音楽の優れた才能をもっている。",
+    "target": {"wordId":"w0170","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"possesses","pos":"v","tense":"present"},{"t":"great","pos":"adj"},{"t":"talent","pos":"n"},{"t":"for","pos":"prep"},{"t":"music","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0317",
+    "text": "A few large companies dominate the oil industry.",
+    "ja": "少数の大企業が石油産業を支配している。",
+    "target": {"wordId":"w0163","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"A","pos":"art"},{"t":"few","pos":"adj","skip":true},{"t":"large","pos":"adj"},{"t":"companies","pos":"n"},{"t":"dominate","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"oil","pos":"n"},{"t":"industry","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0318",
+    "text": "One tall building dominates the whole town.",
+    "ja": "一棟の高いビルが町全体を見下ろしている。",
+    "target": {"wordId":"w0163","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"One","pos":"adj","skip":true},{"t":"tall","pos":"adj"},{"t":"building","pos":"n"},{"t":"dominates","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"whole","pos":"adj"},{"t":"town","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0319",
+    "text": "The company guarantees that all products are safe.",
+    "ja": "その会社はすべての製品が安全だと保証している。",
+    "target": {"wordId":"w0166","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"company","pos":"n"},{"t":"guarantees","pos":"v","tense":"present"},{"t":"that","pos":"conj"},{"t":"all","pos":"adj","skip":true},{"t":"products","pos":"n"},{"t":"are","pos":"v","tense":"present"},{"t":"safe","pos":"adj"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":7,"type":"N","label":"名詞節(that節)、guaranteesの目的語"}]
+  },
+  {
+    "id": "s0320",
+    "noOrder": true,
+    "text": "The watch comes with a one-year guarantee.",
+    "ja": "その時計には1年間の保証が付いている。",
+    "target": {"wordId":"w0166","senseIndex":1,"tokenIndex":6},
+    "tokens": [{"t":"The","pos":"art"},{"t":"watch","pos":"n"},{"t":"comes","pos":"v","tense":"present"},{"t":"with","pos":"prep"},{"t":"a","pos":"art"},{"t":"one-year","pos":"adj","skip":true},{"t":"guarantee","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0321",
+    "noOrder": true,
+    "text": "The snow began to melt in the spring.",
+    "ja": "春になって雪が溶け始めた。",
+    "target": {"wordId":"w0169","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"The","pos":"art"},{"t":"snow","pos":"n"},{"t":"began","pos":"v","tense":"past"},{"t":"to","pos":"to"},{"t":"melt","pos":"v","form":"base"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"spring","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0322",
+    "noOrder": true,
+    "text": "Heat can melt metal quickly.",
+    "ja": "熱は金属を素早く溶かすことができる。",
+    "target": {"wordId":"w0169","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Heat","pos":"n"},{"t":"can","pos":"aux","tense":"present"},{"t":"melt","pos":"v","form":"base"},{"t":"metal","pos":"n"},{"t":"quickly","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0323",
+    "text": "His loud voice embarrassed everyone in the room.",
+    "ja": "彼の大声は部屋にいる全員を気まずくさせた。",
+    "target": {"wordId":"w0164","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"His","pos":"pron","skip":true},{"t":"loud","pos":"adj"},{"t":"voice","pos":"n"},{"t":"embarrassed","pos":"v","tense":"past"},{"t":"everyone","pos":"pron"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"room","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0324",
+    "noOrder": true,
+    "text": "I do not want to embarrass you in front of your friends.",
+    "ja": "友達の前であなたに恥ずかしい思いをさせたくない。",
+    "target": {"wordId":"w0164","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"I","pos":"pron"},{"t":"do","pos":"aux","tense":"present"},{"t":"not","pos":"adv"},{"t":"want","pos":"v","form":"base"},{"t":"to","pos":"to"},{"t":"embarrass","pos":"v","form":"base"},{"t":"you","pos":"pron"},{"t":"in","pos":"prep"},{"t":"front","pos":"n"},{"t":"of","pos":"prep"},{"t":"your","pos":"pron","skip":true},{"t":"friends","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":11,"type":"N","label":"to不定詞(名詞的用法)、wantの目的語"}]
+  },
+  {
+    "id": "s0325",
+    "text": "Failure should not discourage you from trying again.",
+    "ja": "失敗しても、再挑戦をやめてはいけない。",
+    "target": {"wordId":"w0162","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"Failure","pos":"n"},{"t":"should","pos":"aux","tense":"present"},{"t":"not","pos":"adv"},{"t":"discourage","pos":"v","form":"base"},{"t":"you","pos":"pron"},{"t":"from","pos":"prep"},{"t":"trying","pos":"v","form":"ing"},{"t":"again","pos":"adv"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0326",
+    "text": "The high price discouraged many customers.",
+    "ja": "高い価格が多くの客の購買意欲をそいだ。",
+    "target": {"wordId":"w0162","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"high","pos":"adj"},{"t":"price","pos":"n"},{"t":"discouraged","pos":"v","tense":"past"},{"t":"many","pos":"adj","skip":true},{"t":"customers","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0327",
+    "text": "The machine can detect very small changes in temperature.",
+    "ja": "その機械は温度のごくわずかな変化を感知できる。",
+    "target": {"wordId":"w0160","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"machine","pos":"n"},{"t":"can","pos":"aux","tense":"present"},{"t":"detect","pos":"v","form":"base"},{"t":"very","pos":"adv"},{"t":"small","pos":"adj"},{"t":"changes","pos":"n"},{"t":"in","pos":"prep"},{"t":"temperature","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":7,"to":8,"type":"Madj","label":"前置詞句、changesを修飾"}]
+  },
+  {
+    "id": "s0328",
+    "noOrder": true,
+    "text": "She detected a slight smell of gas in the kitchen.",
+    "ja": "彼女は台所でかすかなガスのにおいに気づいた。",
+    "target": {"wordId":"w0160","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"detected","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"slight","pos":"adj"},{"t":"smell","pos":"n"},{"t":"of","pos":"prep"},{"t":"gas","pos":"n"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"kitchen","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":6,"type":"Madj","label":"前置詞句、smellを修飾"}]
+  },
+  {
+    "id": "s0329",
+    "text": "She devoted her life to helping poor children.",
+    "ja": "彼女は貧しい子どもたちを助けることに人生をささげた。",
+    "target": {"wordId":"w0161","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"devoted","pos":"v","tense":"past"},{"t":"her","pos":"pron","skip":true},{"t":"life","pos":"n"},{"t":"to","pos":"prep"},{"t":"helping","pos":"v","form":"ing"},{"t":"poor","pos":"adj"},{"t":"children","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0330",
+    "text": "He devotes most of his free time to his hobby.",
+    "ja": "彼は自由な時間のほとんどを趣味にあてている。",
+    "target": {"wordId":"w0161","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"devotes","pos":"v","tense":"present"},{"t":"most","pos":"pron","skip":true},{"t":"of","pos":"prep"},{"t":"his","pos":"pron","skip":true},{"t":"free","pos":"adj"},{"t":"time","pos":"n"},{"t":"to","pos":"prep"},{"t":"his","pos":"pron","skip":true},{"t":"hobby","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0331",
+    "text": "The doctor urged him to stop eating sweets.",
+    "ja": "医師は彼に甘いものを食べるのをやめるよう強く勧めた。",
+    "target": {"wordId":"w0172","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"doctor","pos":"n"},{"t":"urged","pos":"v","tense":"past"},{"t":"him","pos":"pron"},{"t":"to","pos":"to"},{"t":"stop","pos":"v","form":"base"},{"t":"eating","pos":"v","form":"ing"},{"t":"sweets","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0332",
+    "text": "She felt a sudden urge to laugh.",
+    "ja": "彼女は突然、笑いたい衝動に駆られた。",
+    "target": {"wordId":"w0172","senseIndex":1,"tokenIndex":4},
+    "tokens": [{"t":"She","pos":"pron"},{"t":"felt","pos":"v","tense":"past"},{"t":"a","pos":"art"},{"t":"sudden","pos":"adj"},{"t":"urge","pos":"n"},{"t":"to","pos":"to"},{"t":"laugh","pos":"v","form":"base"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":6,"type":"Madj","label":"to不定詞(形容詞的用法)、urgeを修飾"}]
+  },
+  {
+    "id": "s0333",
+    "text": "Could you lend me your dictionary?",
+    "ja": "辞書を貸してもらえませんか。",
+    "target": {"wordId":"w0168","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"Could","pos":"aux","tense":"past"},{"t":"you","pos":"pron"},{"t":"lend","pos":"v","form":"base"},{"t":"me","pos":"pron"},{"t":"your","pos":"pron","skip":true},{"t":"dictionary","pos":"n"},{"t":"?","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0334",
+    "noOrder": true,
+    "text": "He lent his bicycle to a friend.",
+    "ja": "彼は友人に自転車を貸した。",
+    "target": {"wordId":"w0168","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"He","pos":"pron"},{"t":"lent","pos":"v","tense":"past"},{"t":"his","pos":"pron","skip":true},{"t":"bicycle","pos":"n"},{"t":"to","pos":"prep"},{"t":"a","pos":"art"},{"t":"friend","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0335",
+    "noOrder": true,
+    "text": "The law restricts the use of cars in the city center.",
+    "ja": "その法律は市の中心部での車の使用を制限している。",
+    "target": {"wordId":"w0171","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"law","pos":"n"},{"t":"restricts","pos":"v","tense":"present"},{"t":"the","pos":"art"},{"t":"use","pos":"n"},{"t":"of","pos":"prep"},{"t":"cars","pos":"n"},{"t":"in","pos":"prep"},{"t":"the","pos":"art"},{"t":"city","pos":"n"},{"t":"center","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":5,"to":6,"type":"Madj","label":"前置詞句、useを修飾"}]
+  },
+  {
+    "id": "s0336",
+    "text": "Access to the room is restricted to staff.",
+    "ja": "その部屋に入れるのは職員に限られる。",
+    "target": {"wordId":"w0171","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"Access","pos":"n"},{"t":"to","pos":"prep"},{"t":"the","pos":"art"},{"t":"room","pos":"n"},{"t":"is","pos":"aux","tense":"present"},{"t":"restricted","pos":"v","form":"pp"},{"t":"to","pos":"prep"},{"t":"staff","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":1,"to":3,"type":"Madj","label":"前置詞句、Accessを修飾"}]
+  },
+  {
+    "id": "s0337",
+    "noOrder": true,
+    "text": "The storm isolated the village from the rest of the country.",
+    "ja": "嵐でその村は国内のほかの地域から孤立した。",
+    "target": {"wordId":"w0167","senseIndex":0,"tokenIndex":2},
+    "tokens": [{"t":"The","pos":"art"},{"t":"storm","pos":"n"},{"t":"isolated","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"village","pos":"n"},{"t":"from","pos":"prep"},{"t":"the","pos":"art"},{"t":"rest","pos":"n"},{"t":"of","pos":"prep"},{"t":"the","pos":"art"},{"t":"country","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0338",
+    "noOrder": true,
+    "text": "Sick patients should be isolated from others.",
+    "ja": "病気の患者はほかの人から隔離されるべきだ。",
+    "target": {"wordId":"w0167","senseIndex":0,"tokenIndex":4},
+    "tokens": [{"t":"Sick","pos":"adj"},{"t":"patients","pos":"n"},{"t":"should","pos":"aux","tense":"present"},{"t":"be","pos":"aux","form":"base"},{"t":"isolated","pos":"v","form":"pp"},{"t":"from","pos":"prep"},{"t":"others","pos":"pron"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0339",
+    "noOrder": true,
+    "text": "A guide will accompany the tourists on the tour.",
+    "ja": "ガイドがツアーで観光客に同行する。",
+    "target": {"wordId":"w0158","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"A","pos":"art"},{"t":"guide","pos":"n"},{"t":"will","pos":"aux","tense":"present"},{"t":"accompany","pos":"v","form":"base"},{"t":"the","pos":"art"},{"t":"tourists","pos":"n"},{"t":"on","pos":"prep"},{"t":"the","pos":"art"},{"t":"tour","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0340",
+    "noOrder": true,
+    "text": "The singer was accompanied by a pianist.",
+    "ja": "その歌手にはピアニストが伴奏した。",
+    "target": {"wordId":"w0158","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"singer","pos":"n"},{"t":"was","pos":"aux","tense":"past"},{"t":"accompanied","pos":"v","form":"pp"},{"t":"by","pos":"prep"},{"t":"a","pos":"art"},{"t":"pianist","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":4,"to":6,"type":"Madv","label":"前置詞句(動作主)、accompaniedを修飾"}]
+  },
+  {
+    "id": "s0341",
+    "text": "The long trip exhausted all of us.",
+    "ja": "長旅で私たちはみんな疲れ果てた。",
+    "target": {"wordId":"w0165","senseIndex":0,"tokenIndex":3},
+    "tokens": [{"t":"The","pos":"art"},{"t":"long","pos":"adj"},{"t":"trip","pos":"n"},{"t":"exhausted","pos":"v","tense":"past"},{"t":"all","pos":"pron","skip":true},{"t":"of","pos":"prep"},{"t":"us","pos":"pron"},{"t":".","pos":"punct"}],
+    "chunks": []
+  },
+  {
+    "id": "s0342",
+    "text": "Car exhaust is a major cause of air pollution.",
+    "ja": "自動車の排気ガスは大気汚染の主な原因だ。",
+    "target": {"wordId":"w0165","senseIndex":1,"tokenIndex":1},
+    "tokens": [{"t":"Car","pos":"n"},{"t":"exhaust","pos":"n"},{"t":"is","pos":"v","tense":"present"},{"t":"a","pos":"art"},{"t":"major","pos":"adj"},{"t":"cause","pos":"n"},{"t":"of","pos":"prep"},{"t":"air","pos":"n"},{"t":"pollution","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":6,"to":8,"type":"Madj","label":"前置詞句、causeを修飾"}]
+  },
+  {
+    "id": "s0343",
+    "noOrder": true,
+    "text": "It annoys me when people talk during movies.",
+    "ja": "映画の最中にしゃべる人にはいらいらする。",
+    "target": {"wordId":"w0159","senseIndex":0,"tokenIndex":1},
+    "tokens": [{"t":"It","pos":"pron"},{"t":"annoys","pos":"v","tense":"present"},{"t":"me","pos":"pron"},{"t":"when","pos":"conj"},{"t":"people","pos":"n"},{"t":"talk","pos":"v","tense":"present"},{"t":"during","pos":"prep"},{"t":"movies","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":3,"to":7,"type":"Madv","label":"副詞節(時)、annoysを修飾"}]
+  },
+  {
+    "id": "s0344",
+    "text": "The noise from the street annoyed the students.",
+    "ja": "通りからの騒音が生徒たちをいらだたせた。",
+    "target": {"wordId":"w0159","senseIndex":0,"tokenIndex":5},
+    "tokens": [{"t":"The","pos":"art"},{"t":"noise","pos":"n"},{"t":"from","pos":"prep"},{"t":"the","pos":"art"},{"t":"street","pos":"n"},{"t":"annoyed","pos":"v","tense":"past"},{"t":"the","pos":"art"},{"t":"students","pos":"n"},{"t":".","pos":"punct"}],
+    "chunks": [{"from":2,"to":4,"type":"Madj","label":"前置詞句、noiseを修飾"}]
+  }
+]

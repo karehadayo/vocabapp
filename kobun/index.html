@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="theme-color" content="#2b5fff">
+<link rel="manifest" href="manifest.json"><title>古文単語</title>
+<style>
+:root{--bg:#fff;--fg:#1b1d22;--ac:#2b5fff;--mut:#6b7280;--bd:#d6d9e0}
+@media(prefers-color-scheme:dark){:root{--bg:#14161a;--fg:#e8eaee;--ac:#4a6fe8;--mut:#9aa1ad;--bd:#343842}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,"Hiragino Sans",sans-serif;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+main{max-width:480px;margin:0 auto;padding:48px 20px 20px}
+button,input{display:block;width:100%;margin:10px 0;padding:14px;border-radius:12px;border:1px solid var(--bd);background:transparent;color:inherit;font:inherit}
+button.p{background:var(--ac);border-color:var(--ac);color:#fff}
+button.i{display:inline-block;width:auto;margin:0 4px;padding:4px 10px}
+button.w{padding:8px 12px;margin:4px}
+.big{font-size:1.5rem;font-weight:700;margin:12px 0}.c{color:var(--mut)}.ok{color:#16a34a}.ng{color:#dc2626}
+[hidden]{display:none!important}
+#qx{position:fixed;top:calc(env(safe-area-inset-top,0px) + 8px);right:12px;width:auto;margin:0;padding:6px 12px;z-index:5;background:var(--bg)}
+input[type=range]{padding:0}input[type=checkbox]{display:inline-block;width:auto;margin-right:8px}label{display:block;margin:14px 0}
+.sel{border-color:var(--ac);background:rgba(74,111,232,.2)}button:disabled{opacity:.4}
+.cd{border:1px solid var(--bd);border-radius:12px;padding:4px 14px;margin:12px 0}.cd .big{cursor:pointer}
+.dt{border-left:3px solid var(--ac);padding:2px 10px;margin:6px 0}.dt div{margin:4px 0}
+.pgr{display:flex;align-items:center;justify-content:space-between;gap:6px;margin:10px 0}
+.rg input{display:inline-block;width:6.5em;margin:6px}
+table{border-collapse:collapse;font-size:.85rem}td,th{border:1px solid var(--bd);padding:2px 5px;white-space:nowrap}
+</style></head><body><button id="qx" hidden>✕ 中断</button><main id="app">読み込み中…</main>
+<script>
+const $=s=>document.querySelector(s),app=$('#app'),DAYS=[0,1,3,7,14,30],PER=100,R=a=>a[Math.random()*a.length|0];
+const ld=(k,d)=>{try{const v=localStorage.getItem('kobun-'+k);return v===null?d:JSON.parse(v)}catch(e){return d}},sv=(k,v)=>{try{localStorage.setItem('kobun-'+k,JSON.stringify(v))}catch(e){}};
+let items=[],Q,AC,pg=0,P=ld('p',{}),FAV=new Set(ld('fav',[])),VOL=ld('vol',.5),CONF=ld('conf',false),DIR=ld('dir','mix'),RF=ld('rf',''),RT=ld('rt',''),FONLY=ld('fonly',false);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])),shuffle=a=>a.map(x=>[Math.random(),x]).sort((p,q)=>p[0]-q[0]).map(x=>x[1]),uniq=a=>[...new Set(a)];
+function tone(f,t0,d,type,g){const o=AC.createOscillator(),a=AC.createGain();o.type=type;o.frequency.value=f;o.connect(a);a.connect(AC.destination);const t=AC.currentTime+t0;a.gain.setValueAtTime(g,t);a.gain.exponentialRampToValueAtTime(.0001,t+d);o.start(t);o.stop(t+d)}
+function sfx(ok){if(VOL<=0)return;try{AC=AC||new(window.AudioContext||window.webkitAudioContext)();if(AC.state=='suspended')AC.resume();const g=VOL*.4;if(ok){tone(988,0,.12,'sine',g);tone(1319,.1,.25,'sine',g)}else tone(130,0,.4,'sawtooth',g*.6)}catch(e){}}
+const mark=(k,ok)=>{const p=P[k]||{box:0,wrong:0};p.box=ok?Math.min(p.box+1,5):0;if(!ok)p.wrong++;p.due=Date.now()+DAYS[p.box]*864e5;P[k]=p;sv('p',P)};
+const favT=n=>{FAV.has(n)?FAV.delete(n):FAV.add(n);sv('fav',[...FAV])};
+const pool=()=>items.filter(t=>(RF===''||t.no>=+RF)&&(RT===''||t.no<=+RT)&&(!FONLY||FAV.has(t.no)));
+const dueN=()=>pool().filter(t=>!P[t.key]||P[t.key].due<=Date.now()).length;
+const bar=on=>{$('#qx').hidden=!on};
+$('#qx').onclick=()=>{if(confirm('テストを中断してホームに戻りますか?'))home()};
+function pick(cb){const bs=[...app.querySelectorAll('.o')];
+if(!CONF){bs.forEach(b=>b.onclick=()=>cb(b.textContent));return}
+let sel=null;const go=document.createElement('button');go.className='p';go.textContent='決定';go.disabled=true;go.onclick=()=>cb(sel);app.appendChild(go);
+bs.forEach(b=>b.onclick=()=>{sel=b.textContent;bs.forEach(x=>x.classList.toggle('sel',x==b));go.disabled=false})}
+
+const HD=['未然','連用','終止','連体','已然','命令'];
+const detail=w=>{const r=[['品詞',esc(w.pos+(w.conj?' / '+w.conj:'')+(w.kei?' / '+w.kei:''))],['意味',w.m.map(esc).join('<br>')]];
+if(w.tb)r.push(['活用表',`<div style="overflow-x:auto"><table><tr>${HD.map(h=>`<th>${h}</th>`).join('')}</tr><tr>${w.tb.map(f=>`<td>${esc(f)}</td>`).join('')}</tr></table></div>`]);
+if(w.syn.length)r.push(['類義語',esc(w.syn.join('、'))]);if(w.ant.length)r.push(['反義語',esc(w.ant.join('、'))]);
+if(w.gi)r.push(['古今異義',`現代語の「${esc(w.gi)}」とは意味が違う`]);if(w.img)r.push(['イメージ',esc(w.img)]);
+return r.map(([k,v])=>`<div><span class=c>${k}</span>　${v}</div>`).join('')};
+const info=w=>`<p><b>${esc(w.w)}</b>(${esc(w.r)}) ${w.pos}${w.conj?' / '+w.conj:''}<br>${w.m.map(esc).join(' / ')}</p><p class=c>${esc(w.ex.t)}<br>${esc(w.ex.ja)}</p>`;
+
+function home(){bar(0);
+app.innerHTML=`<h1>古文単語</h1><p class=c>出題対象: ${pool().length}語(今日の復習 ${dueN()}語)</p><button class=p data-m=mean>意味テスト(選択式)</button><button class=p data-m=cloze>例文穴埋め(選択式)</button><button class=p data-m=gi>古今異義語クイズ</button><button class=p data-m=conj>文法: 活用の種類</button><button class=p data-m=kei>文法: 敬語の種類</button><button id=ls>単語・例文一覧</button><button id=im>🌱 語のイメージ</button><button id=st>⚙ 設定</button><button id=rs>学習記録をリセット</button>`;
+app.querySelectorAll('[data-m]').forEach(b=>b.onclick=()=>start(b.dataset.m));
+$('#ls').onclick=list;$('#im').onclick=imgScr;$('#st').onclick=settings;
+$('#rs').onclick=()=>{if(confirm('学習記録を消しますか?')){P={};sv('p',P);home()}}}
+
+const others=it=>items.filter(x=>x.no!=it.no);
+function qMean(it){const a=R(it.m),ms=new Set(it.m);
+if(DIR=='ej'||DIR=='mix'&&Math.random()<.5){const ds=uniq(shuffle(others(it).flatMap(x=>x.m)).filter(m=>!ms.has(m))).slice(0,3);
+return {w:it,k:it.key,h:`<div class=c>この古語の意味として正しいものは?</div><div class=big>${esc(it.w)}</div><div class=c>${esc(it.r)} / ${it.pos}</div>`,o:shuffle([a,...ds]),a,e:info(it)}}
+const bad=new Set([it.w,...it.syn]),ds=uniq(shuffle(others(it).filter(x=>!bad.has(x.w)&&!x.m.some(m=>ms.has(m)))).map(x=>x.w)).slice(0,3);
+return {w:it,k:it.key,h:`<div class=c>次の意味にあたる古語は?</div><div class=big>${esc(a)}</div><div class=c>${it.pos}</div>`,o:shuffle([it.w,...ds]),a:it.w,e:info(it)}}
+function qCloze(it){const ms=new Set(it.m),bad=new Set([it.w,...it.syn]),ds=uniq(shuffle(others(it).filter(x=>!bad.has(x.w)&&!x.m.some(m=>ms.has(m)))).map(x=>x.w)).slice(0,3);
+return {w:it,k:it.key,h:`<div class=c>空欄に入る語は?(現代語訳をヒントに)</div><p class=big>${esc(it.ex.t.replace(it.ex.b,'＿＿＿'))}</p><p class=c>${esc(it.ex.ja)}</p>`,o:shuffle([it.w,...ds]),a:it.w,e:info(it)}}
+function qGi(it){const a=it.m[0],ds=uniq(shuffle(others(it).map(x=>x.m[0])).filter(m=>m!=a&&m!=it.gi)).slice(0,2);
+return {w:it,k:it.key,h:`<div class=c>古文では主にどんな意味?</div><div class=big>${esc(it.w)}</div><div class=c>${esc(it.r)} / ${it.pos}</div>`,o:shuffle([a,it.gi,...ds]),a,e:`<p class=c>現代語の「${esc(it.gi)}」とは意味が違います。</p>`+info(it)}}
+const CONJ=['四段活用','上一段活用','上二段活用','下一段活用','下二段活用','カ変','サ変','ナ変','ラ変','ク活用','シク活用','ナリ活用','タリ活用'];
+function qConj(it){const g=it.pos=='動詞'?CONJ.slice(0,9):CONJ.slice(9);
+return {w:it,h:`<div class=c>この語の活用の種類は?</div><div class=big>${esc(it.w)}</div><div class=c>${esc(it.r)} / ${it.pos}</div>`,o:shuffle(uniq([it.conj,...shuffle(g.filter(c=>c!=it.conj)).slice(0,3)])),a:it.conj,e:detail(it)}}
+function qKei(it){return {w:it,h:`<div class=c>この語の敬語の種類は?</div><div class=big>${esc(it.w)}</div><div class=c>${esc(it.r)} / ${esc(it.m[0])}</div>`,o:['尊敬語','謙譲語','丁寧語'],a:it.kei,e:info(it)}}
+const GEN={mean:qMean,cloze:qCloze,gi:qGi,conj:qConj,kei:qKei};
+function start(mode){const src=pool().filter(x=>mode=='gi'?x.gi:mode=='conj'?x.conj:mode=='kei'?x.kei:true);
+if(!src.length)return alert('条件に合う単語がありません(設定で出題範囲を確認してください)');
+const due=src.filter(t=>!P[t.key]||P[t.key].due<=Date.now()),q=shuffle(due.length?due:src).slice(0,10);
+Q={mode,q:q.map(GEN[mode]),i:0,ok:0};next()}
+function next(){if(Q.i>=Q.q.length)return done();bar(1);show(Q.q[Q.i])}
+function show(q){app.innerHTML=`<div class=c>${Q.i+1} / ${Q.q.length}</div>${q.h}`+q.o.map(t=>`<button class=o>${esc(t)}</button>`).join('');
+pick(t=>{const ok=t==q.a;sfx(ok);if(q.k)mark(q.k,ok);if(ok)Q.ok++;
+app.innerHTML=`<div class="big ${ok?'ok':'ng'}">${ok?'○ 正解':'× 不正解'}</div>${ok?'':`<p class=c>あなたの答え: ${esc(t)}</p>`}<p>正解: <b>${esc(q.a)}</b> <button id=fv class=i>${FAV.has(q.w.no)?'★':'☆'}</button></p>${q.e}<button id=nx class=p>次へ</button>`;
+$('#fv').onclick=e=>{favT(q.w.no);e.target.textContent=FAV.has(q.w.no)?'★':'☆'};$('#nx').onclick=()=>{Q.i++;next()}})}
+function done(){bar(0);app.innerHTML=`<h1>おつかれさま</h1><p class=big>${Q.ok} / ${Q.q.length} 問正解</p><button class=p id=again>もう一度</button><button id=hm>ホームへ</button>`;$('#again').onclick=()=>start(Q.mode);$('#hm').onclick=home}
+
+function list(){bar(0);pg=0;let fav=false;
+app.innerHTML=`<button id=hm>← ホーム</button><p class=c>単語をタップすると、活用表・意味・類義語・反義語などが開きます。</p><input id=q placeholder="検索(古語・現代語)"><button id=fo class=i></button><div id=pgt></div><div id=ls></div><div id=pgb></div>`;
+const shown=()=>{const k=$('#q').value.trim().toLowerCase();return items.filter(w=>(!fav||FAV.has(w.no))&&(!k||JSON.stringify([w.w,w.r,w.m,w.ex]).toLowerCase().includes(k)))};
+const pager=(np,n)=>{const h=`<div class=pgr><button class="i pp"${pg<=0?' disabled':''}>← 前の${PER}語</button><span class=c>${pg+1} / ${np} ページ(全${n}語)</span><button class="i pn"${pg>=np-1?' disabled':''}>次の${PER}語 →</button></div>`;
+$('#pgt').innerHTML=np>1?h:'';$('#pgb').innerHTML=np>1?h:'';
+app.querySelectorAll('.pp').forEach(b=>b.onclick=()=>{pg--;draw();scrollTo(0,0)});app.querySelectorAll('.pn').forEach(b=>b.onclick=()=>{pg++;draw();scrollTo(0,0)})};
+const draw=()=>{const arr=shown(),np=Math.max(1,Math.ceil(arr.length/PER));if(pg>=np)pg=np-1;pager(np,arr.length);$('#fo').textContent=fav?'★ お気に入りのみ(解除)':'☆ お気に入りのみ表示';
+$('#ls').innerHTML=arr.slice(pg*PER,(pg+1)*PER).map(w=>`<div class=cd><div class=big>${esc(w.w)} <small class=c>${esc(w.r)}</small> <button class=i data-f="${w.no}">${FAV.has(w.no)?'★':'☆'}</button></div><div class=c>No.${w.no}　${w.pos}</div><div class=dt hidden>${detail(w)}</div><p>${esc(w.ex.t)}<br><small class=c>${esc(w.ex.ja)}</small></p></div>`).join('')||'<p class=c>該当する単語がありません</p>';
+app.querySelectorAll('.cd .big').forEach(h=>h.onclick=e=>{if(e.target.closest('button'))return;const d=h.parentNode.querySelector('.dt');d.hidden=!d.hidden});
+app.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{favT(+b.dataset.f);b.textContent=FAV.has(+b.dataset.f)?'★':'☆'})};
+$('#q').oninput=()=>{pg=0;draw()};$('#fo').onclick=()=>{fav=!fav;pg=0;draw()};$('#hm').onclick=home;draw()}
+
+function imgScr(){bar(0);app.innerHTML=`<button id=hm>← ホーム</button><h1>🌱 語のイメージ</h1><p class=c>意味を丸暗記せず、語の「核になるイメージ」でつかむコーナーです。</p><input id=q placeholder="検索"><div id=ls></div>`;
+const draw=()=>{const k=$('#q').value.trim().toLowerCase();$('#ls').innerHTML=items.filter(w=>!k||JSON.stringify([w.w,w.r,w.img,w.m]).toLowerCase().includes(k)).map(w=>`<div class=cd><div class=big style="cursor:auto">${esc(w.w)} <small class=c>${esc(w.r)}</small></div><div>${esc(w.img)}</div><small class=c>${w.m.map(esc).join(' / ')}</small></div>`).join('')};
+$('#q').oninput=draw;$('#hm').onclick=home;draw()}
+
+function settings(){bar(0);
+app.innerHTML=`<button id=hm>← ホーム</button><h1>設定</h1><label>効果音の音量<input type=range id=v1 min=0 max=1 step=.1 value=${VOL}></label><label><input type=checkbox id=cf ${CONF?'checked':''}>選択式は「タップ→決定ボタン」で解答する<br><small class=c>オフ: タップした時点で即解答</small></label><label>意味テストの出題方向</label><div id=dr></div><label>出題範囲(単語番号)</label><div class=rg><input id=rf type=number inputmode=numeric placeholder="から" value="${RF}"> 〜 <input id=rt type=number inputmode=numeric placeholder="まで" value="${RT}"></div><label><input type=checkbox id=fo ${FONLY?'checked':''}>お気に入り(★)の単語だけを出題する</label>`;
+$('#v1').oninput=e=>{VOL=+e.target.value;sv('vol',VOL)};$('#v1').onchange=()=>sfx(true);
+$('#cf').onchange=e=>{CONF=e.target.checked;sv('conf',CONF)};
+$('#rf').oninput=e=>{RF=e.target.value;sv('rf',RF)};$('#rt').oninput=e=>{RT=e.target.value;sv('rt',RT)};
+$('#fo').onchange=e=>{FONLY=e.target.checked;sv('fonly',FONLY)};
+const dd=()=>{$('#dr').innerHTML=[['ej','古文→現代語'],['je','現代語→古文'],['mix','ランダム']].map(([k,l])=>`<button class="i w${DIR==k?' sel':''}" data-d="${k}">${l}</button>`).join('');app.querySelectorAll('[data-d]').forEach(b=>b.onclick=()=>{DIR=b.dataset.d;sv('dir',DIR);dd()})};dd();
+$('#hm').onclick=home}
+
+fetch('data/words.json').then(r=>r.json()).then(ws=>{items=ws.map(w=>({...w,key:'k'+w.no}));home()}).catch(()=>app.textContent='データを読み込めません。ローカルで開く場合は簡易サーバー経由で開いてください。');
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script></body></html>

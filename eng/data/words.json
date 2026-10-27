@@ -1,0 +1,2537 @@
+[
+  {
+    "id": "w0001",
+    "word": "abandon",
+    "ipa": "/əˈbændən/",
+    "section": "sec01",
+    "forms": {"3sg":"abandons","past":"abandoned","pp":"abandoned","ing":"abandoning"},
+    "senses": [
+      {"pos":"v","meaning":["見捨てる","(計画・習慣などを)断念する、放棄する"],"note":"give up の硬い言い方","collocations":["abandon a plan","abandon hope"],"sentences":["s0001","s0002"]}
+    ],
+    "synonyms": ["desert","give up"],
+    "confusable": ["abolish","abundant"]
+  },
+  {
+    "id": "w0111",
+    "word": "absolute",
+    "no": 688,
+    "ipa": "/ˈæbsəluːt/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["絶対的な"],"collocations":["absolute pitch","in absolute terms"],"sentences":["s0289","s0290"]}
+    ],
+    "synonyms": ["complete"],
+    "confusable": ["absorb","abstract"],
+    "der": [["absolutely","adv","完全に"]],
+    "ant": ["relative"]
+  },
+  {
+    "id": "w0158",
+    "word": "accompany",
+    "no": 713,
+    "ipa": "/əˈkʌmpəni/",
+    "section": "sec09",
+    "forms": {"3sg":"accompanies","past":"accompanied","pp":"accompanied","ing":"accompanying"},
+    "senses": [
+      {"pos":"v","meaning":["〜に同行する","〜に付随する","〜に伴奏する"],"collocations":["be accompanied by ~"],"sentences":["s0339","s0340"]}
+    ],
+    "synonyms": ["escort"],
+    "confusable": ["company","accomplish"],
+    "der": [["accompaniment","n","伴奏"]],
+    "ety": "ac(〜に)+company(仲間) → 仲間として付き添う"
+  },
+  {
+    "id": "w0040",
+    "word": "accord",
+    "no": 42,
+    "ipa": "/əˈkɔːrd/",
+    "section": "sec03",
+    "forms": {"3sg":"accords","past":"accorded","pp":"accorded","ing":"according","plural":"accords"},
+    "senses": [
+      {"pos":"n","meaning":["一致、調和、合意"],"collocations":["in accord with ~","of one's own accord"],"sentences":["s0079"]},
+      {"pos":"v","meaning":["(人)に(地位・称賛などを)与える"],"collocations":["accord A B"],"sentences":["s0080"]}
+    ],
+    "synonyms": ["agreement"],
+    "confusable": ["afford","record"]
+  },
+  {
+    "id": "w0011",
+    "word": "affect",
+    "no": 25,
+    "ipa": "/əˈfekt/",
+    "section": "sec02",
+    "forms": {"3sg":"affects","past":"affected","pp":"affected","ing":"affecting"},
+    "senses": [
+      {"pos":"v","meaning":["〜に影響を及ぼす"],"collocations":["affect the result"],"sentences":["s0021","s0022"]}
+    ],
+    "synonyms": ["influence"],
+    "confusable": ["effect","afford"],
+    "der": [["affection","n","愛情"],["affectionate","adj","愛情のこもった"]]
+  },
+  {
+    "id": "w0012",
+    "word": "allow",
+    "no": 8,
+    "ipa": "/əˈlaʊ/",
+    "section": "sec02",
+    "forms": {"3sg":"allows","past":"allowed","pp":"allowed","ing":"allowing"},
+    "senses": [
+      {"pos":"v","meaning":["〜を許可する、認める","〜が…できるようにする"],"collocations":["allow A to do","allow doing"],"sentences":["s0023","s0024"]}
+    ],
+    "synonyms": ["permit"],
+    "confusable": ["aloud","allocate"],
+    "der": [["allowance","n","手当"]]
+  },
+  {
+    "id": "w0087",
+    "word": "ancient",
+    "no": 98,
+    "ipa": "/ˈeɪnʃənt/",
+    "section": "sec04",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["古代の","昔からの"],"collocations":["an ancient civilization"],"sentences":["s0215","s0216"]}
+    ],
+    "synonyms": ["old"],
+    "confusable": ["anxious","ancestor"],
+    "ant": ["modern"]
+  },
+  {
+    "id": "w0159",
+    "word": "annoy",
+    "no": 715,
+    "ipa": "/əˈnɔɪ/",
+    "section": "sec09",
+    "forms": {"3sg":"annoys","past":"annoyed","pp":"annoyed","ing":"annoying"},
+    "senses": [
+      {"pos":"v","meaning":["〜をいらいらさせる"],"collocations":["be annoyed at ~"],"sentences":["s0343","s0344"]}
+    ],
+    "synonyms": ["irritate"],
+    "confusable": ["enjoy","annual"],
+    "der": [["annoyance","n","いらだち"]]
+  },
+  {
+    "id": "w0088",
+    "word": "appropriate",
+    "no": 79,
+    "ipa": "/əˈproʊpriət/",
+    "section": "sec04",
+    "forms": {"3sg":"appropriates","past":"appropriated","pp":"appropriated","ing":"appropriating"},
+    "senses": [
+      {"pos":"adj","meaning":["(〜に)適切な"],"collocations":["be appropriate for ~"],"sentences":["s0177"]},
+      {"pos":"v","meaning":["(金銭など)を充てる"],"note":"動詞は /əˈproʊprieɪt/ と末尾の発音が変わる","collocations":["appropriate funds for ~"],"sentences":["s0178"]}
+    ],
+    "synonyms": ["suitable"],
+    "confusable": ["approximate","appreciate"],
+    "ant": ["inappropriate"]
+  },
+  {
+    "id": "w0063",
+    "word": "article",
+    "no": 65,
+    "ipa": "/ˈɑːrtɪkl/",
+    "section": "sec03",
+    "forms": {"plural":"articles"},
+    "senses": [
+      {"pos":"n","meaning":["記事"],"collocations":["a newspaper article"],"sentences":["s0125"]},
+      {"pos":"n","meaning":["条項","品物"],"collocations":["an article of clothing"],"sentences":["s0126"]}
+    ],
+    "synonyms": ["report"],
+    "confusable": ["particle","arctic"]
+  },
+  {
+    "id": "w0089",
+    "word": "available",
+    "no": 93,
+    "ipa": "/əˈveɪləbl/",
+    "section": "sec04",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["手に入る","利用できる"],"collocations":["be available online"],"sentences":["s0205","s0206"]}
+    ],
+    "synonyms": ["accessible"],
+    "confusable": ["valuable","variable"],
+    "der": [["availability","n","入手可能性"]],
+    "ant": ["unavailable"]
+  },
+  {
+    "id": "w0013",
+    "word": "avoid",
+    "no": 27,
+    "ipa": "/əˈvɔɪd/",
+    "section": "sec02",
+    "forms": {"3sg":"avoids","past":"avoided","pp":"avoided","ing":"avoiding"},
+    "senses": [
+      {"pos":"v","meaning":["〜を避ける"],"collocations":["avoid doing","cannot avoid doing"],"sentences":["s0025","s0026"]}
+    ],
+    "synonyms": ["evade"],
+    "confusable": ["avail","void"],
+    "der": [["avoidance","n","回避"],["unavoidable","adj","避けられない"]]
+  },
+  {
+    "id": "w0112",
+    "word": "award",
+    "no": 650,
+    "ipa": "/əˈwɔːrd/",
+    "section": "sec06",
+    "forms": {"3sg":"awards","past":"awarded","pp":"awarded","ing":"awarding","plural":"awards"},
+    "senses": [
+      {"pos":"n","meaning":["(〜の)賞"],"collocations":["win an award for ~"],"sentences":["s0225"]},
+      {"pos":"v","meaning":["〜に(賞などを)与える"],"collocations":["award A B"],"sentences":["s0226"]}
+    ],
+    "synonyms": ["prize"],
+    "confusable": ["reward","aware"]
+  },
+  {
+    "id": "w0014",
+    "word": "bear",
+    "no": 24,
+    "ipa": "/ber/",
+    "section": "sec02",
+    "forms": {"3sg":"bears","past":"bore","pp":"borne","ing":"bearing","pp2":"born"},
+    "senses": [
+      {"pos":"v","meaning":["〜に耐える、我慢する"],"note":"活用: bear - bore - borne(be born で「生まれる」)","collocations":["cannot bear ~"],"sentences":["s0027"]},
+      {"pos":"v","meaning":["〜を負う、負担する","(感情などを)抱く"],"collocations":["bear the cost of ~","bear ~ in mind"],"sentences":["s0028"]}
+    ],
+    "synonyms": ["endure"],
+    "confusable": ["beer","bare","beard"]
+  },
+  {
+    "id": "w0064",
+    "word": "benefit",
+    "no": 61,
+    "ipa": "/ˈbenɪfɪt/",
+    "section": "sec03",
+    "forms": {"3sg":"benefits","past":"benefited","pp":"benefited","ing":"benefiting","plural":"benefits"},
+    "senses": [
+      {"pos":"n","meaning":["利益、恩恵","給付金"],"collocations":["for the benefit of ~"],"sentences":["s0127"]},
+      {"pos":"v","meaning":["〜に利益を与える","(〜から)利益を得る"],"collocations":["benefit from ~"],"sentences":["s0128"]}
+    ],
+    "synonyms": ["advantage"],
+    "confusable": ["benefice","beneficial"],
+    "der": [["beneficial","adj","有益な"]]
+  },
+  {
+    "id": "w0113",
+    "word": "bias",
+    "no": 673,
+    "ipa": "/ˈbaɪəs/",
+    "section": "sec06",
+    "forms": {"3sg":"biases","past":"biased","pp":"biased","ing":"biasing","plural":"biases"},
+    "senses": [
+      {"pos":"n","meaning":["偏見","傾向"],"collocations":["bias against ~"],"sentences":["s0259"]},
+      {"pos":"v","meaning":["〜を偏らせる"],"collocations":["be biased against ~"],"sentences":["s0260"]}
+    ],
+    "synonyms": ["prejudice"],
+    "confusable": ["bus","bios"]
+  },
+  {
+    "id": "w0090",
+    "word": "blank",
+    "no": 97,
+    "ipa": "/blæŋk/",
+    "section": "sec04",
+    "forms": {"plural":"blanks"},
+    "senses": [
+      {"pos":"adj","meaning":["空白の","無表情な"],"collocations":["a blank look"],"sentences":["s0213"]},
+      {"pos":"n","meaning":["空白、余白"],"collocations":["fill in the blank"],"sentences":["s0214"]}
+    ],
+    "synonyms": ["empty"],
+    "confusable": ["blink","plank"]
+  },
+  {
+    "id": "w0002",
+    "word": "bond",
+    "no": 656,
+    "ipa": "/bɑːnd/",
+    "section": "sec06",
+    "forms": {"plural":"bonds","3sg":"bonds","past":"bonded","pp":"bonded","ing":"bonding"},
+    "senses": [
+      {"pos":"n","meaning":["絆、結びつき"],"collocations":["a strong bond between A and B","family bonds"],"sentences":["s0003"]},
+      {"pos":"n","meaning":["債券"],"collocations":["government bonds"],"sentences":["s0004"]}
+    ],
+    "synonyms": ["tie","link"],
+    "confusable": ["bound","bone"],
+    "der": [["bondage","n","束縛"]]
+  },
+  {
+    "id": "w0003",
+    "word": "boundary",
+    "no": 663,
+    "ipa": "/ˈbaʊndəri/",
+    "section": "sec06",
+    "forms": {"plural":"boundaries"},
+    "senses": [
+      {"pos":"n","meaning":["境界(線)","限界、範囲"],"collocations":["the boundary between A and B","push the boundaries of ~"],"sentences":["s0005","s0006"]}
+    ],
+    "synonyms": ["border","limit"],
+    "confusable": ["border","boundless"]
+  },
+  {
+    "id": "w0004",
+    "word": "burden",
+    "no": 647,
+    "ipa": "/ˈbɝːdn/",
+    "section": "sec06",
+    "forms": {"plural":"burdens","3sg":"burdens","past":"burdened","pp":"burdened","ing":"burdening"},
+    "senses": [
+      {"pos":"n","meaning":["重荷、負担"],"collocations":["be a burden to ~","a heavy burden"],"sentences":["s0007"]},
+      {"pos":"v","meaning":["(人に)負担をかける、(責任などを)負わせる"],"collocations":["burden A with B"],"sentences":["s0008"]}
+    ],
+    "synonyms": ["load","weight"],
+    "confusable": ["bureau"]
+  },
+  {
+    "id": "w0041",
+    "word": "cause",
+    "no": 46,
+    "ipa": "/kɔːz/",
+    "section": "sec03",
+    "forms": {"3sg":"causes","past":"caused","pp":"caused","ing":"causing","plural":"causes"},
+    "senses": [
+      {"pos":"n","meaning":["原因"],"collocations":["the cause of ~"],"sentences":["s0081"]},
+      {"pos":"v","meaning":["〜を引き起こす、〜の原因となる"],"collocations":["cause A to do"],"sentences":["s0082"]}
+    ],
+    "synonyms": ["reason"],
+    "confusable": ["clause","pause"],
+    "der": [["causal","adj","原因の"]],
+    "ant": ["effect"]
+  },
+  {
+    "id": "w0091",
+    "word": "certain",
+    "no": 85,
+    "ipa": "/ˈsɝːtn/",
+    "section": "sec04",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["確信して","確かな","ある(特定の)"],"collocations":["be certain that ..."],"sentences":["s0189","s0190"]}
+    ],
+    "synonyms": ["sure"],
+    "confusable": ["curtain","concern"],
+    "der": [["certainly","adv","確かに"],["certainty","n","確信"]],
+    "ant": ["uncertain"]
+  },
+  {
+    "id": "w0056",
+    "word": "challenge",
+    "no": 35,
+    "ipa": "/ˈtʃælɪndʒ/",
+    "section": "sec02",
+    "forms": {"3sg":"challenges","past":"challenged","pp":"challenged","ing":"challenging","plural":"challenges"},
+    "senses": [
+      {"pos":"n","meaning":["難題、異議、挑戦"],"collocations":["face a challenge"],"sentences":["s0111"]},
+      {"pos":"v","meaning":["〜に異議を唱える","〜に挑戦する"],"collocations":["challenge the decision"],"sentences":["s0112"]}
+    ],
+    "synonyms": ["dare"],
+    "confusable": ["change","chance"]
+  },
+  {
+    "id": "w0114",
+    "word": "clue",
+    "no": 655,
+    "ipa": "/kluː/",
+    "section": "sec06",
+    "forms": {"plural":"clues"},
+    "senses": [
+      {"pos":"n","meaning":["(〜の)手がかり"],"collocations":["not have a clue about ~"],"sentences":["s0233","s0234"]}
+    ],
+    "synonyms": ["hint"],
+    "confusable": ["glue","blue"],
+    "der": [["clueless","adj","何も知らない"]]
+  },
+  {
+    "id": "w0092",
+    "word": "common",
+    "no": 84,
+    "ipa": "/ˈkɑːmən/",
+    "section": "sec04",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["共通の","普通の、よくある"],"collocations":["common sense","have ~ in common"],"sentences":["s0187","s0188"]}
+    ],
+    "synonyms": ["shared"],
+    "confusable": ["comment","commune"]
+  },
+  {
+    "id": "w0086",
+    "word": "community",
+    "no": 76,
+    "ipa": "/kəˈmjuːnəti/",
+    "section": "sec03",
+    "forms": {"plural":"communities"},
+    "senses": [
+      {"pos":"n","meaning":["地域社会、共同体","(the ~)社会一般"],"collocations":["the local community","community service"],"sentences":["s0171","s0172"]}
+    ],
+    "synonyms": ["society"],
+    "confusable": ["communicate","commodity"],
+    "plnote": "可算名詞(集合名詞として複数扱いにもなる)"
+  },
+  {
+    "id": "w0042",
+    "word": "company",
+    "no": 43,
+    "ipa": "/ˈkʌmpəni/",
+    "section": "sec03",
+    "forms": {"plural":"companies"},
+    "senses": [
+      {"pos":"n","meaning":["会社"],"collocations":["a large company"],"sentences":["s0083"]},
+      {"pos":"n","meaning":["仲間、同席、同伴"],"collocations":["keep ~ company"],"sentences":["s0084"]}
+    ],
+    "synonyms": ["firm"],
+    "confusable": ["campaign","accompany"],
+    "plnote": "「会社」は可算名詞(companies)、「仲間・同席」は不可算名詞"
+  },
+  {
+    "id": "w0057",
+    "word": "compare",
+    "no": 31,
+    "ipa": "/kəmˈper/",
+    "section": "sec02",
+    "forms": {"3sg":"compares","past":"compared","pp":"compared","ing":"comparing"},
+    "senses": [
+      {"pos":"v","meaning":["〜を比較する","〜をたとえる"],"collocations":["compare A with B","compare A to B"],"sentences":["s0113","s0114"]}
+    ],
+    "synonyms": ["contrast"],
+    "confusable": ["compete","compass"]
+  },
+  {
+    "id": "w0043",
+    "word": "complete",
+    "no": 40,
+    "ipa": "/kəmˈpliːt/",
+    "section": "sec02",
+    "forms": {"3sg":"completes","past":"completed","pp":"completed","ing":"completing"},
+    "senses": [
+      {"pos":"v","meaning":["〜を完成させる、仕上げる"],"collocations":["complete the work"],"sentences":["s0085"]},
+      {"pos":"adj","meaning":["完全な、完成した"],"collocations":["a complete list"],"sentences":["s0086"]}
+    ],
+    "synonyms": ["finish"],
+    "confusable": ["compete","complex"],
+    "der": [["completion","n","完成"]],
+    "ant": ["incomplete"]
+  },
+  {
+    "id": "w0115",
+    "word": "component",
+    "no": 677,
+    "ipa": "/kəmˈpoʊnənt/",
+    "section": "sec06",
+    "forms": {"plural":"components"},
+    "senses": [
+      {"pos":"n","meaning":["構成要素","部品"],"collocations":["a key component"],"sentences":["s0267","s0268"]}
+    ],
+    "synonyms": ["element"],
+    "confusable": ["compound","competent"],
+    "ety": "com(共に)+pon(置く)+ent → 一緒に置かれたもの→構成要素"
+  },
+  {
+    "id": "w0015",
+    "word": "concern",
+    "no": 17,
+    "ipa": "/kənˈsɝːn/",
+    "section": "sec02",
+    "forms": {"3sg":"concerns","past":"concerned","pp":"concerned","ing":"concerning","plural":"concerns"},
+    "senses": [
+      {"pos":"v","meaning":["〜に関係する","(受身で)心配している"],"collocations":["be concerned about ~"],"sentences":["s0029"]},
+      {"pos":"n","meaning":["心配、関心事"],"collocations":["a major concern"],"sentences":["s0030"]}
+    ],
+    "synonyms": ["worry"],
+    "confusable": ["concert","concrete"],
+    "der": [["concerning","prep","〜に関して"]]
+  },
+  {
+    "id": "w0116",
+    "word": "conservation",
+    "no": 666,
+    "ipa": "/ˌkɑːnsɚˈveɪʃn/",
+    "section": "sec06",
+    "forms": {"plural":"conservations"},
+    "senses": [
+      {"pos":"n","meaning":["(動植物などの)保護","保全"],"collocations":["nature conservation"],"sentences":["s0247","s0248"]}
+    ],
+    "synonyms": ["protection"],
+    "confusable": ["conversation","conversion"],
+    "der": [["conserve","v","〜を保存する"],["conservative","adj","保守的な"]],
+    "plnote": "不可算名詞",
+    "ety": "con(共に)+serv(保つ)+ation → 守り保つこと"
+  },
+  {
+    "id": "w0016",
+    "word": "consider",
+    "no": 7,
+    "ipa": "/kənˈsɪdɚ/",
+    "section": "sec02",
+    "forms": {"3sg":"considers","past":"considered","pp":"considered","ing":"considering"},
+    "senses": [
+      {"pos":"v","meaning":["〜を考慮する、よく考える"],"collocations":["consider doing"],"sentences":["s0031"]},
+      {"pos":"v","meaning":["〜を…とみなす"],"collocations":["consider A (to be) B"],"sentences":["s0032"]}
+    ],
+    "synonyms": ["regard"],
+    "confusable": ["considerate","consist"],
+    "der": [["consideration","n","考慮"],["considerable","adj","かなりの"],["considerate","adj","思いやりのある"]]
+  },
+  {
+    "id": "w0117",
+    "word": "cooperation",
+    "no": 674,
+    "ipa": "/koʊˌɑːpəˈreɪʃn/",
+    "section": "sec06",
+    "forms": {"plural":"cooperations"},
+    "senses": [
+      {"pos":"n","meaning":["協力","共同"],"collocations":["international cooperation"],"sentences":["s0261","s0262"]}
+    ],
+    "synonyms": ["collaboration"],
+    "confusable": ["operation","corporation"],
+    "der": [["cooperate","v","協力する"],["cooperative","adj","協力的な"]],
+    "plnote": "不可算名詞",
+    "ety": "co(共に)+operat(働く)+ion → 共に働くこと"
+  },
+  {
+    "id": "w0093",
+    "word": "correct",
+    "no": 99,
+    "ipa": "/kəˈrekt/",
+    "section": "sec04",
+    "forms": {"3sg":"corrects","past":"corrected","pp":"corrected","ing":"correcting"},
+    "senses": [
+      {"pos":"adj","meaning":["正しい","適切な"],"collocations":["the correct answer"],"sentences":["s0217"]},
+      {"pos":"v","meaning":["〜を訂正する、直す"],"collocations":["correct a mistake"],"sentences":["s0218"]}
+    ],
+    "synonyms": ["right"],
+    "confusable": ["collect","connect"],
+    "der": [["correction","n","訂正"]],
+    "ant": ["incorrect","wrong"]
+  },
+  {
+    "id": "w0017",
+    "word": "create",
+    "no": 1,
+    "ipa": "/kriˈeɪt/",
+    "section": "sec02",
+    "forms": {"3sg":"creates","past":"created","pp":"created","ing":"creating"},
+    "senses": [
+      {"pos":"v","meaning":["〜を創り出す","〜を引き起こす"],"collocations":["create jobs"],"sentences":["s0033","s0034"]}
+    ],
+    "synonyms": ["produce"],
+    "confusable": ["creature","crate"],
+    "der": [["creation","n","創造"],["creative","adj","創造的な"],["creativity","n","創造性"],["creature","n","生き物"]],
+    "ant": ["destroy"]
+  },
+  {
+    "id": "w0094",
+    "word": "culture",
+    "no": 78,
+    "ipa": "/ˈkʌltʃɚ/",
+    "section": "sec03",
+    "forms": {"3sg":"cultures","past":"cultured","pp":"cultured","ing":"culturing","plural":"cultures"},
+    "senses": [
+      {"pos":"n","meaning":["文化","教養"],"collocations":["popular culture"],"sentences":["s0175"]},
+      {"pos":"v","meaning":["(微生物など)を培養する"],"collocations":["culture bacteria"],"sentences":["s0176"]}
+    ],
+    "synonyms": ["civilization"],
+    "confusable": ["cultural","vulture"],
+    "der": [["cultural","adj","文化の"]],
+    "plnote": "可算・不可算の両方"
+  },
+  {
+    "id": "w0018",
+    "word": "deal",
+    "no": 26,
+    "ipa": "/diːl/",
+    "section": "sec02",
+    "forms": {"3sg":"deals","past":"dealt","pp":"dealt","ing":"dealing","plural":"deals"},
+    "senses": [
+      {"pos":"v","meaning":["(deal with ~ で)〜に対処する、〜を扱う"],"collocations":["deal with ~"],"sentences":["s0035"]},
+      {"pos":"n","meaning":["取引、契約"],"collocations":["make a deal","a great deal of ~"],"sentences":["s0036"]}
+    ],
+    "synonyms": ["handle"],
+    "confusable": ["dial","dull"]
+  },
+  {
+    "id": "w0019",
+    "word": "decide",
+    "no": 11,
+    "ipa": "/dɪˈsaɪd/",
+    "section": "sec02",
+    "forms": {"3sg":"decides","past":"decided","pp":"decided","ing":"deciding"},
+    "senses": [
+      {"pos":"v","meaning":["〜を決める、決心する"],"collocations":["decide to do"],"sentences":["s0037","s0038"]}
+    ],
+    "synonyms": ["determine"],
+    "confusable": ["decline","divide"],
+    "der": [["decision","n","決定"],["decisive","adj","決定的な"]]
+  },
+  {
+    "id": "w0044",
+    "word": "demand",
+    "no": 38,
+    "ipa": "/dɪˈmænd/",
+    "section": "sec02",
+    "forms": {"3sg":"demands","past":"demanded","pp":"demanded","ing":"demanding","plural":"demands"},
+    "senses": [
+      {"pos":"v","meaning":["〜を要求する"],"collocations":["demand that A (should) do"],"sentences":["s0087"]},
+      {"pos":"n","meaning":["要求、需要"],"collocations":["supply and demand"],"sentences":["s0088"]}
+    ],
+    "synonyms": ["request"],
+    "confusable": ["command","remand"],
+    "der": [["demanding","adj","要求の厳しい"]]
+  },
+  {
+    "id": "w0058",
+    "word": "depend",
+    "no": 36,
+    "ipa": "/dɪˈpend/",
+    "section": "sec02",
+    "forms": {"3sg":"depends","past":"depended","pp":"depended","ing":"depending"},
+    "senses": [
+      {"pos":"v","meaning":["頼る、依存する(depend on ~)"],"collocations":["depend on ~"],"sentences":["s0115"]},
+      {"pos":"v","meaning":["(…)次第である"],"collocations":["It depends on ~","depending on ~"],"sentences":["s0116"]}
+    ],
+    "synonyms": ["rely"],
+    "confusable": ["defend","descend"],
+    "ety": "de(下に)+pend(垂れ下がる) → ぶら下がる→頼る"
+  },
+  {
+    "id": "w0020",
+    "word": "describe",
+    "no": 18,
+    "ipa": "/dɪˈskraɪb/",
+    "section": "sec02",
+    "forms": {"3sg":"describes","past":"described","pp":"described","ing":"describing"},
+    "senses": [
+      {"pos":"v","meaning":["〜について述べる、〜を説明する","〜を描写する"],"collocations":["describe A as B"],"sentences":["s0039","s0040"]}
+    ],
+    "synonyms": ["explain"],
+    "confusable": ["prescribe","subscribe"],
+    "der": [["description","n","記述"],["descriptive","adj","記述的な"]],
+    "ety": "de(下に)+scrib(書く) → 書き記す→描写する"
+  },
+  {
+    "id": "w0021",
+    "word": "design",
+    "no": 21,
+    "ipa": "/dɪˈzaɪn/",
+    "section": "sec02",
+    "forms": {"3sg":"designs","past":"designed","pp":"designed","ing":"designing","plural":"designs"},
+    "senses": [
+      {"pos":"v","meaning":["〜を設計する、デザインする"],"collocations":["be designed for ~"],"sentences":["s0041"]},
+      {"pos":"n","meaning":["設計、デザイン"],"collocations":["a new design"],"sentences":["s0042"]}
+    ],
+    "synonyms": ["plan"],
+    "confusable": ["resign","desire"],
+    "der": [["designer","n","設計者"]]
+  },
+  {
+    "id": "w0095",
+    "word": "despite",
+    "no": 100,
+    "ipa": "/dɪˈspaɪt/",
+    "section": "sec05",
+    "forms": {},
+    "senses": [
+      {"pos":"prep","meaning":["〜にもかかわらず"],"collocations":["despite the fact that ..."],"sentences":["s0219","s0220"]}
+    ],
+    "synonyms": ["in spite of"],
+    "confusable": ["desperate","spite"]
+  },
+  {
+    "id": "w0160",
+    "word": "detect",
+    "no": 707,
+    "ipa": "/dɪˈtekt/",
+    "section": "sec09",
+    "forms": {"3sg":"detects","past":"detected","pp":"detected","ing":"detecting"},
+    "senses": [
+      {"pos":"v","meaning":["〜を感知する","〜を見つけ出す"],"collocations":["detect a change"],"sentences":["s0327","s0328"]}
+    ],
+    "synonyms": ["notice"],
+    "confusable": ["defect","deflect"],
+    "der": [["detection","n","発見"],["detective","n","刑事"],["detectable","adj","探知できる"]],
+    "ety": "de(取り除く)+tect(覆う) → 覆いを取る→見つける"
+  },
+  {
+    "id": "w0161",
+    "word": "devote",
+    "no": 708,
+    "ipa": "/dɪˈvoʊt/",
+    "section": "sec09",
+    "forms": {"3sg":"devotes","past":"devoted","pp":"devoted","ing":"devoting"},
+    "senses": [
+      {"pos":"v","meaning":["〜をささげる"],"collocations":["devote A to B"],"sentences":["s0329","s0330"]}
+    ],
+    "synonyms": ["dedicate"],
+    "confusable": ["devout","devise"],
+    "der": [["devotion","n","献身"],["devoted","adj","献身的な"]],
+    "ety": "de+vot(誓う) → 誓って捧げる"
+  },
+  {
+    "id": "w0118",
+    "word": "dialogue",
+    "no": 676,
+    "ipa": "/ˈdaɪəlɔːɡ/",
+    "section": "sec06",
+    "forms": {"plural":"dialogues"},
+    "senses": [
+      {"pos":"n","meaning":["対話","会話","意見の交換"],"collocations":["open dialogue"],"sentences":["s0265","s0266"]}
+    ],
+    "synonyms": ["conversation"],
+    "confusable": ["dialect","catalog"],
+    "der": [["monologue","n","独白"]],
+    "ety": "dia(〜を通して)+logue(言葉) → 言葉を交わす→対話"
+  },
+  {
+    "id": "w0119",
+    "word": "discount",
+    "no": 672,
+    "ipa": "/ˈdɪskaʊnt/",
+    "section": "sec06",
+    "forms": {"3sg":"discounts","past":"discounted","pp":"discounted","ing":"discounting","plural":"discounts"},
+    "senses": [
+      {"pos":"n","meaning":["割引"],"collocations":["at a discount"],"sentences":["s0257"]},
+      {"pos":"v","meaning":["〜を割り引く","〜を軽視する"],"collocations":["discount the price"],"sentences":["s0258"]}
+    ],
+    "synonyms": ["reduction"],
+    "confusable": ["account","discover"],
+    "ety": "dis(否定)+count(数える) → 数から引く"
+  },
+  {
+    "id": "w0162",
+    "word": "discourage",
+    "no": 706,
+    "ipa": "/dɪsˈkɝːɪdʒ/",
+    "section": "sec09",
+    "forms": {"3sg":"discourages","past":"discouraged","pp":"discouraged","ing":"discouraging"},
+    "senses": [
+      {"pos":"v","meaning":["〜に(…する)気をなくさせる","〜を落胆させる"],"collocations":["discourage A from doing"],"sentences":["s0325","s0326"]}
+    ],
+    "synonyms": ["dishearten"],
+    "confusable": ["encourage","discover"],
+    "der": [["discouragement","n","落胆"]],
+    "ant": ["encourage"],
+    "ety": "dis(否定)+courage(勇気) → 勇気を奪う"
+  },
+  {
+    "id": "w0005",
+    "word": "district",
+    "no": 665,
+    "ipa": "/ˈdɪstrɪkt/",
+    "section": "sec06",
+    "forms": {"plural":"districts"},
+    "senses": [
+      {"pos":"n","meaning":["地区、地域"],"note":"行政・特徴による区画。area より区切りが明確","collocations":["a shopping district","a school district"],"sentences":["s0009","s0010"]}
+    ],
+    "synonyms": ["area","region"],
+    "confusable": ["distinct","distract"],
+    "ety": "di(離して)+strict(締める) → 管轄された区域"
+  },
+  {
+    "id": "w0163",
+    "word": "dominate",
+    "no": 702,
+    "ipa": "/ˈdɑːmɪneɪt/",
+    "section": "sec09",
+    "forms": {"3sg":"dominates","past":"dominated","pp":"dominated","ing":"dominating"},
+    "senses": [
+      {"pos":"v","meaning":["〜を支配する","(〜より)優勢である"],"collocations":["dominate the industry"],"sentences":["s0317","s0318"]}
+    ],
+    "synonyms": ["control"],
+    "confusable": ["dominant","nominate"],
+    "der": [["domination","n","支配"],["dominant","adj","支配的な"],["dominance","n","優勢"]],
+    "ety": "domin(主人)+ate(〜する) → 主人として支配する"
+  },
+  {
+    "id": "w0096",
+    "word": "due",
+    "no": 96,
+    "ipa": "/duː/",
+    "section": "sec04",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["予定された","(支払い)期日で"],"collocations":["be due to do","due to ~"],"sentences":["s0211","s0212"]}
+    ],
+    "synonyms": ["expected"],
+    "confusable": ["dew","duo"]
+  },
+  {
+    "id": "w0045",
+    "word": "effect",
+    "no": 48,
+    "ipa": "/ɪˈfekt/",
+    "section": "sec03",
+    "forms": {"plural":"effects"},
+    "senses": [
+      {"pos":"n","meaning":["影響、効果、結果"],"collocations":["have an effect on ~"],"sentences":["s0089","s0090"]}
+    ],
+    "synonyms": ["result"],
+    "confusable": ["affect","efficient"],
+    "der": [["effective","adj","効果的な"]],
+    "ant": ["cause"]
+  },
+  {
+    "id": "w0164",
+    "word": "embarrass",
+    "no": 705,
+    "ipa": "/ɪmˈberəs/",
+    "section": "sec09",
+    "forms": {"3sg":"embarrasses","past":"embarrassed","pp":"embarrassed","ing":"embarrassing"},
+    "senses": [
+      {"pos":"v","meaning":["〜に恥ずかしい思いをさせる"],"collocations":["be embarrassed about ~"],"sentences":["s0323","s0324"]}
+    ],
+    "synonyms": ["humiliate"],
+    "confusable": ["embrace","embargo"],
+    "der": [["embarrassment","n","当惑"]],
+    "ety": "em(中に)+barr(棒) → 棒で行く手をふさぐ→困らせる"
+  },
+  {
+    "id": "w0059",
+    "word": "encourage",
+    "no": 30,
+    "ipa": "/ɪnˈkɝːɪdʒ/",
+    "section": "sec02",
+    "forms": {"3sg":"encourages","past":"encouraged","pp":"encouraged","ing":"encouraging"},
+    "senses": [
+      {"pos":"v","meaning":["〜を励ます","〜に(…するよう)促す、奨励する"],"collocations":["encourage A to do"],"sentences":["s0117","s0118"]}
+    ],
+    "synonyms": ["inspire"],
+    "confusable": ["courage","discourage"],
+    "ant": ["discourage"],
+    "ety": "en(〜にする)+courage(勇気) → 勇気づける"
+  },
+  {
+    "id": "w0046",
+    "word": "environment",
+    "no": 51,
+    "ipa": "/ɪnˈvaɪrənmənt/",
+    "section": "sec03",
+    "forms": {"plural":"environments"},
+    "senses": [
+      {"pos":"n","meaning":["環境","(the ~)自然環境"],"collocations":["protect the environment"],"sentences":["s0091","s0092"]}
+    ],
+    "synonyms": ["surroundings"],
+    "confusable": ["equipment","involvement"],
+    "der": [["environmental","adj","環境の"]]
+  },
+  {
+    "id": "w0120",
+    "word": "equivalent",
+    "no": 685,
+    "ipa": "/ɪˈkwɪvələnt/",
+    "section": "sec07",
+    "forms": {"plural":"equivalents"},
+    "senses": [
+      {"pos":"adj","meaning":["等しい","相当する"],"collocations":["be equivalent to ~"],"sentences":["s0283"]},
+      {"pos":"n","meaning":["(〜に)相当するもの"],"collocations":["an equivalent of ~"],"sentences":["s0284"]}
+    ],
+    "synonyms": ["equal"],
+    "confusable": ["equipment","excellent"],
+    "ety": "equi(等しい)+val(価値)+ent → 等しい価値の"
+  },
+  {
+    "id": "w0065",
+    "word": "evidence",
+    "no": 74,
+    "ipa": "/ˈevɪdəns/",
+    "section": "sec03",
+    "forms": {"plural":"evidence"},
+    "senses": [
+      {"pos":"n","meaning":["証拠"],"collocations":["evidence of ~","evidence that ..."],"sentences":["s0129","s0130"]}
+    ],
+    "synonyms": ["proof"],
+    "confusable": ["evident","evidently"],
+    "der": [["evident","adj","明らかな"],["evidently","adv","明らかに"]],
+    "plnote": "不可算名詞(複数形にしない)",
+    "ety": "e(外に)+vid(見る)+ence → はっきり見えるもの→証拠"
+  },
+  {
+    "id": "w0121",
+    "word": "evil",
+    "no": 693,
+    "ipa": "/ˈiːvl/",
+    "section": "sec07",
+    "forms": {"plural":"evils"},
+    "senses": [
+      {"pos":"adj","meaning":["邪悪な","有害な"],"collocations":["an evil king"],"sentences":["s0299"]},
+      {"pos":"n","meaning":["害悪","悪"],"collocations":["a necessary evil"],"sentences":["s0300"]}
+    ],
+    "synonyms": ["wicked"],
+    "confusable": ["even","devil"],
+    "ant": ["good"]
+  },
+  {
+    "id": "w0122",
+    "word": "exception",
+    "no": 654,
+    "ipa": "/ɪkˈsepʃn/",
+    "section": "sec06",
+    "forms": {"plural":"exceptions"},
+    "senses": [
+      {"pos":"n","meaning":["(〜の)例外"],"collocations":["without exception","make an exception"],"sentences":["s0231","s0232"]}
+    ],
+    "synonyms": ["exemption"],
+    "confusable": ["except","expression"],
+    "der": [["except","prep","〜を除いて"],["exceptional","adj","例外的な"]],
+    "ety": "ex(外に)+cept(取る)+ion → 取り出されたもの→例外"
+  },
+  {
+    "id": "w0165",
+    "word": "exhaust",
+    "no": 714,
+    "ipa": "/ɪɡˈzɔːst/",
+    "section": "sec09",
+    "forms": {"3sg":"exhausts","past":"exhausted","pp":"exhausted","ing":"exhausting","plural":"exhausts"},
+    "senses": [
+      {"pos":"v","meaning":["〜を疲れ果てさせる","〜を使い果たす"],"collocations":["be exhausted by ~"],"sentences":["s0341"]},
+      {"pos":"n","meaning":["排気(ガス)"],"collocations":["car exhaust"],"sentences":["s0342"]}
+    ],
+    "synonyms": ["tire"],
+    "confusable": ["exhibit","exhale"],
+    "der": [["exhaustion","n","疲労困憊"]],
+    "ety": "ex(外に)+haust(汲み出す) → 汲み尽くす→疲れ果てさせる"
+  },
+  {
+    "id": "w0060",
+    "word": "exist",
+    "no": 33,
+    "ipa": "/ɪɡˈzɪst/",
+    "section": "sec02",
+    "forms": {"3sg":"exists","past":"existed","pp":"existed","ing":"existing"},
+    "senses": [
+      {"pos":"v","meaning":["存在する","生存する"],"collocations":["come into existence"],"sentences":["s0119","s0120"]}
+    ],
+    "synonyms": ["live"],
+    "confusable": ["insist","resist"]
+  },
+  {
+    "id": "w0066",
+    "word": "experiment",
+    "no": 64,
+    "ipa": "/ɪkˈsperɪmənt/",
+    "section": "sec03",
+    "forms": {"3sg":"experiments","past":"experimented","pp":"experimented","ing":"experimenting","plural":"experiments"},
+    "senses": [
+      {"pos":"n","meaning":["実験"],"collocations":["do an experiment"],"sentences":["s0131"]},
+      {"pos":"v","meaning":["(〜を対象に)実験する"],"note":"動詞は /ɪkˈsperɪment/ と末尾にも強勢が置かれる","collocations":["experiment with ~"],"sentences":["s0132"]}
+    ],
+    "synonyms": ["test"],
+    "confusable": ["experience","expert"],
+    "der": [["experimental","adj","実験の"]]
+  },
+  {
+    "id": "w0123",
+    "word": "extinct",
+    "no": 694,
+    "ipa": "/ɪkˈstɪŋkt/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["絶滅した","廃止された"],"collocations":["become extinct"],"sentences":["s0301","s0302"]}
+    ],
+    "synonyms": ["vanished"],
+    "confusable": ["distinct","instinct"],
+    "der": [["extinguish","v","〜を消す"],["extinction","n","絶滅"]],
+    "ety": "ex(外に)+stinct(消す) → 火が消えた→絶滅した"
+  },
+  {
+    "id": "w0006",
+    "word": "fault",
+    "no": 671,
+    "ipa": "/fɔːlt/",
+    "section": "sec06",
+    "forms": {"plural":"faults"},
+    "senses": [
+      {"pos":"n","meaning":["(過失の)責任、落ち度"],"collocations":["be at fault","It is my fault that ~"],"sentences":["s0011"]},
+      {"pos":"n","meaning":["欠点、短所"],"collocations":["find fault with ~"],"sentences":["s0012"]},
+      {"pos":"n","meaning":["断層"],"collocations":["an active fault"],"sentences":[]}
+    ],
+    "synonyms": ["blame","defect"],
+    "confusable": ["false","vault"]
+  },
+  {
+    "id": "w0067",
+    "word": "focus",
+    "no": 66,
+    "ipa": "/ˈfoʊkəs/",
+    "section": "sec03",
+    "forms": {"3sg":"focuses","past":"focused","pp":"focused","ing":"focusing","plural":"focuses"},
+    "senses": [
+      {"pos":"n","meaning":["焦点","関心の的"],"collocations":["in focus","out of focus"],"sentences":["s0133"]},
+      {"pos":"v","meaning":["〜を(…に)集中させる"],"collocations":["focus on ~"],"sentences":["s0134"]}
+    ],
+    "synonyms": ["concentration"],
+    "confusable": ["fuss","locus"],
+    "plnote": "複数形は focuses または foci"
+  },
+  {
+    "id": "w0022",
+    "word": "force",
+    "no": 22,
+    "ipa": "/fɔːrs/",
+    "section": "sec02",
+    "forms": {"3sg":"forces","past":"forced","pp":"forced","ing":"forcing","plural":"forces"},
+    "senses": [
+      {"pos":"v","meaning":["〜に(…することを)強いる"],"collocations":["force A to do"],"sentences":["s0043"]},
+      {"pos":"n","meaning":["力、影響力","武力"],"collocations":["by force"],"sentences":["s0044"]}
+    ],
+    "synonyms": ["compel"],
+    "confusable": ["forge","forth"],
+    "der": [["enforce","v","〜を実施する"]]
+  },
+  {
+    "id": "w0124",
+    "word": "forth",
+    "no": 700,
+    "ipa": "/fɔːrθ/",
+    "section": "sec08",
+    "forms": {},
+    "senses": [
+      {"pos":"adv","meaning":["前へ、先へ","それ以降"],"collocations":["back and forth","and so forth"],"sentences":["s0313","s0314"]}
+    ],
+    "synonyms": ["onward"],
+    "confusable": ["fourth","north"]
+  },
+  {
+    "id": "w0047",
+    "word": "found",
+    "no": 39,
+    "ipa": "/faʊnd/",
+    "section": "sec02",
+    "forms": {"3sg":"founds","past":"founded","pp":"founded","ing":"founding"},
+    "senses": [
+      {"pos":"v","meaning":["〜を設立する、創設する"],"note":"find の過去形・過去分詞 found とは別の語(活用: found - founded - founded)","collocations":["be founded on ~"],"sentences":["s0093","s0094"]}
+    ],
+    "synonyms": ["establish"],
+    "confusable": ["fund","fond"],
+    "der": [["foundation","n","基礎"]]
+  },
+  {
+    "id": "w0125",
+    "word": "frame",
+    "no": 660,
+    "ipa": "/freɪm/",
+    "section": "sec06",
+    "forms": {"3sg":"frames","past":"framed","pp":"framed","ing":"framing","plural":"frames"},
+    "senses": [
+      {"pos":"n","meaning":["枠","(額)縁","骨組み"],"collocations":["a frame of mind"],"sentences":["s0239"]},
+      {"pos":"v","meaning":["〜を枠にはめる","〜を組み立てる"],"collocations":["frame a picture"],"sentences":["s0240"]}
+    ],
+    "synonyms": ["border"],
+    "confusable": ["flame","fame"]
+  },
+  {
+    "id": "w0126",
+    "word": "frequent",
+    "no": 689,
+    "ipa": "/ˈfriːkwənt/",
+    "section": "sec07",
+    "forms": {"3sg":"frequents","past":"frequented","pp":"frequented","ing":"frequenting"},
+    "senses": [
+      {"pos":"adj","meaning":["頻繁な"],"collocations":["frequent visits"],"sentences":["s0291"]},
+      {"pos":"v","meaning":["〜をよく訪れる"],"note":"動詞は /frɪˈkwent/ と後ろに強勢が置かれる","collocations":["frequent a cafe"],"sentences":["s0292"]}
+    ],
+    "synonyms": ["regular"],
+    "confusable": ["frequency","fragrant"],
+    "der": [["frequently","adv","しばしば"],["frequency","n","頻度"]],
+    "ant": ["rare"]
+  },
+  {
+    "id": "w0166",
+    "word": "guarantee",
+    "no": 703,
+    "ipa": "/ˌɡerənˈtiː/",
+    "section": "sec09",
+    "forms": {"3sg":"guarantees","past":"guaranteed","pp":"guaranteed","ing":"guaranteeing","plural":"guarantees"},
+    "senses": [
+      {"pos":"v","meaning":["〜を保証する"],"collocations":["guarantee that ..."],"sentences":["s0319"]},
+      {"pos":"n","meaning":["保証(書)","確約","担保"],"collocations":["under guarantee"],"sentences":["s0320"]}
+    ],
+    "synonyms": ["promise"],
+    "confusable": ["guardian","quarantine"]
+  },
+  {
+    "id": "w0127",
+    "word": "habitat",
+    "no": 664,
+    "ipa": "/ˈhæbɪtæt/",
+    "section": "sec06",
+    "forms": {"plural":"habitats"},
+    "senses": [
+      {"pos":"n","meaning":["生息地","(人の)居住地"],"collocations":["a natural habitat"],"sentences":["s0245","s0246"]}
+    ],
+    "synonyms": ["environment"],
+    "confusable": ["habit","inhabit"],
+    "der": [["inhabit","v","〜に住む"],["inhabitant","n","住民"]]
+  },
+  {
+    "id": "w0128",
+    "word": "harvest",
+    "no": 667,
+    "ipa": "/ˈhɑːrvɪst/",
+    "section": "sec06",
+    "forms": {"3sg":"harvests","past":"harvested","pp":"harvested","ing":"harvesting","plural":"harvests"},
+    "senses": [
+      {"pos":"n","meaning":["収穫(物)","収穫期"],"collocations":["a good harvest"],"sentences":["s0249"]},
+      {"pos":"v","meaning":["〜を収穫する"],"collocations":["harvest rice"],"sentences":["s0250"]}
+    ],
+    "synonyms": ["crop"],
+    "confusable": ["harbor","hurry"]
+  },
+  {
+    "id": "w0007",
+    "word": "honor",
+    "no": 649,
+    "alt": ["honour"],
+    "ipa": "/ˈɑːnɚ/",
+    "section": "sec06",
+    "forms": {"plural":"honors","3sg":"honors","past":"honored","pp":"honored","ing":"honoring"},
+    "senses": [
+      {"pos":"n","meaning":["名誉、光栄"],"note":"英綴りは honour","collocations":["in honor of ~","It is an honor to ~"],"sentences":["s0013"]},
+      {"pos":"v","meaning":["(約束・契約を)守る、履行する","敬う、称える"],"collocations":["honor a contract","honor a promise"],"sentences":["s0014"]}
+    ],
+    "synonyms": ["respect","privilege"],
+    "confusable": ["horror","humor"],
+    "der": [["honorable","adj","尊敬すべき"]]
+  },
+  {
+    "id": "w0048",
+    "word": "idea",
+    "no": 41,
+    "ipa": "/aɪˈdiːə/",
+    "section": "sec03",
+    "forms": {"plural":"ideas"},
+    "senses": [
+      {"pos":"n","meaning":["考え、思いつき"],"collocations":["have no idea"],"sentences":["s0095","s0096"]}
+    ],
+    "synonyms": ["thought"],
+    "confusable": ["ideal","idle"]
+  },
+  {
+    "id": "w0023",
+    "word": "improve",
+    "no": 3,
+    "ipa": "/ɪmˈpruːv/",
+    "section": "sec02",
+    "forms": {"3sg":"improves","past":"improved","pp":"improved","ing":"improving"},
+    "senses": [
+      {"pos":"v","meaning":["〜を向上させる、改善する"],"collocations":["improve the quality of ~"],"sentences":["s0045"]},
+      {"pos":"v","meaning":["よくなる、上達する"],"collocations":["improve with age"],"sentences":["s0046"]}
+    ],
+    "synonyms": ["enhance"],
+    "confusable": ["prove","impose"],
+    "der": [["improvement","n","改善"]],
+    "ant": ["worsen"]
+  },
+  {
+    "id": "w0024",
+    "word": "include",
+    "no": 6,
+    "ipa": "/ɪnˈkluːd/",
+    "section": "sec02",
+    "forms": {"3sg":"includes","past":"included","pp":"included","ing":"including"},
+    "senses": [
+      {"pos":"v","meaning":["〜を含む"],"collocations":["tax included"],"sentences":["s0047","s0048"]}
+    ],
+    "synonyms": ["contain"],
+    "confusable": ["conclude","exclude"],
+    "der": [["inclusion","n","包含"],["inclusive","adj","包括的な"]],
+    "ant": ["exclude"],
+    "ety": "in(中に)+clud(閉じる) → 閉じ込める→含む"
+  },
+  {
+    "id": "w0025",
+    "word": "increase",
+    "no": 2,
+    "ipa": "/ɪnˈkriːs/",
+    "section": "sec02",
+    "forms": {"3sg":"increases","past":"increased","pp":"increased","ing":"increasing","plural":"increases"},
+    "senses": [
+      {"pos":"v","meaning":["増加する","〜を増やす"],"collocations":["increase in number"],"sentences":["s0049"]},
+      {"pos":"n","meaning":["増加、増大"],"note":"名詞は /ˈɪnkriːs/ と最初にアクセントを置く","collocations":["on the increase"],"sentences":["s0050"]}
+    ],
+    "synonyms": ["grow"],
+    "confusable": ["decrease","increment"],
+    "der": [["increasingly","adv","ますます"]],
+    "ant": ["decrease","reduce"]
+  },
+  {
+    "id": "w0097",
+    "word": "individual",
+    "no": 82,
+    "ipa": "/ˌɪndɪˈvɪdʒuəl/",
+    "section": "sec04",
+    "forms": {"plural":"individuals"},
+    "senses": [
+      {"pos":"adj","meaning":["個々の","個人の"],"collocations":["individual differences"],"sentences":["s0183"]},
+      {"pos":"n","meaning":["個人","個体"],"collocations":["the rights of the individual"],"sentences":["s0184"]}
+    ],
+    "synonyms": ["personal"],
+    "confusable": ["indivisible","individualism"],
+    "der": [["individuality","n","個性"]],
+    "ant": ["collective"],
+    "ety": "in(否定)+divid(分ける)+ual → 分けられない→個人の"
+  },
+  {
+    "id": "w0049",
+    "word": "influence",
+    "no": 49,
+    "ipa": "/ˈɪnfluəns/",
+    "section": "sec03",
+    "forms": {"3sg":"influences","past":"influenced","pp":"influenced","ing":"influencing","plural":"influences"},
+    "senses": [
+      {"pos":"n","meaning":["影響(力)"],"collocations":["have an influence on ~"],"sentences":["s0097"]},
+      {"pos":"v","meaning":["〜に影響を及ぼす"],"collocations":["influence the decision"],"sentences":["s0098"]}
+    ],
+    "synonyms": ["impact"],
+    "confusable": ["inflate","affluence"],
+    "der": [["influential","adj","影響力のある"]],
+    "ety": "in(中に)+flu(流れる)+ence → 流れ込む力→影響"
+  },
+  {
+    "id": "w0129",
+    "word": "insurance",
+    "no": 659,
+    "ipa": "/ɪnˈʃʊrəns/",
+    "section": "sec06",
+    "forms": {"plural":"insurances"},
+    "senses": [
+      {"pos":"n","meaning":["保険","保険料","保険金"],"collocations":["car insurance"],"sentences":["s0237","s0238"]}
+    ],
+    "synonyms": ["coverage"],
+    "confusable": ["assurance","endurance"],
+    "plnote": "不可算名詞"
+  },
+  {
+    "id": "w0130",
+    "word": "intense",
+    "no": 691,
+    "ipa": "/ɪnˈtens/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["強烈な","熱烈な"],"collocations":["intense heat"],"sentences":["s0295","s0296"]}
+    ],
+    "synonyms": ["extreme"],
+    "confusable": ["intent","intend"],
+    "der": [["intensity","n","強烈さ"],["intensify","v","〜を強化する"],["intensive","adj","集中的な"]]
+  },
+  {
+    "id": "w0050",
+    "word": "interest",
+    "no": 44,
+    "ipa": "/ˈɪntrəst/",
+    "section": "sec03",
+    "forms": {"3sg":"interests","past":"interested","pp":"interested","ing":"interesting","plural":"interests"},
+    "senses": [
+      {"pos":"n","meaning":["興味、関心","利子","利益"],"collocations":["have an interest in ~"],"sentences":["s0099"]},
+      {"pos":"v","meaning":["〜に興味を起こさせる"],"collocations":["be interested in ~"],"sentences":["s0100"]}
+    ],
+    "synonyms": ["curiosity"],
+    "confusable": ["internet","interact"],
+    "der": [["interested","adj","興味をもった"],["interesting","adj","おもしろい"]],
+    "plnote": "「興味」は不可算、「利子・趣味」は可算",
+    "ety": "inter(間に)+est(ある) → 間にある→関心"
+  },
+  {
+    "id": "w0131",
+    "word": "internal",
+    "no": 680,
+    "ipa": "/ɪnˈtɝːnl/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["内部の","国内の"],"collocations":["internal affairs"],"sentences":["s0273","s0274"]}
+    ],
+    "synonyms": ["inner"],
+    "confusable": ["external","eternal"],
+    "der": [["internally","adv","内部で"]],
+    "ant": ["external"]
+  },
+  {
+    "id": "w0026",
+    "word": "involve",
+    "no": 19,
+    "ipa": "/ɪnˈvɑːlv/",
+    "section": "sec02",
+    "forms": {"3sg":"involves","past":"involved","pp":"involved","ing":"involving"},
+    "senses": [
+      {"pos":"v","meaning":["〜を伴う、含む"],"collocations":["A involves B"],"sentences":["s0051"]},
+      {"pos":"v","meaning":["〜を巻き込む","(受身で)関わっている"],"collocations":["be involved in ~"],"sentences":["s0052"]}
+    ],
+    "synonyms": ["engage"],
+    "confusable": ["evolve","revolve"],
+    "der": [["involvement","n","関与"]],
+    "ety": "in(中に)+volv(巻く) → 巻き込む"
+  },
+  {
+    "id": "w0167",
+    "word": "isolate",
+    "no": 712,
+    "ipa": "/ˈaɪsəleɪt/",
+    "section": "sec09",
+    "forms": {"3sg":"isolates","past":"isolated","pp":"isolated","ing":"isolating"},
+    "senses": [
+      {"pos":"v","meaning":["〜を孤立させる","〜を隔離する"],"collocations":["be isolated from ~"],"sentences":["s0337","s0338"]}
+    ],
+    "synonyms": ["separate"],
+    "confusable": ["insulate","isolation"],
+    "der": [["isolation","n","孤立"],["isolated","adj","孤立した"]],
+    "ant": ["connect"],
+    "ety": "isol(島)+ate(〜する) → 島のように切り離す"
+  },
+  {
+    "id": "w0068",
+    "word": "issue",
+    "no": 63,
+    "ipa": "/ˈɪʃuː/",
+    "section": "sec03",
+    "forms": {"3sg":"issues","past":"issued","pp":"issued","ing":"issuing","plural":"issues"},
+    "senses": [
+      {"pos":"n","meaning":["問題(点)","発行(物)"],"collocations":["the latest issue of ~"],"sentences":["s0135"]},
+      {"pos":"v","meaning":["〜を発行する","(声明など)を出す"],"collocations":["issue a statement"],"sentences":["s0136"]}
+    ],
+    "synonyms": ["topic"],
+    "confusable": ["tissue","usual"]
+  },
+  {
+    "id": "w0069",
+    "word": "knowledge",
+    "no": 58,
+    "ipa": "/ˈnɑːlɪdʒ/",
+    "section": "sec03",
+    "forms": {"plural":"knowledge"},
+    "senses": [
+      {"pos":"n","meaning":["知識","知っていること"],"collocations":["common knowledge"],"sentences":["s0137","s0138"]}
+    ],
+    "synonyms": ["understanding"],
+    "confusable": ["college","acknowledge"],
+    "der": [["knowledgeable","adj","博識な"]],
+    "plnote": "不可算名詞(複数形にしない)"
+  },
+  {
+    "id": "w0168",
+    "word": "lend",
+    "no": 710,
+    "ipa": "/lend/",
+    "section": "sec09",
+    "forms": {"3sg":"lends","past":"lent","pp":"lent","ing":"lending"},
+    "senses": [
+      {"pos":"v","meaning":["〜を貸す"],"note":"活用: lend - lent - lent","collocations":["lend A B","lend a hand"],"sentences":["s0333","s0334"]}
+    ],
+    "synonyms": ["loan"],
+    "confusable": ["land","lens"],
+    "ant": ["borrow"]
+  },
+  {
+    "id": "w0098",
+    "word": "likely",
+    "no": 80,
+    "ipa": "/ˈlaɪkli/",
+    "section": "sec04",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["ありそうな"],"collocations":["A is likely to do","It is likely that ..."],"sentences":["s0179","s0180"]}
+    ],
+    "synonyms": ["probable"],
+    "confusable": ["lonely","lively"],
+    "der": [["likelihood","n","可能性"]],
+    "ant": ["unlikely"]
+  },
+  {
+    "id": "w0027",
+    "word": "limit",
+    "no": 23,
+    "ipa": "/ˈlɪmɪt/",
+    "section": "sec02",
+    "forms": {"3sg":"limits","past":"limited","pp":"limited","ing":"limiting","plural":"limits"},
+    "senses": [
+      {"pos":"v","meaning":["〜を制限する"],"collocations":["be limited to ~"],"sentences":["s0053"]},
+      {"pos":"n","meaning":["限度、制限"],"collocations":["there is no limit to ~","the speed limit"],"sentences":["s0054"]}
+    ],
+    "synonyms": ["restrict"],
+    "confusable": ["limp","lime"],
+    "der": [["limitation","n","制限"]]
+  },
+  {
+    "id": "w0132",
+    "word": "logic",
+    "no": 652,
+    "ipa": "/ˈlɑːdʒɪk/",
+    "section": "sec06",
+    "forms": {"plural":"logics"},
+    "senses": [
+      {"pos":"n","meaning":["論理","道理","論理学"],"collocations":["follow the logic"],"sentences":["s0227","s0228"]}
+    ],
+    "synonyms": ["reasoning"],
+    "confusable": ["logo","magic"],
+    "der": [["logical","adj","論理的な"]],
+    "plnote": "不可算名詞"
+  },
+  {
+    "id": "w0099",
+    "word": "major",
+    "no": 88,
+    "ipa": "/ˈmeɪdʒɚ/",
+    "section": "sec04",
+    "forms": {"3sg":"majors","past":"majored","pp":"majored","ing":"majoring"},
+    "senses": [
+      {"pos":"adj","meaning":["主要な","大きいほうの"],"collocations":["a major cause of ~"],"sentences":["s0195"]},
+      {"pos":"v","meaning":["(in 〜を)専攻する"],"note":"名詞は「専攻科目」「少佐」などの意味","collocations":["major in ~"],"sentences":["s0196"]}
+    ],
+    "synonyms": ["principal"],
+    "confusable": ["mayor","manor"],
+    "der": [["majority","n","大多数"]],
+    "ant": ["minor"]
+  },
+  {
+    "id": "w0061",
+    "word": "mark",
+    "no": 34,
+    "ipa": "/mɑːrk/",
+    "section": "sec02",
+    "forms": {"3sg":"marks","past":"marked","pp":"marked","ing":"marking","plural":"marks"},
+    "senses": [
+      {"pos":"v","meaning":["〜に印をつける","〜を採点する"],"collocations":["mark A with B"],"sentences":["s0121"]},
+      {"pos":"n","meaning":["跡、印","点数、成績"],"collocations":["full marks"],"sentences":["s0122"]}
+    ],
+    "synonyms": ["sign"],
+    "confusable": ["market","mask"]
+  },
+  {
+    "id": "w0070",
+    "word": "material",
+    "no": 73,
+    "ipa": "/məˈtɪriəl/",
+    "section": "sec03",
+    "forms": {"plural":"materials"},
+    "senses": [
+      {"pos":"n","meaning":["材料、素材","資料"],"collocations":["raw materials"],"sentences":["s0139"]},
+      {"pos":"adj","meaning":["物質の、物質的な"],"collocations":["material wealth"],"sentences":["s0140"]}
+    ],
+    "synonyms": ["substance"],
+    "confusable": ["matter","maternal"],
+    "der": [["materialism","n","唯物論"]],
+    "plnote": "「材料」は可算(materials)、「素材・生地」は不可算にもなる"
+  },
+  {
+    "id": "w0071",
+    "word": "matter",
+    "no": 53,
+    "ipa": "/ˈmætɚ/",
+    "section": "sec03",
+    "forms": {"3sg":"matters","past":"mattered","pp":"mattered","ing":"mattering","plural":"matters"},
+    "senses": [
+      {"pos":"n","meaning":["事柄、問題","(~s)事態"],"collocations":["as a matter of fact","no matter what ..."],"sentences":["s0141"]},
+      {"pos":"v","meaning":["重要である、問題となる"],"collocations":["It does not matter ..."],"sentences":["s0142"]}
+    ],
+    "synonyms": ["issue"],
+    "confusable": ["master","mutter"]
+  },
+  {
+    "id": "w0028",
+    "word": "mean",
+    "no": 4,
+    "ipa": "/miːn/",
+    "section": "sec02",
+    "forms": {"3sg":"means","past":"meant","pp":"meant","ing":"meaning"},
+    "senses": [
+      {"pos":"v","meaning":["〜を意味する"],"collocations":["mean that ..."],"sentences":["s0055"]},
+      {"pos":"v","meaning":["…するつもりである"],"collocations":["mean to do"],"sentences":["s0056"]}
+    ],
+    "synonyms": ["intend"],
+    "confusable": ["meal","mine"]
+  },
+  {
+    "id": "w0133",
+    "word": "meaningful",
+    "no": 692,
+    "ipa": "/ˈmiːnɪŋfl/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["意味のある"],"collocations":["a meaningful smile"],"sentences":["s0297","s0298"]}
+    ],
+    "synonyms": ["significant"],
+    "confusable": ["meaningless","mournful"],
+    "der": [["meaningless","adj","無意味な"]],
+    "ant": ["meaningless"]
+  },
+  {
+    "id": "w0062",
+    "word": "measure",
+    "no": 32,
+    "ipa": "/ˈmeʒɚ/",
+    "section": "sec02",
+    "forms": {"3sg":"measures","past":"measured","pp":"measured","ing":"measuring","plural":"measures"},
+    "senses": [
+      {"pos":"v","meaning":["〜を測る、測定する"],"collocations":["measure the length of ~"],"sentences":["s0123"]},
+      {"pos":"n","meaning":["方策、対策","基準、尺度"],"collocations":["take measures to do"],"sentences":["s0124"]}
+    ],
+    "synonyms": ["gauge"],
+    "confusable": ["treasure","pleasure"]
+  },
+  {
+    "id": "w0169",
+    "word": "melt",
+    "no": 704,
+    "ipa": "/melt/",
+    "section": "sec09",
+    "forms": {"3sg":"melts","past":"melted","pp":"melted","ing":"melting"},
+    "senses": [
+      {"pos":"v","meaning":["溶ける","〜を溶かす"],"collocations":["a melting pot"],"sentences":["s0321","s0322"]}
+    ],
+    "synonyms": ["thaw"],
+    "confusable": ["meat","smelt"],
+    "ant": ["freeze"]
+  },
+  {
+    "id": "w0072",
+    "word": "memory",
+    "no": 59,
+    "ipa": "/ˈmeməri/",
+    "section": "sec03",
+    "forms": {"plural":"memories"},
+    "senses": [
+      {"pos":"n","meaning":["記憶(力)"],"collocations":["have a good memory"],"sentences":["s0143"]},
+      {"pos":"n","meaning":["(~の)思い出"],"collocations":["happy memories of ~"],"sentences":["s0144"]}
+    ],
+    "synonyms": ["recollection"],
+    "confusable": ["memorize","mammary"],
+    "der": [["memorize","v","〜を暗記する"]],
+    "plnote": "「記憶(力)」は不可算、「思い出」は可算(memories)"
+  },
+  {
+    "id": "w0134",
+    "word": "mere",
+    "no": 698,
+    "ipa": "/mɪr/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["単なる","ほんの"],"collocations":["a mere child"],"sentences":["s0309","s0310"]}
+    ],
+    "synonyms": ["simple"],
+    "confusable": ["more","mare"],
+    "der": [["merely","adv","単に"]]
+  },
+  {
+    "id": "w0135",
+    "word": "minimum",
+    "no": 653,
+    "ipa": "/ˈmɪnɪməm/",
+    "section": "sec06",
+    "forms": {"plural":"minimums"},
+    "senses": [
+      {"pos":"n","meaning":["最小限度"],"collocations":["at a minimum"],"sentences":["s0229"]},
+      {"pos":"adj","meaning":["最小(限)の","最低限の"],"collocations":["the minimum age"],"sentences":["s0230"]}
+    ],
+    "synonyms": ["least"],
+    "confusable": ["maximum","minimal"],
+    "der": [["minimal","adj","最小の"]],
+    "ant": ["maximum"]
+  },
+  {
+    "id": "w0100",
+    "word": "native",
+    "no": 94,
+    "ipa": "/ˈneɪtɪv/",
+    "section": "sec04",
+    "forms": {"plural":"natives"},
+    "senses": [
+      {"pos":"adj","meaning":["出生地の、母国の","原産の"],"collocations":["a native speaker","be native to ~"],"sentences":["s0207"]},
+      {"pos":"n","meaning":["その土地に生まれた人"],"collocations":["a native of ~"],"sentences":["s0208"]}
+    ],
+    "synonyms": ["indigenous"],
+    "confusable": ["naive","negative"],
+    "ant": ["foreign"]
+  },
+  {
+    "id": "w0051",
+    "word": "object",
+    "no": 37,
+    "ipa": "/əbˈdʒekt/",
+    "section": "sec02",
+    "forms": {"3sg":"objects","past":"objected","pp":"objected","ing":"objecting","plural":"objects"},
+    "senses": [
+      {"pos":"v","meaning":["反対する(object to ~)"],"collocations":["object to ~"],"sentences":["s0101"]},
+      {"pos":"n","meaning":["物、物体","対象","目的"],"note":"名詞は /ˈɑːbdʒekt/ と最初にアクセントを置く","collocations":["an object of ~"],"sentences":["s0102"]}
+    ],
+    "synonyms": ["oppose"],
+    "confusable": ["subject","project"],
+    "der": [["objection","n","反対"],["objective","adj","客観的な"]],
+    "ety": "ob(〜に向かって)+ject(投げる) → 向かって投げかける→反対する"
+  },
+  {
+    "id": "w0029",
+    "word": "offer",
+    "no": 12,
+    "ipa": "/ˈɔːfɚ/",
+    "section": "sec02",
+    "forms": {"3sg":"offers","past":"offered","pp":"offered","ing":"offering","plural":"offers"},
+    "senses": [
+      {"pos":"v","meaning":["〜を提供する、申し出る"],"collocations":["offer to do"],"sentences":["s0057"]},
+      {"pos":"n","meaning":["申し出、提供"],"collocations":["accept an offer"],"sentences":["s0058"]}
+    ],
+    "synonyms": ["provide"],
+    "confusable": ["offset","suffer"],
+    "der": [["offering","n","提供"]]
+  },
+  {
+    "id": "w0030",
+    "word": "own",
+    "no": 5,
+    "ipa": "/oʊn/",
+    "section": "sec02",
+    "forms": {"3sg":"owns","past":"owned","pp":"owned","ing":"owning"},
+    "senses": [
+      {"pos":"v","meaning":["〜を所有している"],"collocations":["own a house"],"sentences":["s0059"]},
+      {"pos":"adj","meaning":["自分自身の、独自の"],"collocations":["of one's own"],"sentences":["s0060"]}
+    ],
+    "synonyms": ["possess"],
+    "confusable": ["owe","known"]
+  },
+  {
+    "id": "w0101",
+    "word": "particular",
+    "no": 90,
+    "ipa": "/pɚˈtɪkjələr/",
+    "section": "sec04",
+    "forms": {"plural":"particulars"},
+    "senses": [
+      {"pos":"adj","meaning":["特定の","特別の"],"collocations":["in particular"],"sentences":["s0199"]},
+      {"pos":"n","meaning":["(~s)詳細、項目"],"collocations":["the particulars of ~"],"sentences":["s0200"]}
+    ],
+    "synonyms": ["specific"],
+    "confusable": ["particle","perpendicular"],
+    "der": [["particularly","adv","特に"]]
+  },
+  {
+    "id": "w0136",
+    "word": "patent",
+    "no": 675,
+    "ipa": "/ˈpætnt/",
+    "section": "sec06",
+    "forms": {"plural":"patents"},
+    "senses": [
+      {"pos":"n","meaning":["特許(権)","特許品"],"collocations":["apply for a patent"],"sentences":["s0263","s0264"]}
+    ],
+    "synonyms": ["license"],
+    "confusable": ["patient","parent"]
+  },
+  {
+    "id": "w0102",
+    "word": "patient",
+    "no": 89,
+    "ipa": "/ˈpeɪʃnt/",
+    "section": "sec04",
+    "forms": {"plural":"patients"},
+    "senses": [
+      {"pos":"adj","meaning":["忍耐強い","勤勉な"],"collocations":["be patient with ~"],"sentences":["s0197"]},
+      {"pos":"n","meaning":["患者"],"collocations":["a patient in hospital"],"sentences":["s0198"]}
+    ],
+    "synonyms": ["tolerant"],
+    "confusable": ["patience","potent"],
+    "der": [["patience","n","忍耐"],["patiently","adv","辛抱強く"]],
+    "ant": ["impatient"]
+  },
+  {
+    "id": "w0137",
+    "word": "permanent",
+    "no": 690,
+    "ipa": "/ˈpɝːmənənt/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["永続的な"],"collocations":["a permanent job"],"sentences":["s0293","s0294"]}
+    ],
+    "synonyms": ["lasting"],
+    "confusable": ["permission","prominent"],
+    "der": [["permanently","adv","永久に"]],
+    "ant": ["temporary"],
+    "ety": "per(通して)+man(とどまる)+ent → ずっと留まる→永続的な"
+  },
+  {
+    "id": "w0103",
+    "word": "physical",
+    "no": 91,
+    "ipa": "/ˈfɪzɪkl/",
+    "section": "sec04",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["身体の","物質の、物理的な"],"collocations":["physical health","physical evidence"],"sentences":["s0201","s0202"]}
+    ],
+    "synonyms": ["bodily"],
+    "confusable": ["physician","physics"],
+    "der": [["physics","n","物理学"]],
+    "ant": ["mental"]
+  },
+  {
+    "id": "w0104",
+    "word": "political",
+    "no": 95,
+    "ipa": "/pəˈlɪtɪkl/",
+    "section": "sec04",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["政治(上)の"],"collocations":["a political party"],"sentences":["s0209","s0210"]}
+    ],
+    "synonyms": ["governmental"],
+    "confusable": ["policy","politics"],
+    "der": [["politics","n","政治"],["policy","n","政策"],["politician","n","政治家"]]
+  },
+  {
+    "id": "w0170",
+    "word": "possess",
+    "no": 701,
+    "ipa": "/pəˈzes/",
+    "section": "sec09",
+    "forms": {"3sg":"possesses","past":"possessed","pp":"possessed","ing":"possessing"},
+    "senses": [
+      {"pos":"v","meaning":["〜を所有している","(才能など)をもっている"],"collocations":["be possessed by ~"],"sentences":["s0315","s0316"]}
+    ],
+    "synonyms": ["own"],
+    "confusable": ["possible","process"],
+    "der": [["possession","n","所有"]],
+    "ety": "pos(力)+sess(座る) → 力をもって居座る→所有する"
+  },
+  {
+    "id": "w0105",
+    "word": "possible",
+    "no": 81,
+    "ipa": "/ˈpɑːsəbl/",
+    "section": "sec04",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["可能な","可能性のある"],"collocations":["It is possible (for ~) to do","as soon as possible"],"sentences":["s0181","s0182"]}
+    ],
+    "synonyms": ["feasible"],
+    "confusable": ["passable","possess"],
+    "der": [["possibility","n","可能性"]],
+    "ant": ["impossible"]
+  },
+  {
+    "id": "w0073",
+    "word": "practice",
+    "no": 60,
+    "ipa": "/ˈpræktɪs/",
+    "section": "sec03",
+    "forms": {"3sg":"practices","past":"practiced","pp":"practiced","ing":"practicing","plural":"practices"},
+    "senses": [
+      {"pos":"n","meaning":["実践、実行","練習","(社会の)慣習"],"collocations":["put ~ into practice"],"sentences":["s0145"]},
+      {"pos":"v","meaning":["〜を習慣的に行う","〜を練習する"],"collocations":["practice the piano"],"sentences":["s0146"]}
+    ],
+    "synonyms": ["training"],
+    "confusable": ["practical","practise"],
+    "der": [["practical","adj","実際的な"],["practically","adv","事実上"]],
+    "plnote": "不可算・可算の両方"
+  },
+  {
+    "id": "w0138",
+    "word": "predator",
+    "no": 668,
+    "ipa": "/ˈpredətɚ/",
+    "section": "sec06",
+    "forms": {"plural":"predators"},
+    "senses": [
+      {"pos":"n","meaning":["捕食動物","略奪者"],"collocations":["a natural predator"],"sentences":["s0251","s0252"]}
+    ],
+    "synonyms": ["hunter"],
+    "confusable": ["prediction","creator"],
+    "der": [["predatory","adj","捕食性の"]]
+  },
+  {
+    "id": "w0139",
+    "word": "principal",
+    "no": 683,
+    "ipa": "/ˈprɪnsəpl/",
+    "section": "sec07",
+    "forms": {"plural":"principals"},
+    "senses": [
+      {"pos":"adj","meaning":["主要な"],"collocations":["the principal industry"],"sentences":["s0279"]},
+      {"pos":"n","meaning":["校長","元金"],"note":"principle(原則)と同じ発音","collocations":["a school principal"],"sentences":["s0280"]}
+    ],
+    "synonyms": ["main"],
+    "confusable": ["principle","principal"],
+    "der": [["principle","n","原則"]]
+  },
+  {
+    "id": "w0008",
+    "word": "priority",
+    "no": 651,
+    "ipa": "/praɪˈɔːrəti/",
+    "section": "sec06",
+    "forms": {"plural":"priorities"},
+    "senses": [
+      {"pos":"n","meaning":["優先事項、優先(権)"],"collocations":["top priority","give priority to ~","take priority over ~"],"sentences":["s0015","s0016"]}
+    ],
+    "synonyms": ["precedence"],
+    "confusable": ["privacy","majority"],
+    "der": [["prior","adj","先の"]]
+  },
+  {
+    "id": "w0031",
+    "word": "produce",
+    "no": 10,
+    "ipa": "/prəˈduːs/",
+    "section": "sec02",
+    "forms": {"3sg":"produces","past":"produced","pp":"produced","ing":"producing","plural":"produces"},
+    "senses": [
+      {"pos":"v","meaning":["〜を生産する、生み出す"],"collocations":["produce goods"],"sentences":["s0061"]},
+      {"pos":"n","meaning":["農産物"],"note":"名詞は /ˈproʊduːs/ と最初にアクセントを置く","collocations":["fresh produce"],"sentences":["s0062"]}
+    ],
+    "synonyms": ["manufacture"],
+    "confusable": ["product","reduce"],
+    "der": [["production","n","生産"],["product","n","製品"],["productive","adj","生産的な"]],
+    "ant": ["consume"],
+    "plnote": "不可算名詞(農産物を集合的に表す)",
+    "ety": "pro(前に)+duce(導く) → 前へ導き出す→生産する"
+  },
+  {
+    "id": "w0074",
+    "word": "project",
+    "no": 68,
+    "ipa": "/ˈprɑːdʒekt/",
+    "section": "sec03",
+    "forms": {"plural":"projects"},
+    "senses": [
+      {"pos":"n","meaning":["計画、事業","研究課題"],"note":"動詞は /prəˈdʒekt/ で「〜を計画する」「〜を投影する」","collocations":["carry out a project"],"sentences":["s0147","s0148"]}
+    ],
+    "synonyms": ["plan"],
+    "confusable": ["object","subject"],
+    "ety": "pro(前に)+ject(投げる) → 前に投げ出された計画"
+  },
+  {
+    "id": "w0106",
+    "word": "public",
+    "no": 83,
+    "ipa": "/ˈpʌblɪk/",
+    "section": "sec04",
+    "forms": {"plural":"publics"},
+    "senses": [
+      {"pos":"adj","meaning":["公の","公共の"],"collocations":["a public library"],"sentences":["s0185"]},
+      {"pos":"n","meaning":["(the ~)一般大衆"],"collocations":["in public"],"sentences":["s0186"]}
+    ],
+    "synonyms": ["civic"],
+    "confusable": ["publish","publicity"],
+    "der": [["publicity","n","周知"]],
+    "ant": ["private"],
+    "plnote": "集合名詞(the public は単数扱いにも複数扱いにもなる)"
+  },
+  {
+    "id": "w0075",
+    "word": "quality",
+    "no": 69,
+    "ipa": "/ˈkwɑːləti/",
+    "section": "sec03",
+    "forms": {"plural":"qualities"},
+    "senses": [
+      {"pos":"n","meaning":["質、品質"],"collocations":["quality of life"],"sentences":["s0149"]},
+      {"pos":"n","meaning":["特質、特性"],"collocations":["a quality of ~"],"sentences":["s0150"]}
+    ],
+    "synonyms": ["standard"],
+    "confusable": ["quantity","qualify"],
+    "der": [["qualitative","adj","質的な"]],
+    "plnote": "「質」は不可算、「特質」は可算(qualities)"
+  },
+  {
+    "id": "w0140",
+    "word": "random",
+    "no": 695,
+    "ipa": "/ˈrændəm/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["無作為の","手当たり次第の"],"collocations":["at random","a random sample"],"sentences":["s0303","s0304"]}
+    ],
+    "synonyms": ["arbitrary"],
+    "confusable": ["ransom","rendezvous"]
+  },
+  {
+    "id": "w0141",
+    "word": "rational",
+    "no": 686,
+    "ipa": "/ˈræʃnəl/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["理性的な","合理的な"],"collocations":["a rational decision"],"sentences":["s0285","s0286"]}
+    ],
+    "synonyms": ["reasonable"],
+    "confusable": ["national","rationale"],
+    "der": [["rationalism","n","合理主義"],["rationalize","v","〜を合理化する"],["irrational","adj","不合理な"]],
+    "ant": ["irrational"]
+  },
+  {
+    "id": "w0142",
+    "word": "raw",
+    "no": 696,
+    "ipa": "/rɔː/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["生の","未加工の"],"collocations":["raw materials","eat meat raw"],"sentences":["s0305","s0306"]}
+    ],
+    "synonyms": ["uncooked"],
+    "confusable": ["row","saw"],
+    "ant": ["cooked"]
+  },
+  {
+    "id": "w0032",
+    "word": "realize",
+    "no": 29,
+    "alt": ["realise"],
+    "ipa": "/ˈriːəlaɪz/",
+    "section": "sec02",
+    "forms": {"3sg":"realizes","past":"realized","pp":"realized","ing":"realizing"},
+    "senses": [
+      {"pos":"v","meaning":["〜に気づく、〜を理解する"],"collocations":["realize that ..."],"sentences":["s0063"]},
+      {"pos":"v","meaning":["〜を実現する"],"collocations":["realize one's dream"],"sentences":["s0064"]}
+    ],
+    "synonyms": ["notice"],
+    "confusable": ["real","relieve"],
+    "der": [["realization","n","実現"]]
+  },
+  {
+    "id": "w0052",
+    "word": "reason",
+    "no": 47,
+    "ipa": "/ˈriːzn/",
+    "section": "sec03",
+    "forms": {"3sg":"reasons","past":"reasoned","pp":"reasoned","ing":"reasoning","plural":"reasons"},
+    "senses": [
+      {"pos":"n","meaning":["理由、根拠"],"collocations":["the reason for ~"],"sentences":["s0103"]},
+      {"pos":"v","meaning":["論理的に考える、推論する"],"collocations":["reason that ..."],"sentences":["s0104"]}
+    ],
+    "synonyms": ["cause"],
+    "confusable": ["season","treason"],
+    "der": [["reasonable","adj","合理的な"],["reasoning","n","推論"]]
+  },
+  {
+    "id": "w0107",
+    "word": "recent",
+    "no": 87,
+    "ipa": "/ˈriːsnt/",
+    "section": "sec04",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["最近の"],"collocations":["in recent years"],"sentences":["s0193","s0194"]}
+    ],
+    "synonyms": ["latest"],
+    "confusable": ["resent","decent"],
+    "der": [["recently","adv","最近"]]
+  },
+  {
+    "id": "w0033",
+    "word": "reduce",
+    "no": 20,
+    "ipa": "/rɪˈduːs/",
+    "section": "sec02",
+    "forms": {"3sg":"reduces","past":"reduced","pp":"reduced","ing":"reducing"},
+    "senses": [
+      {"pos":"v","meaning":["〜を減らす、〜を(…に)変える"],"collocations":["reduce the risk of ~"],"sentences":["s0065","s0066"]}
+    ],
+    "synonyms": ["decrease"],
+    "confusable": ["produce","induce"],
+    "der": [["reduction","n","減少"]],
+    "ant": ["increase"],
+    "ety": "re(後ろに)+duce(導く) → 引き戻す→減らす"
+  },
+  {
+    "id": "w0034",
+    "word": "relate",
+    "no": 28,
+    "ipa": "/rɪˈleɪt/",
+    "section": "sec02",
+    "forms": {"3sg":"relates","past":"related","pp":"related","ing":"relating"},
+    "senses": [
+      {"pos":"v","meaning":["〜を(…に)関連づける","(be related to ~ で)〜に関連している"],"collocations":["be related to ~","relate A to B"],"sentences":["s0067","s0068"]}
+    ],
+    "synonyms": ["connect"],
+    "confusable": ["relax","release"],
+    "der": [["relation","n","関係"],["relative","adj","相対的な"]]
+  },
+  {
+    "id": "w0143",
+    "word": "relevant",
+    "no": 687,
+    "ipa": "/ˈreləvənt/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["関係がある","適切な"],"collocations":["be relevant to ~"],"sentences":["s0287","s0288"]}
+    ],
+    "synonyms": ["related"],
+    "confusable": ["relative","reluctant"],
+    "der": [["relevance","n","関連(性)"],["irrelevant","adj","無関係な"]],
+    "ant": ["irrelevant"],
+    "ety": "re(再び)+lev(持ち上げる)+ant → 持ち上げて支える→関連する"
+  },
+  {
+    "id": "w0144",
+    "word": "remote",
+    "no": 682,
+    "ipa": "/rɪˈmoʊt/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["(〜から)遠く離れた"],"collocations":["a remote relative","be remote from ~"],"sentences":["s0277","s0278"]}
+    ],
+    "synonyms": ["distant"],
+    "confusable": ["remove","remark"],
+    "ant": ["near"]
+  },
+  {
+    "id": "w0145",
+    "word": "reputation",
+    "no": 678,
+    "ipa": "/ˌrepjuˈteɪʃn/",
+    "section": "sec06",
+    "forms": {"plural":"reputations"},
+    "senses": [
+      {"pos":"n","meaning":["評判","名声"],"collocations":["have a reputation for ~"],"sentences":["s0269","s0270"]}
+    ],
+    "synonyms": ["fame"],
+    "confusable": ["repetition","computation"],
+    "der": [["repute","v","〜と評判される"]],
+    "ety": "re(再び)+put(考える)+ation → 繰り返し考えられること→評判"
+  },
+  {
+    "id": "w0035",
+    "word": "require",
+    "no": 13,
+    "ipa": "/rɪˈkwaɪɚ/",
+    "section": "sec02",
+    "forms": {"3sg":"requires","past":"required","pp":"required","ing":"requiring"},
+    "senses": [
+      {"pos":"v","meaning":["〜を要求する、義務づける"],"collocations":["require A to do"],"sentences":["s0069"]},
+      {"pos":"v","meaning":["〜を必要とする"],"collocations":["require time"],"sentences":["s0070"]}
+    ],
+    "synonyms": ["demand"],
+    "confusable": ["acquire","request"],
+    "der": [["requirement","n","必要条件"],["required","adj","必須の"]],
+    "ety": "re(再び)+quire(求める) → 繰り返し求める→要求する"
+  },
+  {
+    "id": "w0053",
+    "word": "research",
+    "no": 45,
+    "ipa": "/ˈriːsɝːtʃ/",
+    "section": "sec03",
+    "forms": {"3sg":"researches","past":"researched","pp":"researched","ing":"researching","plural":"researches"},
+    "senses": [
+      {"pos":"n","meaning":["研究、調査"],"collocations":["research shows that ..."],"sentences":["s0105"]},
+      {"pos":"v","meaning":["〜を研究する、調査する"],"collocations":["research the causes of ~"],"sentences":["s0106"]}
+    ],
+    "synonyms": ["study"],
+    "confusable": ["search","reserve"],
+    "der": [["researcher","n","研究者"]],
+    "plnote": "通例、不可算名詞(複数形にしない)"
+  },
+  {
+    "id": "w0171",
+    "word": "restrict",
+    "no": 711,
+    "ipa": "/rɪˈstrɪkt/",
+    "section": "sec09",
+    "forms": {"3sg":"restricts","past":"restricted","pp":"restricted","ing":"restricting"},
+    "senses": [
+      {"pos":"v","meaning":["〜を制限する"],"collocations":["be restricted to ~"],"sentences":["s0335","s0336"]}
+    ],
+    "synonyms": ["limit"],
+    "confusable": ["restrain","restore"],
+    "der": [["restriction","n","制限"],["restrictive","adj","制限する"]],
+    "ety": "re(後ろに)+strict(締める) → 締めつける→制限する"
+  },
+  {
+    "id": "w0076",
+    "word": "role",
+    "no": 70,
+    "ipa": "/roʊl/",
+    "section": "sec03",
+    "forms": {"plural":"roles"},
+    "senses": [
+      {"pos":"n","meaning":["役割"],"collocations":["play an important role in ~"],"sentences":["s0151"]},
+      {"pos":"n","meaning":["(俳優などの)役"],"collocations":["the leading role"],"sentences":["s0152"]}
+    ],
+    "synonyms": ["part"],
+    "confusable": ["roll","rule"]
+  },
+  {
+    "id": "w0146",
+    "word": "rude",
+    "no": 697,
+    "ipa": "/ruːd/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["無礼な"],"collocations":["It is rude of A to do"],"sentences":["s0307","s0308"]}
+    ],
+    "synonyms": ["impolite"],
+    "confusable": ["rule","road"],
+    "ant": ["polite"]
+  },
+  {
+    "id": "w0036",
+    "word": "share",
+    "no": 14,
+    "ipa": "/ʃer/",
+    "section": "sec02",
+    "forms": {"3sg":"shares","past":"shared","pp":"shared","ing":"sharing","plural":"shares"},
+    "senses": [
+      {"pos":"v","meaning":["〜を共有する","〜を分担する"],"collocations":["share A with B"],"sentences":["s0071"]},
+      {"pos":"n","meaning":["分け前、分担","株(式)"],"collocations":["a fair share of ~"],"sentences":["s0072"]}
+    ],
+    "synonyms": ["divide"],
+    "confusable": ["shore","shame"]
+  },
+  {
+    "id": "w0147",
+    "word": "shelter",
+    "no": 661,
+    "ipa": "/ˈʃeltɚ/",
+    "section": "sec06",
+    "forms": {"3sg":"shelters","past":"sheltered","pp":"sheltered","ing":"sheltering","plural":"shelters"},
+    "senses": [
+      {"pos":"n","meaning":["避難(所)","保護"],"collocations":["take shelter from ~"],"sentences":["s0241"]},
+      {"pos":"v","meaning":["〜を保護する","〜をかくまう"],"collocations":["shelter A from B"],"sentences":["s0242"]}
+    ],
+    "synonyms": ["refuge"],
+    "confusable": ["shelf","shelter"],
+    "plnote": "不可算名詞(避難所の意味では可算)"
+  },
+  {
+    "id": "w0108",
+    "word": "similar",
+    "no": 86,
+    "ipa": "/ˈsɪmələr/",
+    "section": "sec04",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["似ている、類似した"],"collocations":["be similar to ~"],"sentences":["s0191","s0192"]}
+    ],
+    "synonyms": ["alike"],
+    "confusable": ["simple","simulate"],
+    "der": [["similarity","n","類似"],["similarly","adv","同様に"]],
+    "ant": ["different","dissimilar"]
+  },
+  {
+    "id": "w0054",
+    "word": "situation",
+    "no": 50,
+    "ipa": "/ˌsɪtʃuˈeɪʃn/",
+    "section": "sec03",
+    "forms": {"plural":"situations"},
+    "senses": [
+      {"pos":"n","meaning":["状況","(人の置かれた)立場"],"collocations":["in a difficult situation"],"sentences":["s0107","s0108"]}
+    ],
+    "synonyms": ["circumstances"],
+    "confusable": ["station","solution"],
+    "der": [["situational","adj","状況の"]]
+  },
+  {
+    "id": "w0055",
+    "word": "skill",
+    "no": 52,
+    "ipa": "/skɪl/",
+    "section": "sec03",
+    "forms": {"plural":"skills"},
+    "senses": [
+      {"pos":"n","meaning":["技能、熟練、腕前"],"collocations":["communication skills"],"sentences":["s0109","s0110"]}
+    ],
+    "synonyms": ["ability"],
+    "confusable": ["skull","kill"],
+    "der": [["skilled","adj","熟練した"],["skillful","adj","巧みな"]]
+  },
+  {
+    "id": "w0148",
+    "word": "solid",
+    "no": 681,
+    "ipa": "/ˈsɑːlɪd/",
+    "section": "sec07",
+    "forms": {"plural":"solids"},
+    "senses": [
+      {"pos":"adj","meaning":["しっかりした","硬い","固体の"],"collocations":["solid fuel"],"sentences":["s0275"]},
+      {"pos":"n","meaning":["固体","固形物"],"collocations":["liquid and solid"],"sentences":["s0276"]}
+    ],
+    "synonyms": ["firm"],
+    "confusable": ["salad","soil"],
+    "der": [["solidify","v","〜を固める"]],
+    "ant": ["liquid"]
+  },
+  {
+    "id": "w0149",
+    "word": "sophisticated",
+    "no": 684,
+    "ipa": "/səˈfɪstɪkeɪtɪd/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["高性能の","精巧な","洗練された"],"collocations":["a sophisticated system"],"sentences":["s0281","s0282"]}
+    ],
+    "synonyms": ["advanced"],
+    "confusable": ["sophomore","specified"],
+    "der": [["sophistication","n","洗練"]]
+  },
+  {
+    "id": "w0077",
+    "word": "source",
+    "no": 75,
+    "ipa": "/sɔːrs/",
+    "section": "sec03",
+    "forms": {"plural":"sources"},
+    "senses": [
+      {"pos":"n","meaning":["(〜の)源、根源","出所"],"collocations":["a source of information"],"sentences":["s0153","s0154"]}
+    ],
+    "synonyms": ["origin"],
+    "confusable": ["sauce","course"]
+  },
+  {
+    "id": "w0078",
+    "word": "species",
+    "no": 56,
+    "ipa": "/ˈspiːʃiːz/",
+    "section": "sec03",
+    "forms": {"plural":"species"},
+    "senses": [
+      {"pos":"n","meaning":["(生物の)種","種類"],"note":"単数形と複数形が同じ形","collocations":["an endangered species"],"sentences":["s0155","s0156"]}
+    ],
+    "synonyms": ["kind"],
+    "confusable": ["special","specific"],
+    "plnote": "単数と複数が同じ形"
+  },
+  {
+    "id": "w0079",
+    "word": "statement",
+    "no": 72,
+    "ipa": "/ˈsteɪtmənt/",
+    "section": "sec03",
+    "forms": {"plural":"statements"},
+    "senses": [
+      {"pos":"n","meaning":["声明、主張","明細書"],"collocations":["make an official statement"],"sentences":["s0157","s0158"]}
+    ],
+    "synonyms": ["declaration"],
+    "confusable": ["state","statue"],
+    "der": [["state","v","〜を述べる"]]
+  },
+  {
+    "id": "w0037",
+    "word": "store",
+    "no": 15,
+    "ipa": "/stɔːr/",
+    "section": "sec02",
+    "forms": {"3sg":"stores","past":"stored","pp":"stored","ing":"storing","plural":"stores"},
+    "senses": [
+      {"pos":"v","meaning":["〜を保存する、蓄える"],"collocations":["store data"],"sentences":["s0073"]},
+      {"pos":"n","meaning":["店","蓄え"],"collocations":["a convenience store"],"sentences":["s0074"]}
+    ],
+    "synonyms": ["keep"],
+    "confusable": ["stare","stone"]
+  },
+  {
+    "id": "w0080",
+    "word": "subject",
+    "no": 67,
+    "ipa": "/ˈsʌbdʒɪkt/",
+    "section": "sec03",
+    "forms": {"plural":"subjects"},
+    "senses": [
+      {"pos":"n","meaning":["話題、主題","科目","被験者"],"collocations":["change the subject"],"sentences":["s0159"]},
+      {"pos":"adj","meaning":["(be subject to ~ で)〜を受けやすい、〜に左右される"],"note":"動詞は /səbˈdʒekt/ で「〜を服従させる」","collocations":["be subject to ~"],"sentences":["s0160"]}
+    ],
+    "synonyms": ["topic"],
+    "confusable": ["object","project"],
+    "der": [["subjective","adj","主観的な"]],
+    "ety": "sub(下に)+ject(投げる) → 下に置かれたもの→主題・科目"
+  },
+  {
+    "id": "w0038",
+    "word": "suggest",
+    "no": 9,
+    "ipa": "/səɡˈdʒest/",
+    "section": "sec02",
+    "forms": {"3sg":"suggests","past":"suggested","pp":"suggested","ing":"suggesting"},
+    "senses": [
+      {"pos":"v","meaning":["〜を提案する"],"collocations":["suggest that ...","suggest doing"],"sentences":["s0075"]},
+      {"pos":"v","meaning":["〜を暗示する、示唆する"],"collocations":["suggest that ..."],"sentences":["s0076"]}
+    ],
+    "synonyms": ["propose"],
+    "confusable": ["suggestion","digest"],
+    "der": [["suggestion","n","提案"],["suggestive","adj","暗示的な"]],
+    "ety": "sug(下に)+gest(運ぶ) → 下から持ち出す→提案する"
+  },
+  {
+    "id": "w0150",
+    "word": "sum",
+    "no": 646,
+    "ipa": "/sʌm/",
+    "section": "sec06",
+    "forms": {"3sg":"sums","past":"summed","pp":"summed","ing":"summing","plural":"sums"},
+    "senses": [
+      {"pos":"n","meaning":["(金)額","合計","要点"],"collocations":["a large sum of money","in sum"],"sentences":["s0223"]},
+      {"pos":"v","meaning":["(sum up で)〜を要約する"],"collocations":["to sum up"],"sentences":["s0224"]}
+    ],
+    "synonyms": ["total"],
+    "confusable": ["some","sun"],
+    "der": [["summary","n","要約"],["summarize","v","〜を要約する"]]
+  },
+  {
+    "id": "w0009",
+    "word": "surgery",
+    "no": 658,
+    "ipa": "/ˈsɝːdʒəri/",
+    "section": "sec06",
+    "forms": {"plural":"surgeries"},
+    "senses": [
+      {"pos":"n","meaning":["手術","外科(学)"],"collocations":["undergo surgery","plastic surgery"],"sentences":["s0017","s0018"]}
+    ],
+    "synonyms": ["operation"],
+    "confusable": ["surgeon","urgency"],
+    "der": [["surgical","adj","外科の"],["surgeon","n","外科医"]],
+    "plnote": "「手術」は可算(surgeries)、「外科(学)」は不可算"
+  },
+  {
+    "id": "w0109",
+    "word": "technology",
+    "no": 77,
+    "ipa": "/tekˈnɑːlədʒi/",
+    "section": "sec03",
+    "forms": {"plural":"technologies"},
+    "senses": [
+      {"pos":"n","meaning":["科学技術、応用技術"],"collocations":["modern technology","information technology"],"sentences":["s0173","s0174"]}
+    ],
+    "synonyms": ["engineering"],
+    "confusable": ["technique","ecology"],
+    "der": [["technological","adj","科学技術の"]],
+    "plnote": "不可算・可算の両方(technologies)"
+  },
+  {
+    "id": "w0039",
+    "word": "tend",
+    "no": 16,
+    "ipa": "/tend/",
+    "section": "sec02",
+    "forms": {"3sg":"tends","past":"tended","pp":"tended","ing":"tending"},
+    "senses": [
+      {"pos":"v","meaning":["傾向がある"],"collocations":["tend to do"],"sentences":["s0077","s0078"]}
+    ],
+    "synonyms": ["incline"],
+    "confusable": ["tent","tender"],
+    "der": [["tendency","n","傾向"]]
+  },
+  {
+    "id": "w0081",
+    "word": "term",
+    "no": 71,
+    "ipa": "/tɝːm/",
+    "section": "sec03",
+    "forms": {"plural":"terms"},
+    "senses": [
+      {"pos":"n","meaning":["(専門)用語"],"collocations":["a technical term"],"sentences":["s0161"]},
+      {"pos":"n","meaning":["(~s)条件","期間"],"collocations":["in terms of ~","be on good terms with ~"],"sentences":["s0162"]}
+    ],
+    "synonyms": ["word"],
+    "confusable": ["team","turn"],
+    "der": [["terminal","adj","末期の"]]
+  },
+  {
+    "id": "w0151",
+    "word": "territory",
+    "no": 662,
+    "ipa": "/ˈterətɔːri/",
+    "section": "sec06",
+    "forms": {"plural":"territories"},
+    "senses": [
+      {"pos":"n","meaning":["領土","(活動の)領域"],"collocations":["an occupied territory"],"sentences":["s0243","s0244"]}
+    ],
+    "synonyms": ["region"],
+    "confusable": ["terrify","terror"],
+    "ety": "terr(土地)+itory → 土地(の領域)"
+  },
+  {
+    "id": "w0082",
+    "word": "theory",
+    "no": 62,
+    "ipa": "/ˈθiːəri/",
+    "section": "sec03",
+    "forms": {"plural":"theories"},
+    "senses": [
+      {"pos":"n","meaning":["学説、理論","原理","推測"],"collocations":["in theory"],"sentences":["s0163","s0164"]}
+    ],
+    "synonyms": ["hypothesis"],
+    "confusable": ["theme","therapy"],
+    "der": [["theoretical","adj","理論(上)の"]]
+  },
+  {
+    "id": "w0083",
+    "word": "thought",
+    "no": 57,
+    "ipa": "/θɔːt/",
+    "section": "sec03",
+    "forms": {"plural":"thoughts"},
+    "senses": [
+      {"pos":"n","meaning":["考え、思考"],"note":"think の過去形・過去分詞 thought と同じ形","collocations":["at the thought of ~"],"sentences":["s0165","s0166"]}
+    ],
+    "synonyms": ["idea"],
+    "confusable": ["though","tough"],
+    "der": [["thoughtful","adj","思いやりのある"],["thoughtless","adj","軽率な"]],
+    "plnote": "「考え」は可算、「思考」は不可算"
+  },
+  {
+    "id": "w0010",
+    "word": "tone",
+    "no": 648,
+    "ipa": "/toʊn/",
+    "section": "sec06",
+    "forms": {"plural":"tones"},
+    "senses": [
+      {"pos":"n","meaning":["口調、語調","音色"],"collocations":["the tone of one's voice"],"sentences":["s0019"]},
+      {"pos":"n","meaning":["(場・文章などの)雰囲気、論調"],"collocations":["set the tone","the tone of the discussion"],"sentences":["s0020"]}
+    ],
+    "synonyms": ["manner","mood"],
+    "confusable": ["tune","tongue"],
+    "der": [["monotone","n","(話し方・文体の)単調さ"]]
+  },
+  {
+    "id": "w0152",
+    "word": "trap",
+    "no": 669,
+    "ipa": "/træp/",
+    "section": "sec06",
+    "forms": {"3sg":"traps","past":"trapped","pp":"trapped","ing":"trapping","plural":"traps"},
+    "senses": [
+      {"pos":"n","meaning":["わな","苦境"],"collocations":["fall into a trap"],"sentences":["s0253"]},
+      {"pos":"v","meaning":["〜を閉じ込める","〜をわなで捕らえる"],"collocations":["be trapped in ~"],"sentences":["s0254"]}
+    ],
+    "synonyms": ["snare"],
+    "confusable": ["trip","tramp"]
+  },
+  {
+    "id": "w0153",
+    "word": "trick",
+    "no": 670,
+    "ipa": "/trɪk/",
+    "section": "sec06",
+    "forms": {"3sg":"tricks","past":"tricked","pp":"tricked","ing":"tricking","plural":"tricks"},
+    "senses": [
+      {"pos":"n","meaning":["こつ","策略","いたずら","手品"],"collocations":["play a trick on ~"],"sentences":["s0255"]},
+      {"pos":"v","meaning":["〜をだます"],"collocations":["trick A into doing"],"sentences":["s0256"]}
+    ],
+    "synonyms": ["deception"],
+    "confusable": ["track","trunk"],
+    "der": [["tricky","adj","慎重な扱いを要する"]]
+  },
+  {
+    "id": "w0154",
+    "word": "tropical",
+    "no": 699,
+    "ipa": "/ˈtrɑːpɪkl/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["熱帯の"],"collocations":["a tropical forest"],"sentences":["s0311","s0312"]}
+    ],
+    "synonyms": ["hot"],
+    "confusable": ["topical","typical"]
+  },
+  {
+    "id": "w0172",
+    "word": "urge",
+    "no": 709,
+    "ipa": "/ɝːdʒ/",
+    "section": "sec09",
+    "forms": {"3sg":"urges","past":"urged","pp":"urged","ing":"urging","plural":"urges"},
+    "senses": [
+      {"pos":"v","meaning":["〜に(強く)促す","〜を強く主張する"],"collocations":["urge A to do"],"sentences":["s0331"]},
+      {"pos":"n","meaning":["衝動","駆り立てる力"],"collocations":["have an urge to do"],"sentences":["s0332"]}
+    ],
+    "synonyms": ["press"],
+    "confusable": ["surge","merge"],
+    "der": [["urgent","adj","緊急の"],["urgency","n","緊急"]]
+  },
+  {
+    "id": "w0084",
+    "word": "value",
+    "no": 55,
+    "ipa": "/ˈvæljuː/",
+    "section": "sec03",
+    "forms": {"3sg":"values","past":"valued","pp":"valued","ing":"valuing","plural":"values"},
+    "senses": [
+      {"pos":"n","meaning":["価値","価格","評価","(~s)価値観"],"collocations":["of great value"],"sentences":["s0167"]},
+      {"pos":"v","meaning":["〜を評価する","〜を尊重する"],"collocations":["value honesty"],"sentences":["s0168"]}
+    ],
+    "synonyms": ["worth"],
+    "confusable": ["valley","vault"],
+    "der": [["valuable","adj","貴重な"],["valuation","n","評価"]]
+  },
+  {
+    "id": "w0110",
+    "word": "various",
+    "no": 92,
+    "ipa": "/ˈveriəs/",
+    "section": "sec04",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["さまざまな"],"collocations":["various kinds of ~"],"sentences":["s0203","s0204"]}
+    ],
+    "synonyms": ["diverse"],
+    "confusable": ["variety","serious"],
+    "der": [["variety","n","変化・多様性"],["varied","adj","さまざまな"],["vary","v","異なる"]]
+  },
+  {
+    "id": "w0155",
+    "word": "verbal",
+    "no": 679,
+    "ipa": "/ˈvɝːbl/",
+    "section": "sec07",
+    "forms": {},
+    "senses": [
+      {"pos":"adj","meaning":["言葉の","口頭での","動詞の"],"collocations":["verbal communication"],"sentences":["s0271","s0272"]}
+    ],
+    "synonyms": ["oral"],
+    "confusable": ["herbal","vertical"],
+    "der": [["verbally","adv","口頭で"]],
+    "ant": ["nonverbal"]
+  },
+  {
+    "id": "w0085",
+    "word": "view",
+    "no": 54,
+    "ipa": "/vjuː/",
+    "section": "sec03",
+    "forms": {"3sg":"views","past":"viewed","pp":"viewed","ing":"viewing","plural":"views"},
+    "senses": [
+      {"pos":"n","meaning":["(〜についての)見解","眺め"],"collocations":["a point of view"],"sentences":["s0169"]},
+      {"pos":"v","meaning":["〜を見る","〜を見なす"],"collocations":["view A as B"],"sentences":["s0170"]}
+    ],
+    "synonyms": ["opinion"],
+    "confusable": ["few","review"]
+  },
+  {
+    "id": "w0156",
+    "word": "virus",
+    "no": 657,
+    "ipa": "/ˈvaɪrəs/",
+    "section": "sec06",
+    "forms": {"plural":"viruses"},
+    "senses": [
+      {"pos":"n","meaning":["ウイルス","(感染症の)病原体"],"collocations":["a computer virus"],"sentences":["s0235","s0236"]}
+    ],
+    "synonyms": ["germ"],
+    "confusable": ["viral","verus"],
+    "der": [["viral","adj","ウイルスの"]]
+  },
+  {
+    "id": "w0157",
+    "word": "witness",
+    "no": 645,
+    "ipa": "/ˈwɪtnəs/",
+    "section": "sec06",
+    "forms": {"3sg":"witnesses","past":"witnessed","pp":"witnessed","ing":"witnessing","plural":"witnesses"},
+    "senses": [
+      {"pos":"n","meaning":["目撃者","証人"],"collocations":["give witness to ~"],"sentences":["s0221"]},
+      {"pos":"v","meaning":["〜を目撃する"],"collocations":["witness an accident"],"sentences":["s0222"]}
+    ],
+    "synonyms": ["observer"],
+    "confusable": ["witch","fitness"]
+  }
+]

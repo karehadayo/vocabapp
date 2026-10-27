@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="theme-color" content="#2b5fff">
+<link rel="manifest" href="manifest.json"><title>英単語</title>
+<style>
+:root{--bg:#fff;--fg:#1b1d22;--ac:#2b5fff;--mut:#6b7280;--bd:#d6d9e0}
+@media(prefers-color-scheme:dark){:root{--bg:#14161a;--fg:#e8eaee;--ac:#4a6fe8;--mut:#9aa1ad;--bd:#343842}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,"Hiragino Sans",sans-serif;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+main{max-width:480px;margin:0 auto;padding:48px 20px 20px}
+button,input{display:block;width:100%;margin:10px 0;padding:14px;border-radius:12px;border:1px solid var(--bd);background:transparent;color:inherit;font:inherit}
+button.p{background:var(--ac);border-color:var(--ac);color:#fff}
+button.i{display:inline-block;width:auto;margin:0 4px;padding:4px 10px}
+.big{font-size:1.6rem;font-weight:700;margin:12px 0}.c{color:var(--mut)}.ok{color:#16a34a}.ng{color:#dc2626}
+input[type=range]{padding:0}
+.cd{border:1px solid var(--bd);border-radius:12px;padding:4px 14px;margin:12px 0}.ex{margin:6px 0 10px}
+mark{background:#ffe066;color:#000;border-radius:4px;padding:0 3px}
+.sel{border-color:var(--ac);background:rgba(74,111,232,.2)}button:disabled{opacity:.4}
+input[type=checkbox]{display:inline-block;width:auto;margin-right:8px}label{display:block;margin:14px 0}
+.ans{min-height:56px;border:1px dashed var(--bd);border-radius:12px;padding:6px;margin:10px 0}
+button.w{padding:8px 12px;margin:4px;font-size:1.05rem}
+[hidden]{display:none!important}
+#qx{position:fixed;top:calc(env(safe-area-inset-top,0px) + 8px);right:12px;width:auto;margin:0;padding:6px 12px;z-index:5;background:var(--bg)}
+.rg input{display:inline-block;width:6.5em;margin:6px}
+.pr{display:flex;align-items:center;justify-content:space-between;gap:8px}.pr label{margin:6px 0}
+.pgr{display:flex;align-items:center;justify-content:space-between;gap:6px;margin:10px 0}
+.dt{border-left:3px solid var(--ac);padding:2px 10px;margin:6px 0}.dt div{margin:4px 0}.cd .big{cursor:pointer}
+</style></head><body><button id="qx" hidden>✕ 中断</button><main id="app">読み込み中…</main>
+<script>
+const $=s=>document.querySelector(s),app=$('#app'),KEY='vocab-progress-v1',DAYS=[0,1,3,7,14,30];
+let M,items=[],S={},P={},Q,WL=[],VOL=.5,TV=1,CONF=false;
+try{P=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+try{const v=localStorage.getItem('vocab-vol');if(v!==null)VOL=+v;const a=localStorage.getItem('vocab-tv');if(a!==null)TV=+a;CONF=localStorage.getItem('vocab-conf')=='1'}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(P))}catch(e){}};
+const speak=t=>{try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='en-US';u.volume=TV;u.rate=.9;speechSynthesis.speak(u)}catch(e){}};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const shuffle=a=>a.map(x=>[Math.random(),x]).sort((p,q)=>p[0]-q[0]).map(x=>x[1]);
+const mean=it=>it.sn.meaning.join('、'),pos=it=>M.pos[it.sn.pos]||'';
+const dueList=()=>{const n=Date.now();return pool().filter(t=>!P[t.key]||P[t.key].due<=n)};
+function mark(k,ok){const p=P[k]||{box:0,wrong:0};p.box=ok?Math.min(p.box+1,5):0;if(!ok)p.wrong++;p.due=Date.now()+DAYS[p.box]*864e5;P[k]=p;save()}
+
+let AC;
+function tone(f,t0,d,type,g){const o=AC.createOscillator(),a=AC.createGain();o.type=type;o.frequency.value=f;o.connect(a);a.connect(AC.destination);const t=AC.currentTime+t0;a.gain.setValueAtTime(g,t);a.gain.exponentialRampToValueAtTime(.0001,t+d);o.start(t);o.stop(t+d)}
+function sfx(ok){if(VOL<=0)return;try{AC=AC||new(window.AudioContext||window.webkitAudioContext)();if(AC.state=='suspended')AC.resume();const g=VOL*.4;if(ok){tone(988,0,.12,'sine',g);tone(1319,.1,.25,'sine',g)}else tone(130,0,.4,'sawtooth',g*.6)}catch(e){}}
+
+function list(){bar(0);pg=0;app.innerHTML=`<button id=hm>← ホーム</button><p class=c>単語をタップすると、活用・複数形・類義語・反意語・派生語などが開きます。</p><input id=q placeholder="検索(英語・日本語)"><button id=so class=i></button><div id=pgt></div><div id=ls></div><div id=pgb></div>`;
+const pager=(np,n)=>{const h=`<div class=pgr><button class="i pp"${pg<=0?' disabled':''}>← 前の${PER}語</button><span class=c>${pg+1} / ${np} ページ(全${n}語)</span><button class="i pn"${pg>=np-1?' disabled':''}>次の${PER}語 →</button></div>`;
+$('#pgt').innerHTML=np>1?h:'';$('#pgb').innerHTML=np>1?h:'';
+app.querySelectorAll('.pp').forEach(b=>b.onclick=()=>{pg--;draw();window.scrollTo(0,0)});app.querySelectorAll('.pn').forEach(b=>b.onclick=()=>{pg++;draw();window.scrollTo(0,0)})};
+const draw=()=>{const k=$('#q').value.trim().toLowerCase();
+$('#so').textContent=sortLabel();const arr=ordered().filter(w=>!k||JSON.stringify([w.word,w.senses.map(n=>n.meaning),w.senses.flatMap(n=>n.sentences.map(id=>S[id].text))]).toLowerCase().includes(k)),np=Math.max(1,Math.ceil(arr.length/PER));if(pg>=np)pg=np-1;pager(np,arr.length);$('#ls').innerHTML=arr.slice(pg*PER,(pg+1)*PER).map(w=>`<div class=cd><div class=big>${esc(w.word)} <button class=i data-s="${esc(w.word)}">🔊</button><button class=i data-f="${w.id}">${FAV.has(w.id)?'★':'☆'}</button></div><div class=c>${w.no?'No.'+w.no+'　':''}${esc(w.ipa)}</div><div class=dt hidden>${detail(w)}</div>`+w.senses.map(n=>`<div>${M.pos[n.pos]||''} ${esc(n.meaning.join('、'))}</div>`+n.sentences.map(id=>`<p class=ex>${esc(S[id].text)} <button class=i data-s="${esc(S[id].text)}">🔊</button><br><small class=c>${esc(S[id].ja)}</small></p>`).join('')).join('')+`</div>`).join('');
+document.querySelectorAll('.cd .big').forEach(h=>h.onclick=e=>{if(e.target.closest('button'))return;const d=h.parentNode.querySelector('.dt');d.hidden=!d.hidden});document.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>speak(b.dataset.s));document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{favT(b.dataset.f);b.textContent=FAV.has(b.dataset.f)?'★':'☆'})};
+$('#q').oninput=()=>{pg=0;draw()};$('#so').onclick=()=>{toggleSort();pg=0;draw()};$('#hm').onclick=home;draw()}
+
+function home(){bar(0);const n=dueList().length;
+app.innerHTML=`<h1>英単語</h1><p class=c>今日の出題対象: ${n} / ${pool().length} 件</p><button class=p data-m=choice>意味テスト(選択式)</button><button class=p data-m=spell>スペルテスト</button><button class=p data-m=clc>例文穴埋め(選択式)</button><button class=p data-m=cls>例文穴埋め(スペル入力)</button><button class=p id=gm>文法テスト</button><button class=p id=od>語順並べ替え</button><button id=ls>単語・例文一覧</button><button id=pw>🎯 出題する単語を選ぶ${SEL.size?`(${SEL.size}語)`:''}</button><button id=et>📚 語源</button><button id=st>⚙ 設定</button><button id=rs>学習記録をリセット</button>`;
+app.querySelectorAll('[data-m]').forEach(b=>b.onclick=()=>start(b.dataset.m));
+$('#ls').onclick=list;$('#gm').onclick=gstart;$('#od').onclick=ostart;$('#st').onclick=settings;$('#et').onclick=etyScr;$('#pw').onclick=picker;
+$('#rs').onclick=()=>{if(confirm('学習記録を消しますか?')){P={};save();home()}}}
+
+function start(mode){const has=t=>!mode.startsWith('cl')||t.sn.sentences.length;let q=shuffle(dueList().filter(has));if(!q.length)q=shuffle(pool().filter(has));Q={mode,q:q.slice(0,10),i:0,ok:0};next()}
+function next(){if(Q.i>=Q.q.length)return done();bar(1);const it=Q.q[Q.i];({choice,spell,clc:i=>cloze(i,1),cls:i=>cloze(i,0),gram,ord:order})[Q.mode](it)}
+
+function choiceJE(it){const ms=new Set(it.sn.meaning),bad=new Set([it.w.word,...(it.w.synonyms||[])]);
+const ok=x=>x.w.id!=it.w.id&&!bad.has(x.w.word)&&!x.sn.meaning.some(m=>ms.has(m));
+const same=shuffle(items.filter(x=>ok(x)&&x.sn.pos==it.sn.pos)).map(x=>x.w.word),rest=shuffle(items.filter(ok)).map(x=>x.w.word),
+ds=[...new Set([...same,...rest])].slice(0,3),o=shuffle([it.w.word,...ds]);
+app.innerHTML=`<div class=c>${Q.i+1} / ${Q.q.length}</div><div class=big>${esc(mean(it))}</div><div class=c>${pos(it)}</div>`+o.map(t=>`<button class=o>${esc(t)}</button>`).join('');
+pick(t=>fb(it,t==it.w.word,t))}
+function choice(it){if(DIR=='je'||DIR=='mix'&&Math.random()<.5)return choiceJE(it);const r=mean(it),ds=[...new Set(shuffle(items.filter(x=>x.w.id!=it.w.id).map(mean)))].filter(m=>m!=r).slice(0,3),o=shuffle([r,...ds]);
+app.innerHTML=`<div class=c>${Q.i+1} / ${Q.q.length}</div><div class=big>${esc(it.w.word)} <button id=sp class=i>🔊</button></div><div class=c>${pos(it)}</div>`+o.map(t=>`<button class=o>${esc(t)}</button>`).join('');
+$('#sp').onclick=()=>speak(it.w.word);speak(it.w.word);
+pick(t=>fb(it,t==r))}
+
+function spell(it){
+app.innerHTML=`<div class=c>${Q.i+1} / ${Q.q.length}</div><div class=big>${pos(it)} ${esc(mean(it))}</div><button id=sp>🔊 発音を聞く</button><input id=in autocapitalize=off autocorrect=off spellcheck=false placeholder="英単語を入力"><button id=go class=p>答える</button>`;
+const f=$('#in'),go=()=>{const a=f.value.trim().toLowerCase();fb(it,[it.w.word,...(it.w.alt||[])].some(x=>x.toLowerCase()==a),a)};
+$('#sp').onclick=()=>speak(it.w.word);$('#go').onclick=go;f.onkeydown=e=>{if(e.key=='Enter')go()};f.focus()}
+
+function fb(it,ok,ans,ex){sfx(ok);mark(it.key,ok);if(ok)Q.ok++;const s=ex||S[it.sn.sentences[0]];
+app.innerHTML=`<div class="big ${ok?'ok':'ng'}">${ok?'○ 正解':'× 不正解'}</div>${ans&&!ok?`<div class=c>あなたの答え: ${esc(ans)}</div>`:''}<div class=big>${esc(it.w.word)} <button id=sp class=i>🔊</button><button id=fv class=i>${FAV.has(it.w.id)?'★':'☆'}</button></div><div>${esc(it.w.ipa)}　${pos(it)}　${esc(mean(it))}</div>${s?`<p>${esc(s.text)} <button id=s2 class=i>🔊</button><br><small class=c>${esc(s.ja)}</small></p>`:''}<button id=nx class=p>次へ</button>`;
+$('#sp').onclick=()=>speak(it.w.word);$('#fv').onclick=e=>{favT(it.w.id);e.target.textContent=FAV.has(it.w.id)?'★':'☆'};if(s)$('#s2').onclick=()=>speak(s.text);$('#nx').onclick=()=>{Q.i++;next()}}
+
+let SEL=new Set(),FAV=new Set(),fq='',fsec=null,fx=null,rf='',rt='';
+try{SEL=new Set(JSON.parse(localStorage.getItem('vocab-sel')||'[]'))}catch(e){}
+try{FAV=new Set(JSON.parse(localStorage.getItem('vocab-fav')||'[]'))}catch(e){}
+const saveSel=()=>{try{localStorage.setItem('vocab-sel',JSON.stringify([...SEL]))}catch(e){}};
+const favT=id=>{FAV.has(id)?FAV.delete(id):FAV.add(id);try{localStorage.setItem('vocab-fav',JSON.stringify([...FAV]))}catch(e){}};
+let DIR='mix';try{DIR=localStorage.getItem('vocab-dir')||'mix'}catch(e){}
+let pg=0,E;const PER=100;
+let SORT='no';try{SORT=localStorage.getItem('vocab-sort')||'no'}catch(e){}
+const toggleSort=()=>{SORT=SORT=='no'?'abc':'no';try{localStorage.setItem('vocab-sort',SORT)}catch(e){}},sortLabel=()=>SORT=='no'?'並び: 番号順':'並び: ABC順',ordered=()=>[...WL].sort((a,b)=>(SORT=='no'?(a.no||1e9)-(b.no||1e9):0)||a.word.localeCompare(b.word));
+const pool=()=>SEL.size?items.filter(t=>SEL.has(t.w.id)):items,sp=()=>Object.values(S).filter(x=>!SEL.size||SEL.has(x.target.wordId));
+function picker(){bar(0);
+app.innerHTML=`<button id=hm>← ホーム</button><h1>出題する単語を選ぶ</h1><p id=cnt class=c></p><input id=q placeholder="検索(英語・日本語)" value="${esc(fq)}"><div class=rg>番号 <input id=rf type=number inputmode=numeric placeholder="から" value="${rf}"> 〜 <input id=rt type=number inputmode=numeric placeholder="まで" value="${rt}"></div><div id=ch></div><div><button id=so class=i></button><button id=fa class=i>★だけを対象にする</button><button id=sa class=i>表示中を選択</button><button id=sn class=i>表示中を解除</button><button id=cl class=i>全解除</button></div><div id=ls></div>`;
+const cnt=()=>{$('#cnt').textContent=SEL.size?`選択中: ${SEL.size}語(この語だけが出題されます)`:'選択なし(全単語が対象です)'};
+const shown=()=>{const k=fq.trim().toLowerCase();return ordered().filter(w=>(!fsec||w.section==fsec)&&(rf===''&&rt===''||w.no&&w.no>=(+rf||0)&&w.no<=(+rt||1e9))&&(fx!='fav'||FAV.has(w.id))&&(!k||JSON.stringify([w.word,w.senses.map(n=>[n.meaning,n.sentences.map(i=>[S[i].text,S[i].ja])])]).toLowerCase().includes(k))&&(fx!='wrong'||w.senses.some((n,i)=>(P[w.id+':'+i]||{}).wrong>0))&&(fx!='new'||!w.senses.some((n,i)=>P[w.id+':'+i])))};
+const draw=()=>{const a=shown();$('#so').textContent=sortLabel();
+$('#ch').innerHTML=M.sections.map(c=>`<button class="i w${fsec==c.id?' sel':''}" data-sec="${c.id}">${esc(c.title)}</button>`).join('')+[['fav','★お気に入り'],['wrong','間違えた語'],['new','未学習']].map(([k,l])=>`<button class="i w${fx==k?' sel':''}" data-x="${k}">${l}</button>`).join('');
+$('#ls').innerHTML=a.map(w=>`<div class="cd pr"><label><input type=checkbox data-id="${w.id}" ${SEL.has(w.id)?'checked':''}>${w.no?`<span class=c>${w.no}</span> `:''}<b>${esc(w.word)}</b> <span class=c>${esc(w.senses[0].meaning[0])}</span></label><button class=i data-f="${w.id}">${FAV.has(w.id)?'★':'☆'}</button></div>`).join('')||'<p class=c>該当する単語がありません</p>';
+cnt();
+app.querySelectorAll('[data-sec]').forEach(b=>b.onclick=()=>{fsec=fsec==b.dataset.sec?null:b.dataset.sec;draw()});
+app.querySelectorAll('[data-x]').forEach(b=>b.onclick=()=>{fx=fx==b.dataset.x?null:b.dataset.x;draw()});
+app.querySelectorAll('[data-id]').forEach(c=>c.onchange=()=>{c.checked?SEL.add(c.dataset.id):SEL.delete(c.dataset.id);saveSel();cnt()});app.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{favT(b.dataset.f);fx=='fav'?draw():b.textContent=FAV.has(b.dataset.f)?'★':'☆'})};
+$('#q').oninput=e=>{fq=e.target.value;draw()};$('#rf').oninput=e=>{rf=e.target.value;draw()};$('#rt').oninput=e=>{rt=e.target.value;draw()};$('#fa').onclick=()=>{if(!FAV.size)return alert('お気に入りがありません');SEL=new Set(FAV);saveSel();draw()};
+$('#sa').onclick=()=>{shown().forEach(w=>SEL.add(w.id));saveSel();draw()};
+$('#sn').onclick=()=>{shown().forEach(w=>SEL.delete(w.id));saveSel();draw()};
+$('#cl').onclick=()=>{SEL.clear();saveSel();draw()};$('#so').onclick=()=>{toggleSort();draw()};
+$('#hm').onclick=home;draw()}
+
+const detail=w=>{const f=w.forms||{},r=[],hv=w.senses.some(n=>n.pos=='v'),hn=w.senses.some(n=>n.pos=='n'),P=M.pos;
+r.push(['意味',w.senses.map(n=>`${P[n.pos]} ${esc(n.meaning.join('、'))}${n.note?` <small class=c>(${esc(n.note)})</small>`:''}`).join('<br>')]);
+if(hv)r.push(['活用',`原形 ${esc(w.word)} / 3単現 ${esc(f['3sg']||'')} / 過去 ${esc(f.past||'')} / 過去分詞 ${esc(f.pp||'')}${f.pp2?' / '+esc(f.pp2):''} / -ing ${esc(f.ing||'')}`]);
+if(hn)r.push(['複数形',`${esc(f.plural||'')}${w.plnote?` <small class=c>(${esc(w.plnote)})</small>`:''}`]);
+if(w.synonyms&&w.synonyms.length)r.push(['類義語',esc(w.synonyms.join(', '))]);
+if(w.ant&&w.ant.length)r.push(['反意語',esc(w.ant.join(', '))]);
+if(w.der&&w.der.length)r.push(['品詞の変化',w.der.map(d=>`${esc(d[0])} <small class=c>(${P[d[1]]||d[1]})</small> ${esc(d[2])}`).join('<br>')]);
+if(w.ety)r.push(['語源',esc(w.ety)]);
+return r.map(([k,v])=>`<div><span class=c>${k}</span>　${v}</div>`).join('')};
+function etyScr(){bar(0);app.innerHTML=`<button id=hm>← ホーム</button><h1>📚 語源</h1><p class=c>接頭辞・語根・接尾辞の意味を知ると、単語が覚えやすくなります。緑色の語は、登録済みの単語です。</p><input id=q placeholder="検索(例: vis、見る、discuss)"><div id=ls></div>`;
+const reg=new Set(WL.map(w=>w.word));
+const draw=()=>{const k=$('#q').value.trim().toLowerCase(),rs=E.roots.filter(r=>!k||JSON.stringify(r).toLowerCase().includes(k)),ws=WL.filter(w=>w.ety&&(!k||(w.word+w.ety).toLowerCase().includes(k)));
+$('#ls').innerHTML=`<h3>接頭辞・語根・接尾辞(${rs.length})</h3>`+rs.map(r=>`<div class=cd><div class=big>${esc(r.f)} <small class=c>${esc(r.t)}</small></div><div>${esc(r.m)} <small class=c>${esc(r.l)}</small></div><div>${r.x.map(([w,g])=>`<span class="${reg.has(w)?'ok':''}">${esc(w)}</span> <small class=c>${esc(g||'')}</small>`).join('<br>')}</div></div>`).join('')+`<h3>登録語の語源の分解(${ws.length})</h3>`+ws.map(w=>`<div class=cd><b>${esc(w.word)}</b><br><small>${esc(w.ety)}</small></div>`).join('')};
+$('#q').oninput=draw;$('#hm').onclick=home;draw()}
+const bar=on=>{$('#qx').hidden=!on};
+$('#qx').onclick=()=>{if(confirm('テストを中断してホームに戻りますか?')){try{speechSynthesis.cancel()}catch(e){}home()}};
+function pick(cb){const bs=[...app.querySelectorAll('.o')];
+if(!CONF){bs.forEach(b=>b.onclick=()=>cb(b.textContent));return}
+let sel=null;const go=document.createElement('button');go.className='p';go.textContent='決定';go.disabled=true;go.onclick=()=>cb(sel);app.appendChild(go);
+bs.forEach(b=>b.onclick=()=>{sel=b.textContent;bs.forEach(x=>x.classList.toggle('sel',x==b));go.disabled=false})}
+
+function settings(){bar(0);const sv=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+app.innerHTML=`<button id=hm>← ホーム</button><h1>設定</h1><label>効果音の音量<input type=range id=v1 min=0 max=1 step=.1 value=${VOL}></label><label>読み上げの音量<input type=range id=v2 min=0 max=1 step=.1 value=${TV}></label><label><input type=checkbox id=cf ${CONF?'checked':''}>選択式は「タップ→決定ボタン」で解答する<br><small class=c>オフ: タップした時点で即解答</small></label><label>意味テスト(選択式)の出題方向</label><div id=dr></div>`;
+$('#v1').oninput=e=>{VOL=+e.target.value;sv('vocab-vol',VOL)};$('#v1').onchange=()=>sfx(true);
+$('#v2').oninput=e=>{TV=+e.target.value;sv('vocab-tv',TV)};$('#v2').onchange=()=>speak('Hello');
+$('#cf').onchange=e=>{CONF=e.target.checked;sv('vocab-conf',CONF?1:0)};
+const dd=()=>{$('#dr').innerHTML=[['ej','英→日'],['je','日→英'],['mix','ランダム']].map(([k,l])=>`<button class="i w${DIR==k?' sel':''}" data-d="${k}">${l}</button>`).join('');app.querySelectorAll('[data-d]').forEach(b=>b.onclick=()=>{DIR=b.dataset.d;sv('vocab-dir',DIR);dd()})};dd();$('#hm').onclick=home}
+
+const mk=(s,a,b,cut)=>{const p=s.tokens.slice(0,cut||s.tokens.length).map(t=>esc(t.t));p[a]='<mark>'+p[a];p[b]+='</mark>';return p.join(' ').replace(/\s+([.,;:?!])/g,'$1')+(cut?' …':'')};
+function gen(s){const T=s.tokens,L=k=>M.pos[k],R=a=>a[Math.random()*a.length|0],qs=[],ix=T.map((t,i)=>i).filter(i=>T[i].pos!='punct'&&!T[i].skip),
+X=['punct','rel','interj'],po=(c,ex=[])=>shuffle([c,...shuffle(Object.keys(M.pos).filter(k=>![...X,c,...ex].includes(k))).slice(0,3)]).map(L);
+let i=R(ix);qs.push({q:'ハイライトした語の品詞は?',h:mk(s,i,i),ans:L(T[i].pos),opts:po(T[i].pos),exp:`「${T[i].t}」は${L(T[i].pos)}`});
+const cs=s.chunks.filter(c=>!c.skip);if(cs.length){const c=R(cs),n={N:'名詞',Madv:'副詞',Madj:'形容詞'};qs.push({q:'ハイライトした節・句のはたらきは?',h:mk(s,c.from,c.to),ans:n[c.type],opts:['名詞','副詞','形容詞'],exp:c.label})}
+const tc=ix.filter(j=>T[j].pos=='v'&&T[j].tense);
+if(tc.length){i=R(tc);const a=T[i].tense=='past'?'過去形':'現在形';qs.push({q:'ハイライトした動詞の時制は?',h:mk(s,i,i),ans:a,opts:['現在形','過去形'],exp:`「${T[i].t}」は${a}`})}
+return {...qs.find(q=>q.q.includes('節・句'))||R(qs),s}}
+
+function gram(g){app.innerHTML=`<div class=c>${Q.i+1} / ${Q.q.length}</div><p class=c>${g.q}</p><p class=big>${g.h}</p>`+g.opts.map(t=>`<button class=o>${esc(t)}</button>`).join('');
+pick(t=>{const ok=t==g.ans;sfx(ok);if(ok)Q.ok++;
+app.innerHTML=`<div class="big ${ok?'ok':'ng'}">${ok?'○ 正解':'× 不正解'}</div><p class=c>正解: ${esc(g.ans)}</p><p>${esc(g.exp)}</p><p>${esc(g.s.text)} <button id=s2 class=i>🔊</button><br><small class=c>${esc(g.s.ja)}</small></p><button id=nx class=p>次へ</button>`;
+$('#s2').onclick=()=>speak(g.s.text);$('#nx').onclick=()=>{Q.i++;next()}})}
+function gstart(){Q={mode:'gram',q:shuffle(sp().filter(x=>x.chunks.some(c=>!c.skip))).slice(0,10).map(gen),i:0,ok:0};next()}
+
+const chips=s=>{const a=[];s.tokens.forEach(t=>{if(t.pos=='punct'&&a.length)a[a.length-1]+=t.t;else a.push(t.t)});a[a.length-1]=a[a.length-1].replace(/[.?!]$/,'');if(a[0]!='I')a[0]=a[0][0].toLowerCase()+a[0].slice(1);return a};
+function order(g){const a=chips(g.s),ids=shuffle(a.map((t,i)=>i)),put=[];
+const draw=()=>{const rest=ids.filter(i=>!put.includes(i)),b=i=>`<button class="i w" data-i=${i}>${esc(a[i])}</button>`;
+app.innerHTML=`<div class=c>${Q.i+1} / ${Q.q.length}</div><p class=c>日本語に合うように正しい順に並べよう(並べた語をタップすると戻せます)</p><p>${esc(g.s.ja)}</p><div class=ans>${put.map(b).join('')||'<span class=c>ここに並べる</span>'}</div><div>${rest.map(b).join('')}</div><button id=ok class=p ${rest.length?'disabled':''}>解答する</button>`;
+app.querySelectorAll('[data-i]').forEach(e=>e.onclick=()=>{const i=+e.dataset.i;put.includes(i)?put.splice(put.indexOf(i),1):put.push(i);draw()});
+$('#ok').onclick=()=>{const mine=put.map(i=>a[i]).join(' '),ok=mine==a.join(' ');sfx(ok);if(ok)Q.ok++;
+app.innerHTML=`<div class="big ${ok?'ok':'ng'}">${ok?'○ 正解':'× 不正解'}</div>${ok?'':`<p class=c>あなたの答え: ${esc(mine)}</p>`}<p class=big>${esc(g.s.text)} <button id=s2 class=i>🔊</button></p><p class=c>${esc(g.s.ja)}</p><button id=nx class=p>次へ</button>`;
+$('#s2').onclick=()=>speak(g.s.text);$('#nx').onclick=()=>{Q.i++;next()}}};draw()}
+function ostart(){const q=shuffle(sp().filter(x=>!x.noOrder&&chips(x).length>=5)).slice(0,10).map(s=>({s}));if(!q.length)return alert('選んだ単語には、並べ替えに使える例文がありません');Q={mode:'ord',q,i:0,ok:0};next()}
+
+const surf=s=>s.tokens[s.target.tokenIndex].t.toLowerCase(),shape=s=>{const t=s.tokens[s.target.tokenIndex];return t.pos+'|'+(t.form||'')+'|'+(t.tense||'')};
+function cloze(it,mc){const s=S[it.sn.sentences[Math.random()*it.sn.sentences.length|0]],ti=s.target.tokenIndex,ans=surf(s),
+txt=s.tokens.map((t,i)=>i==ti?'＿＿＿＿＿':t.t).join(' ').replace(/\s+([.,;:?!])/g,'$1'),
+head=`<div class=c>${Q.i+1} / ${Q.q.length}</div><p class=big>${esc(txt)}</p><p class=c>${esc(s.ja)}</p>`;
+if(mc){const oth=Object.values(S).filter(x=>x.target.wordId!=it.w.id),sh=shape(s);
+let pool=[...(ans==it.w.word.toLowerCase()?it.w.confusable||[]:[]),...oth.filter(x=>shape(x)==sh).map(surf)];
+pool=[...new Set(shuffle(pool).map(x=>x.toLowerCase()))].filter(x=>x!=ans);
+if(pool.length<3)pool=[...pool,...shuffle([...new Set(oth.map(surf))].filter(x=>x!=ans&&!pool.includes(x)))];
+const o=shuffle([ans,...pool.slice(0,3)]);
+app.innerHTML=head+o.map(t=>`<button class=o>${esc(t)}</button>`).join('');
+pick(t=>fb(it,t==ans,t,s))}
+else{const acc=[ans,...(ans==it.w.word.toLowerCase()?(it.w.alt||[]):[])];
+app.innerHTML=head+`<p class=c>ヒント: ${ans.length}文字、頭文字は「${esc(ans[0])}」(文中の形で答える)</p><input id=in autocapitalize=off autocorrect=off spellcheck=false placeholder="空欄に入る語"><button id=go class=p>答える</button>`;
+const f=$('#in'),go=()=>{const a=f.value.trim().toLowerCase();fb(it,acc.includes(a),a,s)};
+$('#go').onclick=go;f.onkeydown=e=>{if(e.key=='Enter')go()};f.focus()}}
+
+function done(){bar(0);app.innerHTML=`<h1>おつかれさま</h1><p class=big>${Q.ok} / ${Q.q.length} 問正解</p><button class=p id=again>もう一度</button><button id=hm>ホームへ</button>`;$('#again').onclick=()=>Q.mode=='gram'?gstart():Q.mode=='ord'?ostart():start(Q.mode);$('#hm').onclick=home}
+
+Promise.all(['meta','words','sentences','etymology'].map(n=>fetch(`data/${n}.json`).then(r=>r.json()))).then(([m,w,s,e])=>{E=e;M=m;WL=w;s.forEach(x=>S[x.id]=x);w.forEach(wd=>wd.senses.forEach((sn,i)=>items.push({key:wd.id+':'+i,w:wd,sn,i})));home()}).catch(()=>app.textContent='データを読み込めません。ローカルで開く場合は簡易サーバー経由で開いてください。');
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script></body></html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="theme-color" content="#2b5fff">
+<link rel="manifest" href="manifest.json"><title>単語アプリ</title>
+<style>
+:root{--bg:#fff;--fg:#1b1d22;--ac:#2b5fff;--bd:#d6d9e0}
+@media(prefers-color-scheme:dark){:root{--bg:#14161a;--fg:#e8eaee;--ac:#4a6fe8;--bd:#343842}}
+html,body{height:100%;margin:0;background:var(--bg);color:var(--fg);font:16px -apple-system,"Hiragino Sans",sans-serif}
+#tabs{position:fixed;top:0;left:0;right:0;z-index:10;display:flex;gap:8px;padding:calc(env(safe-area-inset-top,0px) + 6px) 12px 6px;background:var(--bg);border-bottom:1px solid var(--bd)}
+#tabs button{flex:1;padding:8px;border-radius:10px;border:1px solid var(--bd);background:transparent;color:inherit;font:inherit}
+#tabs button.on{background:var(--ac);border-color:var(--ac);color:#fff}
+iframe{position:fixed;left:0;bottom:0;top:calc(env(safe-area-inset-top,0px) + 52px);width:100%;height:calc(100% - env(safe-area-inset-top,0px) - 52px);border:0;background:var(--bg)}
+iframe[hidden]{display:none}
+</style></head><body>
+<div id="tabs"><button data-t="eng">🇬🇧 英単語</button><button data-t="kobun">📜 古文単語</button></div>
+<iframe id="eng" title="英単語" hidden></iframe><iframe id="kobun" title="古文単語" hidden></iframe>
+<script>
+const SRC={eng:'eng/index.html',kobun:'kobun/index.html'};
+function show(t){try{localStorage.setItem('hub-last',t)}catch(e){}
+for(const k in SRC){const f=document.getElementById(k);if(k==t&&!f.getAttribute('src'))f.src=SRC[k];f.hidden=k!=t}
+document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on',b.dataset.t==t))}
+document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>show(b.dataset.t));
+let last='eng';try{last=localStorage.getItem('hub-last')||'eng'}catch(e){}
+show(SRC[last]?last:'eng');
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script></body></html>

@@ -1,0 +1,69 @@
+{
+  "sections": [
+    {
+      "id": "sec01",
+      "title": "サンプル"
+    },
+    {
+      "id": "sec02",
+      "title": "Section 1(動詞編)"
+    },
+    {
+      "id": "sec03",
+      "title": "Section 1(名詞編)"
+    },
+    {
+      "id": "sec04",
+      "title": "Section 1(形容詞編)"
+    },
+    {
+      "id": "sec05",
+      "title": "Section 1(前置詞編)"
+    },
+    {
+      "id": "sec06",
+      "title": "Section 7(名詞編)"
+    },
+    {
+      "id": "sec07",
+      "title": "Section 7(形容詞編)"
+    },
+    {
+      "id": "sec08",
+      "title": "Section 7(副詞編)"
+    },
+    {
+      "id": "sec09",
+      "title": "Section 8(動詞編)"
+    }
+  ],
+  "pos": {
+    "n": "名詞",
+    "pron": "代名詞",
+    "v": "動詞",
+    "aux": "助動詞",
+    "adj": "形容詞",
+    "adv": "副詞",
+    "prep": "前置詞",
+    "conj": "接続詞",
+    "art": "冠詞",
+    "to": "不定詞のto",
+    "rel": "関係詞",
+    "interj": "間投詞",
+    "punct": "句読点"
+  },
+  "chunkTypes": {
+    "N": {
+      "display": "N",
+      "label": "名詞(句・節)"
+    },
+    "Madv": {
+      "display": "Mふ",
+      "label": "副詞(句・節)"
+    },
+    "Madj": {
+      "display": "Mけ",
+      "label": "形容詞(句・節)"
+    }
+  }
+}
